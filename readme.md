@@ -1,3 +1,5 @@
+![image](https://user-images.githubusercontent.com/10290348/136727050-f48a02a3-8d30-47e7-95cc-c0bd927b6049.png)
+
 # Tampa Devs
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/3f72138e-3b19-4c34-99a8-6dfcb2bd6d82/deploy-status)](https://app.netlify.com/sites/tampadevs/deploys)
@@ -54,7 +56,9 @@ Behind the scenes Webpack is handling JS (`src/_assets/_js`) and SCSS (`src/_ass
 
 Pushing to `master` will automagically deploy to Netlify, which spits out the site at [tampadevs.com](https://tampadevs.com).
 
-However if you want to test something… `npm run build` is your friend.
+However if you want to test something… `npm run build` is your friend. 
+
+This theme is forked from [KingdomCode](https://kingdomcode.org.uk/)
 
 ## TODO
 
