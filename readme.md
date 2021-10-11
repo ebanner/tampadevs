@@ -56,7 +56,7 @@ Pushing to `master` will automagically deploy to Netlify, which spits out the si
 
 However if you want to test something… `npm run build` is your friend. 
 
-This theme is forked from [KingdomCode](https://kingdomcode.org.uk/
+This theme is forked from [KingdomCode](https://kingdomcode.org.uk/)
 
 ## TODO
 
