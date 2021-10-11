@@ -1,4 +1,4 @@
-![image](https://user-images.githubusercontent.com/10290348/136727010-b601387e-6002-4d09-b381-41b08bafa294.png)
+![image](https://user-images.githubusercontent.com/10290348/136727050-f48a02a3-8d30-47e7-95cc-c0bd927b6049.png)
 
 # Tampa Devs
 
