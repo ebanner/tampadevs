@@ -1,5 +1,8 @@
 # Tampa Devs
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3f72138e-3b19-4c34-99a8-6dfcb2bd6d82/deploy-status)](https://app.netlify.com/sites/tampadevs/deploys)
+
+
 <!-- ## Editing the events
 
 Events are stored in `src/_data/events.json`
