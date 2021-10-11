@@ -54,7 +54,9 @@ Behind the scenes Webpack is handling JS (`src/_assets/_js`) and SCSS (`src/_ass
 
 Pushing to `master` will automagically deploy to Netlify, which spits out the site at [tampadevs.com](https://tampadevs.com).
 
-However if you want to test something… `npm run build` is your friend.
+However if you want to test something… `npm run build` is your friend. 
+
+This theme is forked from [KingdomCode](https://kingdomcode.org.uk/
 
 ## TODO
 
