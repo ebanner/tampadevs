@@ -1,0 +1,54 @@
+.btn {
+  width: 200px;
+  display: inline-block;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 1.35em;
+  transition: all .4s;
+  text-align: center;
+  text-transform: uppercase;
+
+  &--white-outline {
+    border: 1px solid white;
+    color: $colorOrange;
+
+    &:hover {
+      border: 1px solid $colorBlue;
+      color: $colorBlue;
+    }
+  }
+
+  &--green {
+    background: $colorGreen;
+    color: white;
+    border: 1px solid $colorGreen;
+
+    &:hover {
+      background: transparent;
+      color: $colorGreen;
+      border: 1px solid $colorGreen;
+    }
+  }
+
+  &--orange {
+    background: $colorOrange;
+    color: white;
+    border: 1px solid $colorOrange;
+
+    &:hover {
+      background: transparent;
+      color: $colorOrange;
+      border: 1px solid $colorOrange;
+    }
+  }
+
+  &--micro {
+    width: auto;
+    font-size: .825em;
+    padding: 3px 10px;
+  }
+
+  &--full-width {
+    width: auto;
+  }
+}

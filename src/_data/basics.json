@@ -1,0 +1,18 @@
+{
+  "url": "https://www.tampadevs.com",
+  "name": "Tampa Devs",
+  "tag": "Building the Tech Community Together",
+  "facebook": "",
+  "description": "We’re a community of developers from Tampa FL",
+  "ga": "289429391",
+  "feed": {
+    "url": "https://www.tampadevs.com/feed.xml"
+  },
+  "socials": {
+    "github": "https://github.com/tampmadevs",
+    "instagram": "https://instagram.com/tampadevs",
+    "twitter": "https://twitter.com/tampadevs",
+    "meetup": "https://meetup.com/tampadevs",
+    "slack": "https://join.slack.com/t/tampa-devs/shared_invite/zt-veftezkg-kq~jFtC1FCz4o6suybMl5Q"
+  }
+}

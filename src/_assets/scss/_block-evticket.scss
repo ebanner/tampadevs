@@ -1,0 +1,25 @@
+.ev-ticket {
+  background-color: #f8f7fa;
+  padding: 25px;
+  text-align: center;
+
+  &__title {
+    color: $colorOrange;
+    text-transform: uppercase;
+    font-size: 34px;
+    letter-spacing: 2px;
+  }
+
+  &__eventbrite-widget {
+    margin-top: 25px;
+  }
+
+  &__smallprint {
+    font-size: 0.825em;
+  }
+}
+
+
+.ev-ticket + .td-newsletter {
+  margin-top: 0;
+}

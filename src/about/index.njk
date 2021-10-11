@@ -1,0 +1,91 @@
+---
+nav: true
+layout: layouts/base.njk
+---
+<section class="container td-about main-content">
+  <h1>About</h1>
+  <p>Meet the team!
+  <div>
+    <ul>
+      <li>Board Team: Core-organizers who manage logistics and outreach</li>
+      <li>Advisors: Leaders who provide guidance and support </li>
+      <li>Community members: Developer friends who make the community awesome! 😄</li>
+      <li>Speakers: No explaination needed</li>
+    </li>
+  </div>
+  <div class="td-about-wrapper">
+    <h2 class="mb--0"/>Board Team</h2>
+    <hr class="border--orange mt--0"/>
+    <div class="td-about-section">
+      {% for person in people | sort(false, false, 'name') %}
+        {% if person.team.indexOf('Team Core') > -1 %}
+        <div class="td-about-person">
+          <div class="circular-border">
+            <div class="image-container">
+              <img src="/_assets/img/people/{{ person.img if person.img else "no-avatar.jpg" }}" alt="{{ person.name }}" class="td-about__img">
+            </div>
+          </div>
+          <h3 class="person-name">{% if person.href %}<a href="{{ person.href }}" target="_blank" rel="noopener">{% endif %}{{ person.name }}{% if person.href %}</a>{% endif %}</h3>
+          <p class="person-bio">{{ person.bio }}</p>
+        </div>
+        {% endif %} 
+      {% endfor %}
+    </div>
+    <h2 class="mb--0"/>Advisors</h2>
+    <hr class="border--orange mt--0"/>
+    <div class="td-about-section">
+      {% for person in people | sort(false, false, 'name') %}
+        {% if person.team.indexOf('Team Advisor') > -1 %}
+        <div class="td-about-person">
+          <div class="circular-border">
+            <div class="image-container">
+              <img src="/_assets/img/people/{{ person.img if person.img else "no-avatar.jpg" }}" alt="{{ person.name }}" class="td-about__img">
+            </div>
+          </div>
+          <h3 class="person-name">{% if person.href %}<a href="{{ person.href }}" target="_blank" rel="noopener">{% endif %}{{ person.name }}{% if person.href %}</a>{% endif %}</h3>
+          <p class="person-bio">{{ person.bio }}</p>
+        </div>
+        {% endif %} 
+      {% endfor %}
+    </div>
+    <h2 class="mb--0"/>Community Members</h2>
+    <hr class="border--orange mt--0"/>    
+    <div class="td-about-members">
+      {% for person in people | sort(false, false, 'name') %}
+        {% if person.team.indexOf('Team Member') > -1 %}
+        <div class="member-pic">
+          <img title="{{ person.name }}"  src="/_assets/img/people/{{ person.img if person.img else "no-avatar.jpg" }}" alt="{{ person.name }}" class="td-about__img">
+          <div class="text-overlay">
+            <h3 class="person-name">{{ person.name }}</h3>
+          </div>
+          {# <p class="person-bio">{{ person.bio }}</p> #}
+        </div>
+        {% endif %} 
+      {% endfor %}
+    </div>
+    <h2 class="mb--0"/>Speakers</h2>
+    <hr class="border--orange mt--0"/>    
+    <div class="td-about-speakers">
+      {% for person in people | sort(false, false, 'name') %}
+        {% if person.team.indexOf('Speaker') > -1 %}
+        <div class="member-pic">
+          <div class="img-wrapper">
+            <img title="{{ person.name }}"  src="/_assets/img/people/{{ person.img if person.img else "no-avatar.jpg" }}" alt="{{ person.name }}" class="td-about__img">
+          </div>
+          <div class="text-description">
+            <h3 class="mb--2 person-name text-color--green">{{ person.name }}</h3>
+            <p class="m--0 talk-title">Everything you should know about SVGs</p>
+            <p class="m--0 talk-date">October 27th, 2021</p>
+          </div>
+        </div>
+        {% endif %} 
+      {% endfor %}
+    </div>
+  </div>
+  </ul>
+
+  {# <p>Want a meetup happening in your city? <a href="https://www.twitter.com/tampadevs/" target="_blank">Let us know</a>.</p> #}
+
+
+  {# <p>This page is ugly. <a href="https://github.com/tampadevs/tampadevs" target="_blank">Submit a pull request and help us fix it</a>.</p> #}
+</section>

@@ -1,0 +1,72 @@
+/**
+ * These are all styles used for CSS Box-Model.
+ * Margin & Padding
+ * Uses the $spacer defined in variables, defaulted to 2px
+ * This generates a bunch of helper classes for things like removing margins on a <p> element
+ * If your class uses more CSS properties besides these, put the padding and margin in that class instead
+ * Naming conventions is based on CMS design system. Uses 2px instead of 8
+ * 
+ * Examples:
+ * m--5 is margin 10px across the board
+ * m--10 is margin 20px across the board
+ * lg-m--5 is margin 10px if viewport size is greater han 1024 px
+ * Similar conventions here : https://nerdcave.com/tailwind-cheat-sheet
+ *
+ * mr = margin-right
+ * mb = margin-bottom
+ * pt = padding-top
+ * m = margin
+ * my = margin top and bottom
+ * mx = margin left and right
+ */
+
+ $spacer: 2px;
+
+ @for $i from 0 through 40 {
+  .m--#{$i} {
+    margin: $i * $spacer !important;
+  }
+  .ml--#{$i} {
+    margin-left: $i * $spacer !important;
+  }
+  .mr--#{$i} {
+    margin-right: $i * $spacer !important;
+  }
+  .mt--#{$i} {
+    margin-top: $i * $spacer !important;
+  }
+  .mb--#{$i} {
+    margin-bottom: $i * $spacer !important;
+  }
+  .mx--#{$i} {
+    margin-left: $i * $spacer !important;
+    margin-right: $i * $spacer !important;
+  }
+  .my--#{$i} {
+    margin-top: $i * $spacer !important;
+    margin-bottom: $i * $spacer !important;
+  }
+  .p--#{$i} {
+    padding: $i * $spacer !important;
+  }
+  .pl--#{$i} {
+    padding-left: $i * $spacer !important;
+  }
+  .pr--#{$i} {
+    padding-right: $i * $spacer !important;
+  }
+  .pt--#{$i} {
+    padding-top: $i * $spacer !important;
+  }
+  .pb--#{$i} {
+    padding-bottom: $i * $spacer !important;
+  }
+  .px--#{$i} {
+    padding-left: $i * $spacer !important;
+    padding-right: $i * $spacer !important;
+  }
+  .py--#{$i} {
+    padding-top: $i * $spacer !important;
+    padding-bottom: $i * $spacer !important;
+  }
+}

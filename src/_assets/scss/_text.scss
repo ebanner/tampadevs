@@ -1,0 +1,96 @@
+.heading {
+  text-transform: uppercase;
+  font-size: 34px;
+  color: white;
+  letter-spacing: 2px;
+  
+  &--green {
+    color: $colorGreen;
+  }
+
+  &--blue {
+    color: $colorBlue;
+  }
+
+  &--orange {
+    color: $colorOrange;
+  }
+
+  &--centered {
+    text-align: center;
+  }
+}
+
+.td-blog {
+  &__header {
+    text-align: center;
+
+    &__img {
+      border-radius: 0 0 5px 5px;
+      max-width: 100%;
+
+      @include bpMinLarge() {
+        max-width: 110%;
+        width: 110%;
+        margin-left: -5%;
+        border-radius: 0 0 5px 5px;
+      }
+
+      + h1 {
+        background-color:white;
+        margin: -20px 0 10px;
+        display: inline-block;
+        padding: 0 8px;
+      }
+    }
+
+    date { display: block; }
+  }
+
+  &__body {
+    margin: 0 auto;
+    max-width: 720px;
+  }
+
+  p, li {
+    color: $colorBlue;
+    margin: 1em 0;
+  }
+
+  a {
+    color: $colorOrange;
+  }
+
+  // ToDO: Undo this tech debt
+  .btn--orange{
+    color: white
+  }
+
+  &__back {
+    text-align: center;
+    display: table;
+    margin: 10px auto;
+  }
+
+  blockquote {
+    border-left: 4px solid $colorBlue;
+    padding-left: 20px;
+    margin-left: 1px;
+  }
+
+  &__author {
+    margin: 2em auto;
+    padding: 2em 0;
+    border-top: 2px solid $colorOrange;
+    border-bottom: 2px solid $colorOrange;
+    max-width: 720px;
+    text-align: center;
+
+    &__img {
+      border-radius: 50px;
+      height: 50px;
+      margin-right: 10px;
+      width: 50px;
+    }
+  }
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Vincent Tang",
+    "team": ["Team Core", "Speaker"],
+    "bio": "Founder of Tampa Devs. Occasional Dance Performer. Runs CodeChefs, a coding podcast for junior devs",
+    "href": "https://vincentntang.com",
+    "img": "vincentntang.jpg"
+  },
+  {
+    "name": "Jacques Fu",
+    "team": ["Team Advisor"],
+    "bio": "President of Orlando Devs and CTO of Staxx, an Inc. 5000 company",
+    "href": "https://www.crunchbase.com/person/jacques-fu",
+    "img": "jacquesfu.jpg"
+  },
+  {
+    "name": "Lydia Hendriks",
+    "team": ["Team Member"],
+    "img": "lydia_hendriks.jpg"
+  },
+  {
+    "name": "Ryan Harrigan",
+    "team": ["Team Member"],
+    "img": "ryan_harrigan.jpg"
+  },
+  {
+    "name": "Javi Carrion",
+    "team": ["Team Member"],
+    "img": "javi_carrion.jpg"
+  },
+  {
+    "name": "Davindra Tulsi",
+    "team": ["Team Member"],
+    "img": "davindra_tulsi.jpg"
+  },
+  {
+    "name": "Haritha Diraneyya",  
+    "team": ["Team Member"],
+    "img": "haritha_diraneyya.jpg"
+  },
+  {
+    "name": "Jonathan Li",
+    "team": ["Team Member"],
+    "img": "jonathan_li.jpg"
+  },
+  {
+    "name": "German Gamboa",
+    "team": ["Team Member"],
+    "img": "german_gamboa.jpg"
+  },
+  {
+    "name": "Amy Sliwinski",
+    "team": ["Team Member"],  
+    "img": "amy_sliwinski.jpg"
+  }
+]

@@ -1,0 +1,39 @@
+---
+nav: true;
+layout: layouts/base.njk
+---
+
+{% set events = events | eventsInCity(cityName) %}
+
+<header class="td-header">
+
+  <img src="/_assets/img/cities/{{ cityName | slug }}.jpg" alt="" class="td-header__media" />
+  
+  <div class="td-header__container">
+
+    <div class="td-header__container__logoGroup">
+      <img src="/_assets/misc/logos/tampa-devs.svg" alt="Tampa Devs" class="td-header__logo"/>
+      <hgroup>
+        <h1>{{ basics.name }}</h1>
+        <img src="/_assets/misc/logos/{{ cityName | slug }}.svg" alt="{{ cityName }}" class="td-header__cityName-svg"/>
+      </hgroup>
+    </div>
+
+    <div class="td-header__ctas">
+      <a class="js-moveto" href="#meetups">Meetups</a>
+      <a class="js-moveto" href="#newsletter">Newsletter</a>
+    </div>  
+
+  </div>
+
+</header>
+
+<main class="container main-content td-describer">
+  {{ layoutContent | safe }}
+</main>
+
+<div class="container">
+  {% include "blocks/events.njk" %}
+
+  {% include "blocks/people.njk" %}
+</div>
