@@ -53,3 +53,19 @@ Inside `people.json`, have a file that specifies the following data:
     "img": "vincentntang.jpg"
   },
 ```
+
+## How to create a list of blogs or talks
+
+1: Copy over the `blogs` folder. 
+2: Make sure the json file is called `talks.json`. Note this must be named EXACTLY the same as the folder `talks` for it to work
+3: Add a post data pipeline
+
+```js
+eleventyConfig.addCollection("talks", function (collection) {
+  return collection.getAllSorted().filter(function (item) {
+    return item.inputPath.match(/^\.\/src\/talks\/.*\.md$/) !== null;
+  });
+});
+```
+
+Add a template under `talk.njk` and have `talks.json` reference this file

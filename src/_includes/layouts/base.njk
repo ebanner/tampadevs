@@ -4,11 +4,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
-
     <link rel="stylesheet" href="/_assets/css/style.css?v={{ data.buildRef }}" media="screen" type="text/css">
-
-		<title>{{ basics.name }}{% if title %} | {{ title }}{% endif %}</title>
-
+    <title>{{ basics.name }}
+      {% if title %}
+        | {{ title }}
+      {% endif %}
+    </title>
     <link rel="apple-touch-icon" sizes="180x180" href="/_assets/img/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/_assets/img/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/_assets/img/favicon/favicon-16x16.png">
@@ -22,66 +23,89 @@
     <meta property="og:description" content="{% if intro %}{{ intro }}{% else %}{{ basics.description }}{% endif %}">
     <meta property="og:type" content="website">
     <meta property="og:locale" content="en_GB">
-    <meta property="og:image" content="https://tampadevs.com{% if hero_img %}{{ hero_img }}{% else %}/_assets/img/tampa-devs-seo-thumbnail.png{% endif %}">
+    <meta
+      property="og:image"
+      content="https://tampadevs.com{% if hero_img %}{{ hero_img }}{% else %}/_assets/img/tampa-devs-open-graph.png{% endif %}">
     <meta property="og:url" content="{{ basics.url }}{{ page.url }}">
-
-    <link rel="alternate" type="application/rss+xml" title="Tampa Devs Blog" href="/blog/feed.xml" />
-    {# https://www.youtube.com/watch?v=TeZccPtzjRU for seting up google analytics 4 #}
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5GMJ1CNSQN"></script>
+    <link rel="alternate" type="application/rss+xml" title="Tampa Devs Blog" href="/blog/feed.xml"/>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-5GMJ1CNSQN');
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({'gtm.start': new Date().getTime(), event: 'gtm.js'});
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != 'dataLayer'
+            ? '&l=' + l
+            : '';
+        j.async = true;
+        j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, 'script', 'dataLayer', 'GTM-M78LRDN');
     </script>
-    {# <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-M78LRDN');</script> #}
   </head>
-
   <body>
-    {# <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M78LRDN" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> #}
+    <noscript>
+      <iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-M78LRDN"
+        height="0"
+        width="0"
+        style="display:none;visibility:hidden"></iframe>
+    </noscript>
     {% if nav %}
-    <nav class="td-nav">
-      <div class="container">
-        <ul>
-          <li><a href="/">Tampa Devs</a></li>
-          {# <li><a href="/about">About</a></li> #}
-          {# <li><a href="/cities">Cities</a></li>
-          <li><a href="/build">Build</a></li> #}
-          <li><a href="/blog">Blog</a></li>
-        </ul>
-
-        <ul class="social-icons">
-        {% for key, social in basics.socials %}
-          <li><a href="{{ social }}" target="_blank" rel="noopener">
-          <img class="social-icon" src="/_assets/misc/icons/{{ key }}.svg" alt="{{ key }}"/>
-          </a></li>
-        {% endfor %}
-        </ul>
-      </div>
-    </nav>
+      <nav class="td-nav">
+        <div class="container">
+          <ul>
+            <li>
+              <a href="/">Tampa Devs</a>
+            </li>
+            {# <li><a href="/about">About</a></li> #}
+            {# <li><a href="/cities">Cities</a></li>
+                                                                                                                                              <li><a href="/build">Build</a></li> #}
+            <li>
+              <a href="/blog">Blog</a>
+            </li>
+            <li>
+              <a href="/talks">Talks</a>
+            </li>
+          </ul>
+          <ul class="social-icons">
+            {% for key, social in basics.socials %}
+              <li>
+                <a href="{{ social }}" target="_blank" rel="noopener">
+                  <img class="social-icon" src="/_assets/misc/icons/{{ key }}.svg" alt="{{ key }}"/>
+                </a>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </nav>
     {% endif %}
-
     {{ layoutContent | safe }}
-
     <div class="td-newsletter">
       <section class="container" id="newsletter">
         <h2>Stay in touch</h2>
-        <p>Sign up and receive all the latest news and meet up information from Tampa Devs{% if cityName %} and events in {{ cityName }}{% endif %}:</p>
-
-        <form action="https://tampadevs.us5.list-manage.com/subscribe/post?u=b21cef4d8423fc3d2e3c5f388&amp;id=f6ecb103bd" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+        <p>Sign up and receive all the latest news and meet up information from Tampa Devs{% if cityName %}
+            and events in {{ cityName }}
+          {% endif %}:</p>
+        <form
+          action="https://tampadevs.us5.list-manage.com/subscribe/post?u=b21cef4d8423fc3d2e3c5f388&amp;id=f6ecb103bd"
+          method="post"
+          id="mc-embedded-subscribe-form"
+          name="mc-embedded-subscribe-form"
+          class="validate"
+          target="_blank"
+          novalidate>
           <div id="mce-responses" class="clear">
             <div class="response" id="mce-error-response" style="display:none"></div>
             <div class="response" id="mce-success-response" style="display:none"></div>
           </div>
-          <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_0faea843d029399bef7962992_686a0f7b4b" tabindex="-1" value=""></div>
-
+          <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_0faea843d029399bef7962992_686a0f7b4b" tabindex="-1" value="">
+          </div>
           {# For chimp segmenting. Set in city frontmatter #}
           {% if chimpId %}
-          <input type="hidden" name="group[19273][{{ chimpId }}]" value="{{ chimpId }}">
+            <input type="hidden" name="group[19273][{{ chimpId }}]" value="{{ chimpId }}">
           {% endif %}
           {# end chimp segmenting #}
-
           <div class="td-newsletter__group">
             <div class="td-newsletter__field mc-field-group">
               <label for="mce-FNAME">First Name</label>
@@ -99,20 +123,18 @@
               <input type="submit" value="Subscribe!" name="subscribe" id="mc-embedded-subscribe" class="button">
             </div>
           </div>
-
         </form>
         <!--End mc_embed_signup-->
-
       </section>
     </div>
-
-
     <footer class="td-footer">
       <div class="container">
         <p>
-          We have a <a href="/blog">Blog</a>
-          &middot;
-          This site is built on top of <a href="https://www.11ty.io" target="_blank" rel="noopener">Eleventy</a>
+          We have a
+          <a href="/blog">Blog</a>
+          &middot; This site is built on top
+                              of
+          <a href="https://www.11ty.io" target="_blank" rel="noopener">Eleventy</a>
           &middot;
           <a href="https://github.com/tampadevs/tampadevs" target="_blank" rel="noopener">View source</a>
         </p>

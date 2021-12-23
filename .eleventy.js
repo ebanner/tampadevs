@@ -60,6 +60,14 @@ module.exports = function (eleventyConfig) {
     });
   });
 
+  // This adds the talks as a data source
+  eleventyConfig.addCollection("talks", function (collection) {
+    return collection.getAllSorted().filter(function (item) {
+      return item.inputPath.match(/^\.\/src\/talks\/.*\.md$/) !== null;
+    });
+  });
+
+
   // Watch assets folder for changes
   eleventyConfig.addWatchTarget("./src/_assets");
 
