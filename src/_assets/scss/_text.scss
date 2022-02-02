@@ -54,11 +54,11 @@
 
   p, li {
     color: $colorBlue;
-    margin: 1em 0;
   }
 
   a {
     color: $colorOrange;
+    overflow-wrap: break-word;
   }
 
   // ToDO: Undo this tech debt
