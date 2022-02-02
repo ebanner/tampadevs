@@ -4,12 +4,14 @@ layout: layouts/base.njk
 ---
 <div class="container td-blog ">
 
-  <header role="banner" class="td-blog__header">  
+  <header role="banner" class="td-blog__header">
     {# {% if hero_img %}
     <img src="{{ hero_img }}" alt="{{ title }}" class="td-blog__header__img" />
     {% endif %} #}
     {% if youtube_id %}
-    <iframe width="853" height="480" src="https://www.youtube.com/embed/{{youtube_id}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <div class="video-embed">
+        <iframe width="853" height="480" src="https://www.youtube.com/embed/{{youtube_id}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
     {% endif %}
 
     <h1 itemprop="name">{{ title | orphanWrap | safe }}</h1>

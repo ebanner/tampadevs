@@ -5,11 +5,13 @@
   padding: 0;
   grid-column-gap: 20px;
   grid-row-gap: 20px;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
+  @include bpMinXSmall() {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 .listing__item {
-  margin-bottom: 30px;
   border-radius: 5px;
   border: 1px solid $colorOrange;
   padding: 10px;
