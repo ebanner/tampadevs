@@ -2,7 +2,7 @@
 title: SVGs - Everything you should know
 author: Vincent Tang
 date: 2021-10-28
-intro: SVGs - Everything you should know
+intro: Our first technical presentation given from our founder Vincent Tang
 hero_img: /_assets/img/blog/2021/first_event_tampa_devs.jpg
 youtube_id: qwoqmeq_zQY
 ---
