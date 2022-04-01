@@ -17,11 +17,11 @@ React is a JavaScript library meant to supercharge HTML programming. It’s one 
 
 BIO: Ryan Harrigan is a Software Engineer working at SugarCRM. Lately, he's done work with codefororlando.org and websites for friends.
 
-https://github.com/RyanHarrigan
+[https://github.com/RyanHarrigan](https://github.com/RyanHarrigan)
 
-https://www.linkedin.com/in/ryan-harrigan
+[https://www.linkedin.com/in/ryan-harrigan](https://www.linkedin.com/in/ryan-harrigan)
 
-SLIDES: https://github.com/RyanHarrigan/minimal_react_project
+SLIDES: [https://github.com/RyanHarrigan/minimal_react_project](https://github.com/RyanHarrigan/minimal_react_project)
 
 ## Talk2 - Git: Rewriting History with Interactive Rebase
 
@@ -37,11 +37,13 @@ Basic merge
 Fast forward merge
 BIO: Lydia develops scalable data-driven sites for an insurance tech company in Tampa. She graduated from a code Bootcamp in 2019 after changing careers from management consulting. On the side, Lydia loves to meet other developers and help nonprofits build their online presence.
 
+[https://www.linkedin.com/in/lydiahendriks](https://www.linkedin.com/in/lydiahendriks)
+
 ## PARKING LOGISTICS:
 
 Parking and finding the office can be found here:
 
-https://www.reliaquest.com/wp-content/uploads/reliaquest-office-parking-instructions.pdf
+[https://www.reliaquest.com/wp-content/uploads/reliaquest-office-parking-instructions.pdf](https://www.reliaquest.com/wp-content/uploads/reliaquest-office-parking-instructions.pdf)
 
 For parking, please pull a ticket at the gate upon entering the garage. You will need to keep the ticket that you pull at the entrance gate to exit the garage. When exiting, the ticket that is pulled at your arrival must be scanned at the reader first and then you can scan the validation ticket you receive from us during your stay to cover the cost.
 
