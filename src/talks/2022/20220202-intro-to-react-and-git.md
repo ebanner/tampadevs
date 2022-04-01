@@ -21,6 +21,8 @@ https://github.com/RyanHarrigan
 
 https://www.linkedin.com/in/ryan-harrigan
 
+SLIDES: https://github.com/RyanHarrigan/minimal_react_project
+
 ## Talk2 - Git: Rewriting History with Interactive Rebase
 
 This talk will introduce you to Git, the most common version control system. We will talk at a high level about what Git is and how to track changes in source code, then take a deeper dive on Git's Interactive Rebase tool and how it provides granular control over your history revision process.
