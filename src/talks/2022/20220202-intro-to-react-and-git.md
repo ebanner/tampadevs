@@ -39,6 +39,8 @@ BIO: Lydia develops scalable data-driven sites for an insurance tech company in 
 
 [https://www.linkedin.com/in/lydiahendriks](https://www.linkedin.com/in/lydiahendriks)
 
+SLIDES: [https://drive.google.com/file/d/11OUNglB1lYYuiQvCj9kZOY4MY2fbG4KZ/view](https://drive.google.com/file/d/11OUNglB1lYYuiQvCj9kZOY4MY2fbG4KZ/view)
+
 ## PARKING LOGISTICS:
 
 Parking and finding the office can be found here:
