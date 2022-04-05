@@ -2,7 +2,7 @@
 title: Hackabull 2022 Highlights
 author: Vincent Tang
 date: 2022-04-02
-intro: Following the story of one of our members at TampaDevs, CryptoTracker! Congrats on winning 3rd place!
+intro: Following the story of one of our members at TampaDevs, CryptoTracker! Congrats on winning 3rd place at the USF Hackathon!
 hero_img: /_assets/img/blog/2021/first_event_tampa_devs.jpg
 youtube_id: LjnZkeWtti4
 ---
