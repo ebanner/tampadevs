@@ -1,7 +1,7 @@
 ---
 title: Partnership with ReliaQuest
 author: Vincent Tang
-date: 2021-10-28
+date: 2021-10-01
 intro: Our first sponsor!
 hero_img: /_assets/img/blog/2021/reliaquest.png
 ---
