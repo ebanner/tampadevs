@@ -1,5 +1,8 @@
 # Tampa Devs
 
+![GtuNm3R1yV](https://user-images.githubusercontent.com/10290348/162232393-26045f1f-7f79-466b-9686-47a77b72bd58.gif)
+
+
 <!-- ## Editing the events
 
 Events are stored in `src/_data/events.json`
