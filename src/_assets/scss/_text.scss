@@ -3,7 +3,7 @@
   font-size: 34px;
   color: white;
   letter-spacing: 2px;
-  
+
   &--green {
     color: $colorGreen;
   }
@@ -59,6 +59,10 @@
   a {
     color: $colorOrange;
     overflow-wrap: break-word;
+  }
+
+  img {
+    max-width: 100%;
   }
 
   // ToDO: Undo this tech debt
