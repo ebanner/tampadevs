@@ -2,7 +2,7 @@
 title: Partnership with PwC (Pricewaterhouse Coopers)
 author: Vincent Tang
 date: 2022-04-12
-intro: Our new global hackathon organizer & sponsor
+intro: More awesome events to come!
 hero_img: /_assets/img/blog/2022/pwc-logo.jpg
 ---
 
