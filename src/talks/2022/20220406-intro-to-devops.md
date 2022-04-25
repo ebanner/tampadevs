@@ -25,6 +25,7 @@ Linux
 Docker
 Github Actions
 and lots of command line usage!
+
 BIO: Douglas Moore has worked DevOps for both large and small companies. Loves to learn full stack development with React (Next.js) on the side. Currently pursuing his masters in Computer Science at Georgia Tech.
 
 ## PARKING LOGISTICS:
