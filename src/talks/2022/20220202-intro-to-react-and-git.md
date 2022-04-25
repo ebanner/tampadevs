@@ -29,12 +29,13 @@ This talk will introduce you to Git, the most common version control system. We 
 
 What you'll learn about:
 
-What is Git
-How to track changes to source code
-Common Git commands
-Interactive rebase
-Basic merge
-Fast forward merge
+- What is Git
+- How to track changes to source code
+- Common Git commands
+- Interactive rebase
+- Basic merge
+- Fast forward merge
+
 BIO: Lydia develops scalable data-driven sites for an insurance tech company in Tampa. She graduated from a code Bootcamp in 2019 after changing careers from management consulting. On the side, Lydia loves to meet other developers and help nonprofits build their online presence.
 
 [https://www.linkedin.com/in/lydiahendriks](https://www.linkedin.com/in/lydiahendriks)

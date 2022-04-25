@@ -41,3 +41,4 @@ We're always open to speakers and volunteer help as well! Hit us on our website 
 
 - [https://github.com/CodaBool/tampa-dev](https://github.com/CodaBool/tampa-dev)
 - [https://github.com/CodaBool/tampa-typer](https://github.com/CodaBool/tampa-typer)
+- [Meetup Link](https://www.meetup.com/TampaDevs/events/283612753/)
