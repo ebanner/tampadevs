@@ -276,7 +276,9 @@ a:focus {
   justify-content: center;
   align-items: center;
   list-style-type: none;
-  justify-content: space-between;
+  justify-content: space-around;
+  padding: 0;
+  max-width: 1020px;
 }
 
 .td-footer__links ul {
@@ -293,10 +295,16 @@ a:focus {
   }
 }
 
+.td-footer__social ul {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .td-footer__social a {
   text-decoration: none;
   border: none;
 }
+
 .td-footer__social img {
   height: 24px;
   width: 24px;
