@@ -8,7 +8,7 @@ youtube_id: 9joAWSj1h04
 ---
 
 
-Our 2nd tech event! We're partnering with Embarc Collective, a tech startup hub in downtown Tampa. There will be Fresh Kitchen for catering too, sponsored by Brooksource!
+Our 2nd tech event! We're partnering with [Embarc Collective](https://www.embarccollective.com/), a tech startup hub in downtown Tampa. There will be Fresh Kitchen for catering too, sponsored by [Brooksource](https://www.brooksource.com/)!
 
 If you want to attend remotely, we'll post a zoom link in the comments around event time
 

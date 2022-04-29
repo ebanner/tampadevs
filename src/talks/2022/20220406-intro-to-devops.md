@@ -9,7 +9,7 @@ youtube_id: 2AoRbNU1iNc
 
 ## Details
 
-We're partnering with Embarc Collective, a tech startup hub in downtown Tampa. There will be Taco Dirty for catering too, sponsored by Brooksource!
+We're partnering with [Embarc Collective](https://www.embarccollective.com/), a tech startup hub in downtown Tampa. There will be Taco Dirty for catering too, sponsored by [Brooksource](https://www.brooksource.com/)!
 
 If you want to attend remotely, we'll post a zoom link in the comments around event time
 

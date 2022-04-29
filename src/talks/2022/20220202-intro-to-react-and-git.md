@@ -7,7 +7,7 @@ hero_img: /_assets/img/blog/2021/first_event_tampa_devs.jpg
 youtube_id: TANbBN6DMH4
 ---
 
-We're hosting our first technical talk of the year! This talk is in partnership with ReactJS Tampa and will be held be at ReliaQuest over in Harbour Island. You can watch it remotely through zoom - we'll post a link in the comments around that time
+We're hosting our first technical talk of the year! This talk is in partnership with ReactJS Tampa and will be held be at [ReliaQuest](https://reliaquest.com) over in Harbour Island. You can watch it remotely through zoom - we'll post a link in the comments around that time
 
 ALSO, if you do attend, there will be Fresh Kitchen for catering too!
 
