@@ -1,21 +1,21 @@
 [
   {
     "name": "Vincent Tang",
-    "team": ["Team Core", "Speaker"],
+    "team": ["Team Core", "Speaker", "Organizers"],
     "bio": "Founder of Tampa Devs. Occasional Dance Performer. Runs CodeChefs, a coding podcast for junior devs",
     "href": "https://vincentntang.com",
-    "img": "vincentntang.jpg"
+    "img": "vincent_tang.jpg"
   },
   {
     "name": "Jacques Fu",
-    "team": ["Team Advisor"],
+    "team": ["Team Advisor", "Organizers"],
     "bio": "President of Orlando Devs and CTO of Staxx, an Inc. 5000 company",
     "href": "https://www.crunchbase.com/person/jacques-fu",
-    "img": "jacquesfu.jpg"
+    "img": "jacques_fu.jpg"
   },
   {
     "name": "Lydia Hendriks",
-    "team": ["Team Member"],
+    "team": ["Team Member", "Organizers"],
     "img": "lydia_hendriks.jpg"
   },
   {
@@ -35,7 +35,7 @@
   },
   {
     "name": "Haritha Diraneyya",  
-    "team": ["Team Member"],
+    "team": ["Team Member", "Organizers"],
     "img": "haritha_diraneyya.jpg"
   },
   {
@@ -52,5 +52,10 @@
     "name": "Amy Sliwinski",
     "team": ["Team Member"],  
     "img": "amy_sliwinski.jpg"
+  },
+  {
+    "name": "Jordan Rhodes",
+    "team": ["Team Member", "Organizers"],  
+    "img": "jordan_rhodes.jpg"
   }
 ]
