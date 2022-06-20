@@ -21,7 +21,7 @@ $colorBlue: #4e5569;
 @import "block-highlight-box";
 @import "block-promo";
 
-@import url("https://fonts.googleapis.com/css?family=Montserrat:500,700");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,500,700,900");
 
 * {
   box-sizing: border-box;
@@ -36,7 +36,7 @@ textarea,
 select,
 input,
 button {
-  outline: none;
+  // outline: none;
   font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
 }
 
@@ -60,7 +60,7 @@ a:hover {
 }
 
 a:focus {
-  outline: none;
+  // outline: none;
 }
 
 .td-header {
@@ -162,9 +162,19 @@ a:focus {
 
 .container {
   margin: 0 auto;
-  max-width: 1020px;
-  width: 100%;
-  padding: 0 50px;
+  max-width: 420px;
+  width: 98%;
+  // padding: 0 1.25em;
+  @include bpMinXSmall {
+    max-width: 680px;
+  }
+  @include bpMinSmall{
+    max-width: 810px;
+    // padding: 0 50%
+  }
+  @include bpMinLarge {
+    max-width: 1020px;
+  }
 }
 
 .td-describer p {
@@ -469,3 +479,16 @@ a:focus {
 @import "utility/mixin-sizing";
 @import "utility/utility";
 @import "pages/about";
+
+.xs\: {
+  @include testMargin;
+}
+.sm\: {
+  @include testMargin;
+}
+.md\: {
+  @include testMargin;
+}
+.lg\: {
+  @include testMargin;
+}

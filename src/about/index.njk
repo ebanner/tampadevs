@@ -2,90 +2,69 @@
 nav: true
 layout: layouts/base.njk
 ---
-<section class="container td-about main-content">
-  <h1>About</h1>
-  <p>Meet the team!
-  <div>
-    <ul>
-      <li>Board Team: Core-organizers who manage logistics and outreach</li>
-      <li>Advisors: Leaders who provide guidance and support </li>
-      <li>Community members: Developer friends who make the community awesome! 😄</li>
-      <li>Speakers: No explaination needed</li>
-    </li>
+<header class="td-about-header" aria-labelledby="about-tampa-devs">
+  <div class="td-about-header-img-wrapper">
+    <picture>
+      <source media="(min-width:650px)" srcset="/_assets/img/about/tampa-dev-edited-117.jpg">
+      <img src="/_assets/img/about/tampa-dev-edited-117-550.jpg" alt="">
+    </picture>
   </div>
-  <div class="td-about-wrapper">
-    <h2 class="mb--0"/>Board Team</h2>
-    <hr class="border--orange mt--0"/>
-    <div class="td-about-section">
-      {% for person in people | sort(false, false, 'name') %}
-        {% if person.team.indexOf('Team Core') > -1 %}
-        <div class="td-about-person">
-          <div class="circular-border">
-            <div class="image-container">
-              <img src="/_assets/img/people/{{ person.img if person.img else "no-avatar.jpg" }}" alt="{{ person.name }}" class="td-about__img">
-            </div>
-          </div>
-          <h3 class="person-name">{% if person.href %}<a href="{{ person.href }}" target="_blank" rel="noopener">{% endif %}{{ person.name }}{% if person.href %}</a>{% endif %}</h3>
-          <p class="person-bio">{{ person.bio }}</p>
-        </div>
-        {% endif %} 
-      {% endfor %}
-    </div>
-    <h2 class="mb--0"/>Advisors</h2>
-    <hr class="border--orange mt--0"/>
-    <div class="td-about-section">
-      {% for person in people | sort(false, false, 'name') %}
-        {% if person.team.indexOf('Team Advisor') > -1 %}
-        <div class="td-about-person">
-          <div class="circular-border">
-            <div class="image-container">
-              <img src="/_assets/img/people/{{ person.img if person.img else "no-avatar.jpg" }}" alt="{{ person.name }}" class="td-about__img">
-            </div>
-          </div>
-          <h3 class="person-name">{% if person.href %}<a href="{{ person.href }}" target="_blank" rel="noopener">{% endif %}{{ person.name }}{% if person.href %}</a>{% endif %}</h3>
-          <p class="person-bio">{{ person.bio }}</p>
-        </div>
-        {% endif %} 
-      {% endfor %}
-    </div>
-    <h2 class="mb--0"/>Community Members</h2>
-    <hr class="border--orange mt--0"/>    
-    <div class="td-about-members">
-      {% for person in people | sort(false, false, 'name') %}
-        {% if person.team.indexOf('Team Member') > -1 %}
-        <div class="member-pic">
-          <img title="{{ person.name }}"  src="/_assets/img/people/{{ person.img if person.img else "no-avatar.jpg" }}" alt="{{ person.name }}" class="td-about__img">
-          <div class="text-overlay">
-            <h3 class="person-name">{{ person.name }}</h3>
-          </div>
-          {# <p class="person-bio">{{ person.bio }}</p> #}
-        </div>
-        {% endif %} 
-      {% endfor %}
-    </div>
-    <h2 class="mb--0"/>Speakers</h2>
-    <hr class="border--orange mt--0"/>    
-    <div class="td-about-speakers">
-      {% for person in people | sort(false, false, 'name') %}
-        {% if person.team.indexOf('Speaker') > -1 %}
-        <div class="member-pic">
-          <div class="img-wrapper">
-            <img title="{{ person.name }}"  src="/_assets/img/people/{{ person.img if person.img else "no-avatar.jpg" }}" alt="{{ person.name }}" class="td-about__img">
-          </div>
-          <div class="text-description">
-            <h3 class="mb--2 person-name text-color--green">{{ person.name }}</h3>
-            <p class="m--0 talk-title">Everything you should know about SVGs</p>
-            <p class="m--0 talk-date">October 27th, 2021</p>
-          </div>
-        </div>
-        {% endif %} 
-      {% endfor %}
-    </div>
+  <div class="td-about-header-txt-overlay">
+    <h1 id="about-tampa-devs">About Tampa Devs</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
   </div>
-  </ul>
-
-  {# <p>Want a meetup happening in your city? <a href="https://www.twitter.com/tampadevs/" target="_blank">Let us know</a>.</p> #}
-
-
-  {# <p>This page is ugly. <a href="https://github.com/tampadevs/tampadevs" target="_blank">Submit a pull request and help us fix it</a>.</p> #}
-</section>
+</header>
+<main class="td-about main-content">
+  <section aria-labelledby="our-story" class="td-about-section container">
+    <h2 id="our-study">Our Story</h2>
+    <div class="sm:ml--2">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat orci nulla pellentesque dignissim enim sit amet. Duis at tellus at urna condimentum mattis pellentesque. Aliquet eget sit amet tellus cras adipiscing enim. Enim facilisis gravida neque convallis. At auctor urna nunc id. Tempor id eu nisl nunc mi ipsum faucibus vitae. Nec dui nunc mattis enim ut tellus elementum sagittis vitae. Praesent semper feugiat nibh sed pulvinar proin gravida hendrerit. At ultrices mi tempus imperdiet nulla malesuada pellentesque elit.
+      </P>
+      <p>
+        Eget egestas purus viverra accumsan in nisl nisi scelerisque. Pharetra diam sit amet nisl. Pretium viverra suspendisse potenti nullam ac tortor vitae purus faucibus. Aliquet sagittis id consectetur purus ut faucibus pulvinar. Gravida neque convallis a cras semper auctor neque. Turpis cursus in hac habitasse platea dictumst quisque sagittis purus. Integer enim neque volutpat ac tincidunt vitae. Tincidunt dui ut ornare lectus. Lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare. Sit amet aliquam id diam maecenas ultricies mi. Sed blandit libero volutpat sed cras. Nam aliquam sem et tortor consequat id. Lorem donec massa sapien faucibus. Congue quisque egestas diam in arcu cursus. Id venenatis a condimentum vitae. Vitae tempus quam pellentesque nec. Nunc lobortis mattis aliquam faucibus purus in massa.
+      </p>
+    </div>
+  </section> 
+  <section aria-labelledby="event-organizers" class="td-about-section container">
+    <h2 id="event-organizers">Event Organizers</h2>
+    <div class="td-about-team-wrapper">
+      {% for person in people | sort(false, false, 'name') %}
+        {% if person.team.indexOf("Organizers") > -1 %}
+          <div class="td-about-person">
+            <div class="">
+              <div class="image-container">
+                <img src="/_assets/img/people/{{ person.img if person.img else "no-avatar.jpg" }}" alt="{{ person.name }}" class="td-about__img">
+              </div>
+            </div>
+            <h3 class="person-name">{% if person.href %}<a href="{{ person.href }}" target="_blank" rel="noopener">{% endif %}{{ person.name }}{% if person.href %}</a>{% endif %}</h3>
+            <p class="person-bio">{{ person.bio }}</p>
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </section>
+  <section class="sponsors" aria-labelledby="sponsors">
+    <h2 id="sponsors" class="container">Sponsors</h2>
+    <div class="td-about-sponsor__wrapper">
+      {% for sponsor in sponsors | sort(false, false, 'name') %}
+        <a href="{{sponsor.href}}">
+          <img src="/_assets/misc/sponsors/{{sponsor.logo}}" alt=""/>
+        </a>
+      {% endfor %}
+    </div>
+  </section>
+  <section aria-labelledby="past-events">
+    <h2 id="past-events">Past Event Gallery</h2>
+    <div class="td-about-slider__container slider__container">
+      {% for event in pastevents %}
+        <img src="/_assets/img/about/past-events/{{event.img}}" alt="{{event.alt-text}}" title="{{event.title}}"/>
+      {% endfor %}
+      <div class="slider__navigation">
+        {% for event in pastevents %}
+          <button id="{{event.name}}" aria-role>&nbsp;</li>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+</main>

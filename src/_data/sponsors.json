@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Ashley Furniture",
+    "logo": "ashley-logo-vertical.svg",
+    "href": "https://www.ashleyfurniture.com/"
+  },
+  {
+    "name": "Booksource",
+    "logo": "booksource-white-horizontal.svg",
+    "href": "https://www.brooksource.com/"
+  },
+  {
+    "name": "Embarc Collective",
+    "logo": "embarc_logo.svg",
+    "href": "https://www.embarccollective.com/"
+  },
+  {
+    "name": "Exzeo",
+    "logo": "exzeo-logo.svg",
+    "href": "https://exzeo.com/"
+  },
+  {
+    "name": "PwC",
+    "logo": "PwC-logo.svg",
+    "href": "https://www.pwc.com/"
+  },
+  {
+    "name": "Reliaquest",
+    "logo": "reliaquest.svg",
+    "href": "https://www.reliaquest.com/"
+  },
+  {
+    "name": "USF College of Engineering",
+    "logo": "usf-engineering-logo.png",
+    "href": "https://www.usf.edu/engineering/"
+  }
+]
