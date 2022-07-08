@@ -2,7 +2,7 @@
 title: Webhooks and Serverless
 author: Vincent Tang
 date: 2022-05-04
-intro: Serverless and Webhooks
+intro: Ever wanted to know how to scale websites on a budget?
 hero_img: /_assets/img/blog/2021/first_event_tampa_devs.jpg
 youtube_id: PpeIJ_ViDzQ
 ---
