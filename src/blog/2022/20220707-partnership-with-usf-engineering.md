@@ -3,7 +3,7 @@ title: Partnership with USF Engineering for TADHacks Hackathon
 author: Vincent Tang
 date: 2022-07-07
 intro: TADHacks planning
-hero_img: /_assets/img/blog/2022/pwc-logo.jpg
+hero_img: /_assets/img/blog/2022/tadhack_global_prize.png
 ---
 
 Hey y'all, we're partnering with USF engineering for planning [TADHacks Hackathon](https://tadhack.com/2022) in October! Event link is found [here](https://www.meetup.com/tampadevs/events/284553267/)
