@@ -14,10 +14,11 @@ Hey y'all we're hosting an "Intro to IoT" talk at PwC (PriceWaterhouseCoopers). 
 Catering from Panda Express and drinks will be provided from PwC!
 
 Event schedule:
-6-6:30PM - Food and Networking
-6:30-7PM - Tampa Dev & Pwc Intros
-7-8PM - Jesse Presentation and Demo
-8-9PM - networking and more drinks
+
+* 6-6:30PM - Food and Networking
+* 6:30-7PM - Tampa Dev & Pwc Intros
+* 7-8PM - Jesse Presentation and Demo
+* 8-9PM - networking and more drinks
 
 ## TALK - Home Assistant & IoT using ESP32
 
