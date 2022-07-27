@@ -16,3 +16,7 @@ Here's the improvements to the site:
 - Compressed all images to less than 1000width and webp on initial page load. We removed roughly 4mbs of pageload times
 - Added additional animation support for call to action, made it more obvious to see where meetup/slack link buttons are
 - Added whatsapp chat link
+
+Additional work to be done
+
+- Add GZip and minify javascript / css files
