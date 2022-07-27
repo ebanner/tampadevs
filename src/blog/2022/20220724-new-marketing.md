@@ -14,6 +14,7 @@ For marketing:
 - New animated speaker ads for upcoming talks (see above)
 - New Tampa Devs Flyer (see bottom of page)
 - New video header from our PwC event!
+- Optimized the website a bit more. Compressed images and videos. We have a lighthouse score os 62 performance now!
 
 For partnerships:
 
