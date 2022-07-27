@@ -10,9 +10,9 @@
       | {{ title }}
     {% endif %}
   </title>
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  {# <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> #}
   {# <link rel="stylesheet" href="dist/aos.css" /> #}
-  {# <link rel="stylesheet" href="{{ "/assets/aos.css" | url }}"> #}
+  <link rel="stylesheet" href="{{ "/_assets/css/aos.css" | url }}">
   <link rel="apple-touch-icon" sizes="180x180" href="/_assets/img/favicon/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/_assets/img/favicon/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/_assets/img/favicon/favicon-16x16.png">
@@ -31,9 +31,9 @@
     content="https://tampadevs.com{% if hero_img %}{{ hero_img }}{% else %}/_assets/img/tampa-devs-open-graph.png{% endif %}">
   <meta property="og:url" content="{{ basics.url }}{{ page.url }}">
   <link rel="alternate" type="application/rss+xml" title="Tampa Devs Blog" href="/blog/feed.xml"/>
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  {# <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> #}
   {# <script src="dist/aos.js"></script #}
-  {# <script src="{{ "/assets/aos.js" | url }}"></script> #}
+  <script src="{{ "/_assets/js/aos.js" | url }}"></script>
   <script>
     (function (w, d, s, l, i) {
       w[l] = w[l] || [];

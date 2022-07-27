@@ -74,6 +74,12 @@ module.exports = function (eleventyConfig) {
   // Copy these assets straight across
   eleventyConfig.addPassthroughCopy({ "./src/_assets/misc": "_assets/misc" });
 
+  // Copy Node Modules dependencies
+  eleventyConfig.addPassthroughCopy({
+    "node_modules/aos/dist/aos.css": "_assets/css/aos.css",
+    "node_modules/aos/dist/aos.js": "_assets/js/aos.js"
+  });
+
   eleventyConfig.setBrowserSyncConfig({
     callbacks: {
       ready: function (err, browserSync) {

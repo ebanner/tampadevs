@@ -18,6 +18,22 @@ Add new events at the top in the format:
   },
 ``` -->
 
+## Global Installation
+
+add this so you can use `eleventy` build and run commands
+
+```
+npm install -g @11ty/eleventy
+```
+
+build script command is 
+
+```
+npx @11ty/eleventy
+```
+
+if you need to do any debugging for writing files
+
 ## Adding people
 
 People are stored in `src/_data/people.json`
