@@ -12,7 +12,7 @@ We could use your help!
 
 Here are some examples of awesome things you can help on!
 
-- Coordinating with UT and USF
+- Coordinating with local Universities and Colleges in Tampa/St Pete
 - Volunteering with Hackathon Logistics for TADHacks
 - Helping organizing meetups / tech workshops
 - Write Tampa Devs Blog content
