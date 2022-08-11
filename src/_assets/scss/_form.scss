@@ -52,3 +52,92 @@
     width: auto;
   }
 }
+
+.formspree {
+  /* reset */
+  input,
+  select,
+  textarea,
+  fieldset,
+  optgroup,
+  label,
+  .StripeElement {
+    font-family: inherit;
+    font-size: 100%;
+    color: inherit;
+    border: none;
+    border-radius: 0;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+  label,
+  legend {
+    font-size: 0.825rem;
+    margin-bottom: 0.5rem;
+  }
+  /* border, padding, margin, width */
+  input,
+  select,
+  textarea,
+  .StripeElement {
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 0.75em 1rem;
+    margin-bottom: 1.5rem;
+  }
+  input:focus,
+  select:focus,
+  textarea:focus,
+  .StripeElement:focus {
+    background-color: white;
+    outline-style: solid;
+    outline-width: thin;
+    outline-color: gray;
+    outline-offset: -1px;
+  }
+  [type="text"],
+  [type="email"],
+  .StripeElement {
+    width: 100%;
+  }
+  [type="button"],
+  [type="submit"],
+  [type="reset"] {
+    width: auto;
+    cursor: pointer;
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+  }
+  [type="button"]:focus,
+  [type="submit"]:focus,
+  [type="reset"]:focus {
+    outline: none;
+  }
+
+  select {
+    text-transform: none;
+  }
+
+  // Overrides from default formspree
+  padding: 30px;
+  border: 2px solid black;
+  background-color: lightblue;
+  label {
+    font-size: 1rem;
+    color: black;
+  }
+  [type="submit"] {
+    background-color: rgb(238, 92, 83);
+    color: white;
+    padding: 15px;
+    font-size: 24px;
+  }
+  margin-top: 50px;
+  margin-bottom: 50px;
+}

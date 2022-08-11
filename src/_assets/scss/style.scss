@@ -20,6 +20,7 @@ $colorBlue: #4e5569;
 @import "block-iframe";
 @import "block-highlight-box";
 @import "block-promo";
+@import "tdevs_custom";
 
 @import url("https://fonts.googleapis.com/css?family=Montserrat:500,700");
 
@@ -28,8 +29,11 @@ $colorBlue: #4e5569;
 }
 
 p {
-  font-size: 1rem;
+  font-size: 1.10rem; // was 1 rem, may change back later
   line-height: 1.725rem;
+}
+li {
+  font-size: 1.10rem;
 }
 
 textarea,

@@ -7,25 +7,24 @@ eleventyExcludeFromCollections: true
 
 <main class="container main-content td-blog">
   <h1>The Tampa Devs Talks...</h1>
-
+  <div class="td-alert-banner">
+    <a href="/speaker">🎤 Speak for Tampa Devs!</a>
+  </div>
   <ul class="listing">
-  {% for talk in collections.talks | reverse %}
-    <li class="listing__item">
-      {% if talk.data.canonical %}
-      <a href="{{ talk.data.canonical }}" target="_blank" rel="noopener" class="listing__item__link listing__item__link--remote">
-      {% else %}
-      <a href="{{ talk.url }}" class="listing__item__link">
-      {% endif %}
-
-        <date>{{ talk.data.date | readableDate }}</date>
-        <h2 class="listing__item__title">{{ talk.data.title }}</h2>
-
-        {% if talk.data.intro %}
-        <p>{{ talk.data.intro }}</p>
-        {% endif %}
-      </a>
-    </li>
-  {% endfor %}
-  </ul>
-
-</main>
+    {% for talk in collections.talks | reverse %}
+      <li class="listing__item">
+        {% if talk.data.canonical %}
+          <a href="{{ talk.data.canonical }}" target="_blank" rel="noopener" class="listing__item__link listing__item__link--remote">
+          {% else %}
+            <a href="{{ talk.url }}" class="listing__item__link">
+            {% endif %}
+            <date>{{ talk.data.date | readableDate }}</date>
+            <h2 class="listing__item__title">{{ talk.data.title }}</h2>
+            {% if talk.data.intro %}
+              <p>{{ talk.data.intro }}</p>
+            {% endif %}
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </main>
