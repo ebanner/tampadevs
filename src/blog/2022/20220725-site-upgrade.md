@@ -17,6 +17,11 @@ Here's the improvements to the site:
 - Added additional animation support for call to action, made it more obvious to see where meetup/slack link buttons are
 - Added whatsapp chat link
 
-Additional work to be done
+Here's some updates to content of site as well
 
-- Add GZip and minify javascript / css files
+- Sponsor page
+- Volunteer page
+- Speaker page
+- Updates to content of the website / thumbnails
+- Forms with formspree
+- Better UI Styling
