@@ -3,7 +3,7 @@ title: Speak for Tampa Devs!
 author: Vincent Tang
 date: 2022-02-02
 # intro: Ever wanted to learn about two important skills in software development? We presented this topic over at one of our sponsor companies, ReliaQuest!
-hero_img: /_assets/img/tampa-devs-open-graph.png
+hero_img: /_assets/img/speaker.webp
 ---
 
 Interested in speaking for Tampa Devs? Check out some of our past [talks](https://tampadevs.com/talks) here for examples
@@ -34,7 +34,7 @@ If your interested in these things, here's how to get started. We'll need a few 
 
 Feel free to check out some of our past meetup pages as an [example](https://www.meetup.com/tampadevs/events/285107030/)
 
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/082lbp1tbg8vgni94ssp.png)
+![Image description](/_assets/img/pages/talk1.webp)
  
 
 ## How to get involved

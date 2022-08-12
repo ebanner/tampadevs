@@ -3,18 +3,22 @@ title: Sponsor Tampa Devs!
 author: Vincent Tang
 date: 2022-02-02
 # intro: Ever wanted to learn about two important skills in software development? We presented this topic over at one of our sponsor companies, ReliaQuest!
-hero_img: /_assets/img/tampa-devs-open-graph.png
+hero_img: /_assets/img/sponsors_yo3.webp
 ---
 
 Tampa Devs partners range in size and needs
 
 Ranging from recruiting, brand awareness, or being new to Tampa - let us support your needs!
 
-We are the fastest growing professional community of Software Developers in Tampa, FL.  
+We are the fastest growing professional community of Software Developers in Tampa, FL
 
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/75jgj1z9y3n0fhl7dyjm.png)
+Here are some (but not all) of our current partners and sponsors!
+
+![Image description](/_assets/img/pages/list-sponsors.webp)
 
 Use the form below to reach us! Or email at tampadevs@gmail.com
+
+Let's make great things together!
 
 <form class="formspree" id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xknenrnk" method="post">
   <fieldset id="fs-frm-inputs">

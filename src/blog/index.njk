@@ -7,9 +7,7 @@ eleventyExcludeFromCollections: true
 
 <main class="container main-content td-blog">
   <h1>The Tampa Devs Blog…</h1>
-  <div class="td-alert-banner">
-    <a href="/volunteer">✍️ Write for Tampa Devs!</a>
-  </div>
+  <a class="td-alert-banner" href="/volunteer">✍️ Write for Tampa Devs!</a>
   <ul class="listing">
     {% for post in collections.posts | reverse %}
       <li class="listing__item">

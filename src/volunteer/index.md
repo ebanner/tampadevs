@@ -3,7 +3,7 @@ title: Volunteer for Tampa Devs!
 author: Vincent Tang
 date: 2022-02-02
 # intro: Ever wanted to learn about two important skills in software development? We presented this topic over at one of our sponsor companies, ReliaQuest!
-hero_img: /_assets/img/tampa-devs-open-graph.png
+hero_img: /_assets/img/volunteer.webp
 ---
 
 Interested in helping run Tampa Devs?
