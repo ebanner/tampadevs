@@ -24,6 +24,14 @@ Tampa Devs will also provide the following as well:
 
 Also if you do a talk your also welcome to do intro talks for upcoming meetups!
 
+Topics are anything a software developer might want to know. Past topics we've done are on React, Git, DevOps, Game Dev, Typescript, IoT, Cloud architecture, etc to give some examples. We're always open to new ideas or do similar talks to ones we've done in the past
+
+Non-specific software topics like SEO, entreuprenuership, life skills, UX design, etc are also welcome too!
+
+Check out our past [talks](https://tampadevs.com/talks) for inspiration
+
+And upcoming events [here](https://www.meetup.com/tampadevs/events/) for reference
+
 ## Are you interested?
 
 If your interested in these things, here's how to get started. We'll need a few things from you, these are for posting to the meetup event for advertising
