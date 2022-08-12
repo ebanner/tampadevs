@@ -137,6 +137,10 @@
     color: white;
     padding: 15px;
     font-size: 24px;
+    &:focus {
+      background-color: rgb(245, 102, 100);;
+      color: white;
+    }
   }
   margin-top: 50px;
   margin-bottom: 50px;
