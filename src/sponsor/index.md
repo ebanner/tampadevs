@@ -27,7 +27,7 @@ Let's make great things together!
     <label for="email-address">Email Address</label>
     <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
     <label for="phone-number">Phone Number</label>
-    <input type="text" name="phone-number" id="phone-number" placeholder="813-222-222" required="">
+    <input type="text" name="phone-number" id="phone-number" placeholder="813-222-2222" required="">
     <label for="message">Message</label>
     <textarea rows="5" name="message" id="message" placeholder="Tell us about your company :)" required=""></textarea>
     <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
