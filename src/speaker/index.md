@@ -35,11 +35,10 @@ If your interested in these things, here's how to get started. We'll need a few 
 Feel free to check out some of our past meetup pages as an [example](https://www.meetup.com/tampadevs/events/285107030/)
 
 ![Image description](/_assets/img/pages/talk1.webp)
- 
 
 ## How to get involved
 
-Hit up one of the organizers on slack if you'd like to get involved. Currently this is Vincent, Charlton, Haritha, or Lydia
+Hit up one of the organizers on slack if you'd like to get involved
 
 A link to the slack is found [here](https://join.slack.com/t/tampa-devs/shared_invite/zt-veftezkg-kq~jFtC1FCz4o6suybMl5Q)
 
