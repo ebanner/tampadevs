@@ -3,7 +3,7 @@ title: Marketing Media Kit
 author: Vincent Tang
 date: 2022-02-02
 # intro: Ever wanted to learn about two important skills in software development? We presented this topic over at one of our sponsor companies, ReliaQuest!
-hero_img: /_assets/img/pages/media_kit.png
+hero_img: /_assets/img/pages/photo_kit.webp
 ---
 
 Here is the media kit for Tampa Devs
@@ -12,17 +12,17 @@ We use the following color schemas as our logo/brand:
 
 ## Color Schema
 
-Red: 
+Red (logo)
 - HEX #d70100 
 - RGB(215,1,0)
 - HSL(0,100,42) 
 
-Black
+Black (logo)
 - HEX #000000
 - RGB(0,0,0) 
 - HSL(0,100,0)
 
-White
+White (logo)
 - HEX #ffffff
 - RGB(255,255,255)
 - HSL(0,0,100)
@@ -31,6 +31,11 @@ Blue (supporting background color)
 - HEX #225ba5
 - RGB(34,82,167)
 - HSL(214, 66, 39)
+
+Orange (web-color and slide call to actions)
+- HEX #ee5c53
+- RGB(238, 92, 83)
+- HSL(3,82,63)
 
 ## Logo Assets
 
