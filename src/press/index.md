@@ -37,6 +37,11 @@ Orange (web-color and slide call to actions)
 - RGB(238, 92, 83)
 - HSL(3,82,63)
 
+Gray (web color)
+- HEX #4e5569
+- RGB(78, 85, 105)
+- HSL(224,15,36)
+
 ## Logo Assets
 
 Below are the logo assets, png format with at least 1000 width so it can be scaled down to preserve resolution. Right click on the image and select the "save as image" to download this to your computer. For context, this is what that should look like:
