@@ -2,14 +2,16 @@
 layout: layouts/base.njk
 ---
 
-<header class="td-header">
-
-  <video class="td-header__media" autoplay muted playsinline loop="loop"  poster="/_assets/img/tampa-devs-v2.webp" >
-    <source type="video/mp4" src="/_assets/misc/tampa-devs-v2-compressed.mp4">
+<header
+  class="td-header">
+  {# https://gist.github.com/cecilemuller/3165474 #}
+  <video
+    class="td-header__media" autoplay muted playsinline loop="loop" poster="/_assets/img/tampa-devs-v2.webp">
+    {# <source type="video/mp4" src="/_assets/misc/tampa-devs-v2-compressed.mp4"> #}
+    <source type="video/webm" src="/_assets/misc/TD_output_720_30p.webm">
+    <source type="video/mp4" src="/_assets/misc/TD_output_720_30p.mp4">
   </video>
-
   <div class="td-header__container">
-
     <div class="td-header__container__logoGroup">
       <img src="/_assets/misc/logos/tampa-devs.svg" alt="Tampa Devs" class="td-header__logo"/>
       <hgroup>
@@ -17,25 +19,22 @@ layout: layouts/base.njk
         <h2>{{ basics.tag }}</h2>
       </hgroup>
     </div>
-
     <div class="td-header__ctas">
       {# <a class="js-moveto" href="#meetups">Meetups</a> #}
       {# <a target="_blank" rel="noopener noreferrer" href="https://meetup.com/tampadevs">Meetup</a>
-      <a target="_blank" rel="noopener noreferrer" href="https://join.slack.com/t/tampa-devs/shared_invite/zt-veftezkg-kq~jFtC1FCz4o6suybMl5Q">Slack</a> #}
-      <a class="js-moveto" href="#meetup">Meetup</a>
+            <a target="_blank" rel="noopener noreferrer" href="https://join.slack.com/t/tampa-devs/shared_invite/zt-veftezkg-kq~jFtC1FCz4o6suybMl5Q">Slack</a> #}<a class="js-moveto" href="#meetup">Meetup</a>
       <a class="js-moveto" href="#slack">Slack</a>
       <a class="js-moveto" href="#newsletter">Newsletter</a>
     </div>
-
   </div>
-
 </header>
-
 <main class="container td-describer">
-  <p>We're a community of software developers in Tampa! We host professional networking and learning events for developers seeking to grow</p>
-  <p>Tampa Devs started as a group of developers who met through dancing. It became large enough that one friend decided to make it official. Thus Tampa Devs was born. We're welcoming to all, whether your transitioning into the tech scene, or are already a seasoned developer</p>
+  <p>We're a community of software developers in Tampa! We host professional networking and learning events for developers
+    seeking to grow</p>
+  <p>Tampa Devs started as a group of developers who met through dancing. It became large enough that one friend decided
+    to make it official. Thus Tampa Devs was born. We're welcoming to all, whether your transitioning into the tech scene,
+    or are already a seasoned developer</p>
 </main>
-
 <section class="container">
   {{ layoutContent | safe }}
 </section>
