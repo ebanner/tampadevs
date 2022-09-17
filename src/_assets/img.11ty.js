@@ -48,7 +48,7 @@ module.exports = class {
     const getImages = util.promisify(glob);
     const processedImages = [];
 
-    const imgs = await getImages("**/*(*.jpg|*.png|*.gif)", { cwd: cwd });
+    const imgs = await getImages("**/*(*.jpg|*.png|*.gif|*.jpeg)", { cwd: cwd });
     imgs.forEach(function (img) {
       const ext = path.extname(img);
       const base = path.basename(img, ext);
