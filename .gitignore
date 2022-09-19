@@ -3,3 +3,7 @@ dist
 .cache
 
 **/*Zone.Identifier
+*.zip
+*.7zip
+*.rar
+.idea/
