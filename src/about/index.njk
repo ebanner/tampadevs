@@ -26,8 +26,8 @@ layout: layouts/base.njk
   </section> 
   <section aria-labelledby="event-organizers" class="td-about-section container">
     <h2 id="event-organizers">Event Organizers</h2>
-    <div class="td-about-team-wrapper">
-      {% for person in people | sort(false, false, 'name') %}
+    <div class="td-about-team-wrapper sm:ml--40">
+      {% for person in people | sort(false, false, 'order') %}
         {% if person.team.indexOf("Organizers") > -1 %}
           <div class="td-about-person">
             <div class="">
