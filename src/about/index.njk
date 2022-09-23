@@ -1,93 +1,96 @@
 ---
 nav: true
-layout: layouts/base.njk
 ---
-<header class="td-about-header" aria-labelledby="about-tampa-devs">
-  <div class="td-about-header-img-wrapper">
-    <picture>
-      <source media="(min-width:650px)" srcset="/_assets/img/about/tampa-dev-edited-117.jpg">
-      <img src="/_assets/img/about/tampa-dev-edited-117-550.jpg" alt="">
-    </picture>
-  </div>
-  <div class="td-about-header-txt-overlay">
-    <h1 id="about-tampa-devs">About Tampa Devs</h1>
-    <p>Tampa Devs is the fastest growing software development community in Tampa Bay. Our mission is to accelerate access to high-quality training and career opportunities in Tampa&apos;s software industry. All at zero cost to our members. We host monthly technical workshops from industry-leading companies including PwC, Microsoft, and more.</p>
-  </div>
-</header>
-<main class="td-about main-content">
-  <section aria-labelledby="our-story" class="td-about-section container">
-    <h2 id="our-study">Our Story</h2>
-    <div class="sm:ml--40">
-      <p>Tampa Devs started as a small group of friends in the technology industry who met through latin dance.</P>
-      <p>After realizing the broad appeal and clear need for a developer meetup in Tampa, founder Vincent Tang publicly launched the group with its first event in September 2021.</p>
-      <p>Since its inception, Tampa Devs has helped its members acquire new skills and find success in the technology industry. With more than 1,000 active members on Meetup.com and an average attendance of 200+ attendees at our hosted events, we are proud to serve as a thriving hub for Tampa Bay's developer community. And this October, we're excited to host Tampa's first Student and Professional hackathon at Embarc Collective.</p>
-      <p>Our organization strives to create unique opportunities for the local community to learn, grow, and succeed together. Whether you're a student, experienced developer, community leader, or entrepreneur, our innovative partnerships with local Universities, non-profit tech institutes, and startup incubators mean there's something for everyone at Tampa Devs.</p>
+{% extends "layouts/about.njk" %}
+{% block css %}
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+{% endblock %}
+{% block content %}
+  <header class="td-about-header" aria-labelledby="about-tampa-devs">
+    <div class="td-about-header-img-wrapper">
+      <picture>
+        <source media="(min-width:650px)" srcset="/_assets/img/about/tampa-dev-edited-117.jpg">
+        <img src="/_assets/img/about/tampa-dev-edited-117-550.jpg" alt="">
+      </picture>
     </div>
-  </section> 
-  <section aria-labelledby="event-organizers" class="td-about-section container">
-    <h2 id="event-organizers">Event Organizers</h2>
-    <div class="td-about-team-wrapper sm:ml--40">
-      {% for person in people | sort(false, false, 'order') %}
-        {% if person.team.indexOf("Organizers") > -1 %}
-          <div class="td-about-person">
-            <div class="">
-              <div class="image-container">
-                <img src="/_assets/img/people/{{ person.img if person.img else "no-avatar.jpg" }}" alt="{{ person.name }}" class="td-about__img">
+    <div class="td-about-header-txt-overlay">
+      <h1 id="about-tampa-devs">About Tampa Devs</h1>
+      <p>Tampa Devs is the fastest growing software development community in Tampa Bay. Our mission is to accelerate access to high-quality training and career opportunities in Tampa&apos;s software industry. All at zero cost to our members. We host monthly technical workshops from industry-leading companies including PwC, Microsoft, and more.</p>
+    </div>
+  </header>
+  <main class="td-about main-content">
+    <section aria-labelledby="our-story" class="td-about-section container">
+      <h2 id="our-study">Our Story</h2>
+      <div class="sm:ml--40">
+        <p>Tampa Devs started as a small group of friends in the technology industry who met through latin dance.</P>
+        <p>After realizing the broad appeal and clear need for a developer meetup in Tampa, founder Vincent Tang publicly launched the group with its first event in September 2021.</p>
+        <p>Since its inception, Tampa Devs has helped its members acquire new skills and find success in the technology industry. With more than 1,000 active members on Meetup.com and an average attendance of 200+ attendees at our hosted events, we are proud to serve as a thriving hub for Tampa Bay's developer community. And this October, we're excited to host Tampa's first Student and Professional hackathon at Embarc Collective.</p>
+        <p>Our organization strives to create unique opportunities for the local community to learn, grow, and succeed together. Whether you're a student, experienced developer, community leader, or entrepreneur, our innovative partnerships with local Universities, non-profit tech institutes, and startup incubators mean there's something for everyone at Tampa Devs.</p>
+      </div>
+    </section>
+    <section aria-labelledby="event-organizers" class="td-about-section container">
+      <h2 id="event-organizers">Event Organizers</h2>
+      <div class="td-about-team-wrapper sm:ml--40">
+        {% for person in people | sort(false, false, 'order') %}
+          {% if person.team.indexOf("Organizers") > -1 %}
+            <div class="td-about-person">
+              <div class="">
+                <div class="image-container">
+                  <img src="/_assets/img/people/{{ person.img if person.img else "no-avatar.jpg" }}" alt="{{ person.name }}" class="td-about__img">
+                </div>
               </div>
+              <h3 class="person-name">{% if person.href %}<a href="{{ person.href }}" target="_blank" rel="noopener">{% endif %}{{ person.name }}{% if person.href %}</a>{% endif %}</h3>
+              <p class="person-bio">{{ person.bio }}</p>
             </div>
-            <h3 class="person-name">{% if person.href %}<a href="{{ person.href }}" target="_blank" rel="noopener">{% endif %}{{ person.name }}{% if person.href %}</a>{% endif %}</h3>
-            <p class="person-bio">{{ person.bio }}</p>
-          </div>
-        {% endif %}
-      {% endfor %}
-    </div>
-  </section>
-  <section class="sponsors" aria-labelledby="sponsors">
-    <h2 id="sponsors" class="container">Sponsors</h2>
-    <div class="td-about-sponsor__wrapper">
-      <div class="marquee">
-        {% for sponsor in sponsors %}
-          <a href="{{sponsor.href}}" class="sponsor" target="_blank" rel=”noopener noreferrer”>
-            <img src="/_assets/misc/sponsors/{{sponsor.logo}}" alt=""/>
-          </a>
+          {% endif %}
         {% endfor %}
       </div>
-      <div class="marquee">
-        {% for sponsor in sponsors | sort(false, false, 'name') %}
-          <a href="{{sponsor.href}}" class="sponsor" target="_blank" >
-            <img src="/_assets/misc/sponsors/{{sponsor.logo}}" alt=""/>
-          </a>
-        {% endfor %}
+    </section>
+    <section class="sponsors" aria-labelledby="sponsors">
+      <h2 id="sponsors" class="container">Sponsors</h2>
+      <div class="td-about-sponsor__wrapper">
+        <div class="marquee">
+          {% for sponsor in sponsors %}
+            <a href="{{sponsor.href}}" class="sponsor" target="_blank" rel=”noopener noreferrer”>
+              <img src="/_assets/misc/sponsors/{{sponsor.logo}}" alt=""/>
+            </a>
+          {% endfor %}
+        </div>
+        <div class="marquee">
+          {% for sponsor in sponsors | sort(false, false, 'name') %}
+            <a href="{{sponsor.href}}" class="sponsor" target="_blank" >
+              <img src="/_assets/misc/sponsors/{{sponsor.logo}}" alt=""/>
+            </a>
+          {% endfor %}
+        </div>
       </div>
-    </div>
-  </section>
-  <section aria-labelledby="past-events">
-    <h2 id="past-events" >Past Event Gallery</h2>
-    <div class="td-about-slider__container slider__container slider__past-events">
-      {% for event in pastevents %}
+    </section>
+    <section aria-labelledby="past-events">
+      <h2 id="past-events" >Past Event Gallery</h2>
+      <div class="td-about-slider__container slider__container slider__past-events">
+        {% for event in pastevents %}
           <div class="slider__cell">
             <img class="" data-flickity-lazyload="/_assets/img/about/past-events/{{event.img}}" alt="{{event.alt-text}}"  title="{{event.title}}"/>
           </div>
-      {% endfor %}
-    </div>
-  </section>
-</main>
+        {% endfor %}
+      </div>
+    </section>
+  </main>
+{% endblock %}
+{% block scripts %}
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  <script>
+    new Flickity('.slider__past-events', {
+      cellSelector: '.slider__cell',
 
-
-<!-- CSS -->
-<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
-<!-- JavaScript -->
-<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-<script>
-  new Flickity('.slider__past-events', {
-    cellSelector: '.slider__cell',
-    lazyLoad: true,
-    autoPlay: 3000,
-    cellAlign: 'center',
-    groupCells: "80%",
-    prevNextButtons: false,
-    wrapAround: true,
-    setGallarysize: true,
-    fullscreen: true,
-  });
-</script>
+      lazyLoad: true,
+      autoPlay: 3000,
+      cellAlign: 'center',
+      groupCells: "80%",
+      prevNextButtons: false,
+      wrapAround: true,
+      setGallarysize: true,
+      fullscreen: true,
+    });
+  </script>
+{% endblock %}
