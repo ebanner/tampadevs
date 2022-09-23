@@ -1,6 +1,6 @@
 @use "../mixin-mediaqueries" as media;
 .td-about {
-  font-size: 100%;
+  font-size: 92%;
   h2 {
     font-size: 30px;
   }
@@ -267,7 +267,7 @@
         }
       }
     }
-    .slider__navigation {
+    &__navigation {
        position: absolute;
        bottom: 0;
        padding: 1rem;
@@ -306,6 +306,7 @@
      }
   }
   @include bpMinXSmall() {
+    font-size: 92%;
     &-header {
       &-txt-overlay {
         top: initial;
@@ -316,7 +317,7 @@
       }
       p {
         width: 86%;
-        // font-size: 1.125rem;
+        font-size: 1.125rem;
         line-height: 1.5;
         padding: 1.125rem 1.4375rem;
       }
@@ -347,18 +348,19 @@
         bottom: -4.875rem;
       }
       h1 {
-        font-size: 4rem;
-        margin-bottom: 7rem;
+        font-size: 3rem;
+        margin-bottom: 4rem;
       }
       p {
         width: 62%;
         font-size: 1.125rem;
         line-height: 1.5;
-        padding: 2.5rem 3.4375rem;
+        padding: 1.5rem 2.25rem;
       }
     }
   }
   @include bpMinMedium() {
+    font-size: 96%;
     &-header {
       display: flex;
       position: relative;
@@ -374,18 +376,24 @@
       }
       h1 {
         font-size: 4rem;
-        margin-bottom: 7rem;
+        margin-bottom: 5rem;
       }
       p {
         width: 62%;
         font-size: 1.125rem;
         line-height: 1.5;
-        padding: 2.5rem 3.4375rem;
+        padding: 2.25rem 2.75rem
       }
     }
   }
   @include bpMinLarge() {
-    
+    font-size: 100%;
+    &-header {
+      &-img-wrapper {
+        width: 80vw;
+        height: 70vh;
+      }
+    }
   }
 }
 .flickity-page-dots {
