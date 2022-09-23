@@ -62,16 +62,32 @@ layout: layouts/base.njk
     </div>
   </section>
   <section aria-labelledby="past-events">
-    <h2 id="past-events">Past Event Gallery</h2>
-    <div class="td-about-slider__container slider__container">
+    <h2 id="past-events" >Past Event Gallery</h2>
+    <div class="td-about-slider__container slider__container slider__past-events">
       {% for event in pastevents %}
-        <img src="/_assets/img/about/past-events/{{event.img}}" alt="{{event.alt-text}}" title="{{event.title}}"/>
+          <div class="slider__cell">
+            <img class="" data-flickity-lazyload="/_assets/img/about/past-events/{{event.img}}" alt="{{event.alt-text}}"  title="{{event.title}}"/>
+          </div>
       {% endfor %}
-      <div class="slider__navigation">
-        {% for event in pastevents %}
-          <button id="{{event.name}}" aria-role>&nbsp;</li>
-        {% endfor %}
-      </div>
     </div>
   </section>
 </main>
+
+
+<!-- CSS -->
+<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+<!-- JavaScript -->
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+<script>
+  new Flickity('.slider__past-events', {
+    cellSelector: '.slider__cell',
+    lazyLoad: true,
+    autoPlay: 3000,
+    cellAlign: 'center',
+    groupCells: "80%",
+    prevNextButtons: false,
+    wrapAround: true,
+    setGallarysize: true,
+    fullscreen: true,
+  });
+</script>
