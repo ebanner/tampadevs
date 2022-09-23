@@ -136,8 +136,16 @@
     overflow: hidden;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: baseline;
+    .marquee {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: baseline;
+      animation: marquee 25s linear infinite;
+    }
+    &:hover .marquee{
+      animation-play-state: paused;
+    }
     a {
       border: none;
       padding: 1rem;

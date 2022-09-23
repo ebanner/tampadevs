@@ -45,11 +45,20 @@ layout: layouts/base.njk
   <section class="sponsors" aria-labelledby="sponsors">
     <h2 id="sponsors" class="container">Sponsors</h2>
     <div class="td-about-sponsor__wrapper">
-      {% for sponsor in sponsors | sort(false, false, 'name') %}
-        <a href="{{sponsor.href}}">
-          <img src="/_assets/misc/sponsors/{{sponsor.logo}}" alt=""/>
-        </a>
-      {% endfor %}
+      <div class="marquee">
+        {% for sponsor in sponsors %}
+          <a href="{{sponsor.href}}" class="sponsor" target="_blank" rel=”noopener noreferrer”>
+            <img src="/_assets/misc/sponsors/{{sponsor.logo}}" alt=""/>
+          </a>
+        {% endfor %}
+      </div>
+      <div class="marquee">
+        {% for sponsor in sponsors | sort(false, false, 'name') %}
+          <a href="{{sponsor.href}}" class="sponsor" target="_blank" >
+            <img src="/_assets/misc/sponsors/{{sponsor.logo}}" alt=""/>
+          </a>
+        {% endfor %}
+      </div>
     </div>
   </section>
   <section aria-labelledby="past-events">

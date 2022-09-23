@@ -3,6 +3,7 @@ $colorGreen: #1aac9c;
 $colorBlue: #4e5569;
 
 @import "mixin-mediaqueries.scss";
+@import "animations/marquee";
 
 @import "nav";
 @import "text";
