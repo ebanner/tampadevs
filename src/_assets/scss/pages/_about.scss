@@ -1,6 +1,5 @@
 @use "../mixin-mediaqueries" as media;
 .td-about {
-  font-size: 92%;
   h2 {
     font-size: 30px;
   }
@@ -306,7 +305,6 @@
      }
   }
   @include bpMinXSmall() {
-    font-size: 92%;
     &-header {
       &-txt-overlay {
         top: initial;
@@ -360,7 +358,6 @@
     }
   }
   @include bpMinMedium() {
-    font-size: 96%;
     &-header {
       display: flex;
       position: relative;
@@ -387,7 +384,6 @@
     }
   }
   @include bpMinLarge() {
-    font-size: 100%;
     &-header {
       &-img-wrapper {
         width: 80vw;
