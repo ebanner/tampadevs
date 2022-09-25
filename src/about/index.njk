@@ -21,26 +21,33 @@ nav: true
   <main class="td-about main-content">
     <section aria-labelledby="our-story" class="td-about-section container">
       <h2 id="our-study">Our Story</h2>
-      <div class="sm:ml--40">
-        <p>Tampa Devs started as a small group of friends in the technology industry who met through latin dance.</P>
-        <p>After realizing the broad appeal and clear need for a developer meetup in Tampa, founder Vincent Tang publicly launched the group with its first event in September 2021.</p>
+      <div class="md:ml--40">
+        <p>Tampa Devs started as a small group of friends in the technology industry who met through latin dance. After realizing the broad appeal and clear need for a developer meetup in Tampa, founder Vincent Tang publicly launched the group with its first event in September 2021.</p>
         <p>Since its inception, Tampa Devs has helped its members acquire new skills and find success in the technology industry. With more than 1,000 active members on Meetup.com and an average attendance of 200+ attendees at our hosted events, we are proud to serve as a thriving hub for Tampa Bay's developer community. And this October, we're excited to host Tampa's first Student and Professional hackathon at Embarc Collective.</p>
         <p>Our organization strives to create unique opportunities for the local community to learn, grow, and succeed together. Whether you're a student, experienced developer, community leader, or entrepreneur, our innovative partnerships with local Universities, non-profit tech institutes, and startup incubators mean there's something for everyone at Tampa Devs.</p>
       </div>
     </section>
-    <section aria-labelledby="event-organizers" class="td-about-section container">
+    <section aria-labelledby="event-organizers" class="td-about-section organizers container">
       <h2 id="event-organizers">Event Organizers</h2>
-      <div class="td-about-team-wrapper sm:ml--40">
+      <div class="td-about-team-wrapper">
         {% for person in people | sort(false, false, 'order') %}
           {% if person.team.indexOf("Organizers") > -1 %}
             <div class="td-about-person">
-              <div class="">
-                <div class="image-container">
-                  <img src="/_assets/img/people/{{ person.img if person.img else "no-avatar.jpg" }}" alt="{{ person.name }}" class="td-about__img">
-                </div>
+              <div class="image-container">
+                <img src="/_assets/img/people/{{ person.img if person.img else "no-avatar.jpg" }}" alt="{{ person.name }}" class="person__image">
               </div>
-              <h3 class="person-name">{% if person.href %}<a href="{{ person.href }}" target="_blank" rel="noopener">{% endif %}{{ person.name }}{% if person.href %}</a>{% endif %}</h3>
-              <p class="person-bio">{{ person.bio }}</p>
+              <h3 class="person-name">
+                {% if person.href %}
+                  <a href="{{ person.href.url }}" target="_blank" rel="noreferrer noopener">{{ person.name }}</a>
+                {% else %}
+                  {{ person.name }}
+                {% endif %}
+              </h3>
+              <strong class="person-title">{{ person.title }}</strong>
+              <p class="person-bio" target="_blank" rel="noreferrer noopener">{{ person.bio }}</p>
+              {% if person.href %}
+                <a class="btn" href={{ person.href.url }}>View {{ person.href.type }}</a>
+              {% endif %}
             </div>
           {% endif %}
         {% endfor %}
@@ -66,7 +73,9 @@ nav: true
       </div>
     </section>
     <section aria-labelledby="past-events">
-      <h2 id="past-events" >Past Event Gallery</h2>
+      <div class="container">
+        <h2 id="past-events" >Past Event Gallery</h2>
+      </div>
       <div class="td-about-slider__container slider__container slider__past-events">
         {% for event in pastevents %}
           <div class="slider__cell">

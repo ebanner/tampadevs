@@ -3,6 +3,20 @@
   h2 {
     font-size: 30px;
   }
+  .btn {
+    //padding: 1.5rem 1rem;
+    font: 400 1rem/1.1 "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+    border: solid $colorGreen 2px;
+    border-radius: 5px;
+    background: transparent;
+    color: $colorGreen;
+    transition: transform 200ms ease-in-out, color 200ms ease-in-out, background-color 200ms ease-in-out, ;
+    &:hover {
+      border: solid darken($colorGreen, 5%) 2px;
+      background: darken($colorGreen, 5%);
+      color: #fafafa;
+    }
+  }
   &-header {
     @extend .td-about;
     display: flex;
@@ -46,83 +60,119 @@
     }
   }
   &-team-wrapper {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr;
+    @include bpMinXSmall {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    @include bpMinLarge {
+      grid-template-columns: repeat(4, 1fr);
+    }
+    grid-column-gap: 0;
+    grid-row-gap: 3.25rem;
+    margin: 1rem 0 3rem;
   }
   &-section {
     display: flex;
     flex-wrap: wrap;
+    transition: 150ms ease-in-out;
+    padding: {
+      left: 16px;
+      right: 16px;
+    };
+    &.organizers.container {
+      @include bpMinLarge {
+        max-width: 1180px;
+      }
+      @include bpMin(1400px) {
+        max-width: 1300px;
+      }
+    }
     .td-about-person {
-      box-sizing: border-box;
-      padding: 25px;
-      width: 100%;
-      height: auto;
-      // @include bpMinSmall () {
-      //   width: 50%;
-      // }
-      @include bpMinMedium () {
-        width: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: fit-content;
+      border: transparent;
+      border-radius: 8px;
+      padding: 1.5rem;
+      z-index: 0;
+      transition: 200ms;
+      .btn {
+        margin-block-start: 1rem;
+        @include bpMinMedium {
+          @media (hover: hover) {
+            z-index: -1;
+            transform: translateY(-60px);
+            opacity: 0;
+            height: 0;
+          }
+        }
       }
-      @include bpMinLarge () {
-        width: 33%;
+      &:hover {
+        background: #fcfcfc;
+        height: fit-content;
+        border: solid darken(#fcfcfc, 5%);
+        box-shadow: 0 0 15px -15px #83838326, 0 0 10px 0px #1313131a;
+        transform: translateY(-5%) scale(1.05);
+        z-index: 10;
+        .person-bio, .btn {
+          height: initial;
+          transform: translateY(0);
+          opacity: 1;
+          z-index: 1;
+        }
       }
-      // margin: 25px;
-      .person-name {
-        margin-bottom: 8px;
-      }
-      .person-bio {
-        margin: 0px;
-        color: black;
-      }
-      img {
-        position: relative;
-        overflow: hidden;
-        display: inline-block;
-        width: 200px;
-        height: 200px;
-      }
-      .circular-border {
-        border-top-width: 1px;
-        border-right-width: 1px;
-        border-bottom-width: 1px;
-        border-left-width: 1px;
-        border-top-style: solid;
-        border-right-style: solid;
-        border-bottom-style: solid;
-        border-left-style: solid;
-        border-top-color: #00a187;
-        border-right-color: #00a187;
-        border-bottom-color: #00a187;
-        border-left-color: #00a187;
-        border-image-source: initial;
-        border-image-slice: initial;
-        border-image-width: initial;
-        border-image-outset: initial;
-        border-image-repeat: initial;
-        background-color: #00a187;
-        border-top-left-radius: 50%;
-        border-top-right-radius: 50%;
-        border-bottom-right-radius: 50%;
-        border-bottom-left-radius: 50%;
-        height: 218px;
-        width: 218px;
-        margin-top: 0px;
-        margin-right: auto;
-        margin-bottom: 10px;
-        margin-left: auto;
-        padding: 8px;
-        vertical-align: middle;
+      text-align: center;
+      .person {
+        &-name, {
+          margin-bottom: 8px;
+          color: $colorBlue;
+          border: none;
+          a {
+            @extend .person-name;
+          }
+        }
+        &-title {
+          font: 700 0.8rem/1.5 "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+        }
+        &-bio {
+          margin: 0px;
+          color: black;
+          display: flex;
+          flex-grow: 0;
+          flex-shrink: 0;
+          flex-direction: row;
+          font: 400 0.8rem/1.5 "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+          @include bpMinMedium {
+            @media (hover: hover) {
+              height: 0;
+              z-index: -1;
+              transform: translateY(-30px);
+              opacity: 0;
+              transition: transform 200ms ease-in-out;
+            }
+          }
+        }
+        &__image {
+          border-radius: 50%;
+        }
       }
       .image-container {
-        background-color: #efeeee;
-        height: 200px;
-        width: 200px;
+        height: 150px;
+        width: 150px;
         position: relative;
-        overflow-x: hidden;
-        overflow-y: hidden;
+        overflow: hidden;
+        img {
+          position: relative;
+          overflow: hidden;
+          display: inline-block;
+          width: 100%;
+        }
       }
     }
   }
+  //Sponsors
   .sponsors {
     overflow: hidden;
     background-color: #B3BBD1;
@@ -155,74 +205,74 @@
     }
   }
   // Members only specific section
-  &-members {
-    padding-top: 25px;
-    display: flex;
-    flex-wrap: wrap;
-    img {
-      width: 100px;
-      height: 100px;
-      object-fit:cover;
-    }
-    .member-pic {
-      margin-right: 15px;
-      position: relative;
-      height: 100px;
-      width: 100px;
-      transition: background-color 1s ease;
-      cursor: pointer;
-      img {
-        border-radius:50%;
-        border: 3px solid black;
-      }
-      &:hover {
-        background-color: black;
-        display: flex;
-        align-content: center;
-        justify-content: center;
-        text-align: center;
-        vertical-align: middle;
-        // .person-name {
-        //   display: inline;
-        // }
-        .text-overlay {
-          min-height: 100px;
-          min-width: 100px;
-          max-height: 100px;
-          max-width: 100px;
-          width: 100px;
-          height: 100px;
-          display: flex;
-          border-radius: 50%;
-          justify-content: center;
-          align-items: center;
-          transition: background-color 0.5s ease;
-          background-color: black;
-          color: white;
-          height: auto; opacity: 1;
-          transition: height 0ms 0ms, opacity 600ms 0ms;   
-        }
-        // img {
-        //   display: none;
-        //   transition: background-color 1s ease;
-        // }
-      }
-      .text-overlay {
-        height: 0;
-        opacity: 0;
-        transition: height 0ms 400ms, opacity 400ms 0ms;
-        z-index: 5;
-        position: absolute;
-        transition: background-color 0.5s ease;
-        background-color: transparent;
-      }
-      // .person-name {
-      //   display: none;
-      //   color: white;
-      // }
-    }
-    margin-bottom: 200px;
-  }
+  //&-members {
+  //  padding-top: 25px;
+  //  display: flex;
+  //  flex-wrap: wrap;
+  //  img {
+  //    width: 100px;
+  //    height: 100px;
+  //    object-fit:cover;
+  //  }
+  //  .member-pic {
+  //    margin-right: 15px;
+  //    position: relative;
+  //    height: 100px;
+  //    width: 100px;
+  //    transition: background-color 1s ease;
+  //    cursor: pointer;
+  //    img {
+  //      border-radius:50%;
+  //      border: 3px solid black;
+  //    }
+  //    &:hover {
+  //      background-color: black;
+  //      display: flex;
+  //      align-content: center;
+  //      justify-content: center;
+  //      text-align: center;
+  //      vertical-align: middle;
+  //      // .person-name {
+  //      //   display: inline;
+  //      // }
+  //      .text-overlay {
+  //        min-height: 100px;
+  //        min-width: 100px;
+  //        max-height: 100px;
+  //        max-width: 100px;
+  //        width: 100px;
+  //        height: 100px;
+  //        display: flex;
+  //        border-radius: 50%;
+  //        justify-content: center;
+  //        align-items: center;
+  //        transition: background-color 0.5s ease;
+  //        background-color: black;
+  //        color: white;
+  //        height: auto; opacity: 1;
+  //        transition: height 0ms 0ms, opacity 600ms 0ms;
+  //      }
+  //      // img {
+  //      //   display: none;
+  //      //   transition: background-color 1s ease;
+  //      // }
+  //    }
+  //    .text-overlay {
+  //      height: 0;
+  //      opacity: 0;
+  //      transition: height 0ms 400ms, opacity 400ms 0ms;
+  //      z-index: 5;
+  //      position: absolute;
+  //      transition: background-color 0.5s ease;
+  //      background-color: transparent;
+  //    }
+  //    // .person-name {
+  //    //   display: none;
+  //    //   color: white;
+  //    // }
+  //  }
+  //  margin-bottom: 200px;
+  //}
   //Speaker stuff
   &-speakers {
     padding-top: 25px;
@@ -244,6 +294,7 @@
     }
   
   }
+  //Event Slider
   &-slider{
     &__container {
       height: 500px;
@@ -303,6 +354,9 @@
          }
        }
      }
+  }
+  + .td-newsletter {
+    margin: 0
   }
   @include bpMinXSmall() {
     &-header {

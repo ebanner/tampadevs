@@ -2,8 +2,12 @@
   {
     "name": "Vincent Tang",
     "team": ["Team Core", "Speaker", "Organizers"],
-    "bio": "Founder of Tampa Devs. Occasional Dance Performer. Runs CodeChefs, a coding podcast for junior devs",
-    "href": "https://vincentntang.com",
+    "title": "Founder of Tampa Devs",
+    "bio": "Occasional Dance Performer. Runs CodeChefs, a coding podcast for junior devs.",
+    "href": {
+      "type": "Website",
+      "url": "https://vincentntang.com"
+    },
     "img": "vincent_tang.jpg",
     "order": 1
   },
@@ -13,7 +17,10 @@
     "title": "Vice President of Tampa Devs",
     "bio": "Senior Cybersecurity Consultant residing in St. Petersburg, Florida.",
     "img": "charlton_trezevant.jpeg",
-    "href": "https://www.ctis.me/",
+    "href": {
+      "type": "Website",
+      "url": "https://www.ctis.me/"
+    },
     "order": 2
   },  
   {
@@ -22,14 +29,17 @@
     "title": "Community Engagement Lead",
     "bio": "FS web developer using React + Node.js. Background in program coordination prior to switching to web. Passionate about improving people's lives through tech.",
     "img": "lydia_hendriks.jpg",
-    "href": "https://github.com/lhendriks1",
+    "href": {
+      "type": "Github",
+      "url": "https://github.com/lhendriks1"
+    },
     "order": 3
   },
   {
     "name": "Ryan Harrigan",
     "team": ["Team Member"],
     "title": "Master of Ceremonies",
-    "bio": "Project Manager with experience shipping video games on Unity. Passionate about salsa dancing and frontend development",
+    "bio": "Project Manager with experience shipping video games on Unity. Passionate about salsa dancing and frontend development.",
     "img": "ryan_harrigan.png"
   },
   {
@@ -46,9 +56,12 @@
     "name": "Haritha Diraneyya",  
     "team": ["Team Member", "Organizers"],
     "title": "Master of Ceremonies",
-    "bio": "Project Manager with experience shipping video games on Unity. Passionate about salsa dancing and frontend development",
+    "bio": "Project Manager with experience shipping video games on Unity. Passionate about salsa dancing and frontend development.",
     "img": "haritha_diraneyya.png",
-    "href": " https://www.linkedin.com/in/haritha-diraneyya/",
+    "href": {
+      "type": "LinkedIn",
+      "url": "https://www.linkedin.com/in/haritha-diraneyya/"
+    },
     "order": 4
   },
   {

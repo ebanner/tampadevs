@@ -26,6 +26,9 @@ $colorBlue: #4e5569;
 
 * {
   box-sizing: border-box;
+  &:before, &:after {
+    box-sizing: inherit;
+  }
 }
 
 p {
@@ -480,16 +483,24 @@ a:focus {
 @import "utility/mixin-sizing";
 @import "utility/utility";
 @import "pages/about";
-
-.xs\: {
-  @include testMargin;
+@include testMargin;
+@include bpMinXSmall {
+  .xs\: {
+    @include testMargin;
+  }
 }
-.sm\: {
-  @include testMargin;
+@include bpMinSmall {
+  .sm\: {
+    @include testMargin;
+  }
 }
-.md\: {
-  @include testMargin;
+@include bpMinMedium {
+  .md\: {
+    @include testMargin;
+  }
 }
-.lg\: {
-  @include testMargin;
+@include bpMinLarge {
+  .lg\: {
+    @include testMargin;
+  }
 }
