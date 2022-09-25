@@ -6,7 +6,7 @@ const dateFormat = (d, format) => {
   return dayjs(d).format(format);
 };
 
-module.exports = function (eleventyConfig) {
+module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
 
   eleventyConfig.addFilter("isFutureDate", (dateObj) => {
@@ -48,21 +48,21 @@ module.exports = function (eleventyConfig) {
     }
   });
 
-  eleventyConfig.addCollection("cities", function (collection) {
-    return collection.getAllSorted().filter(function (item) {
+  eleventyConfig.addCollection("cities", function(collection) {
+    return collection.getAllSorted().filter(function(item) {
       return item.inputPath.match(/^\.\/src\/cities\/.*\.md$/) !== null;
     });
   });
 
-  eleventyConfig.addCollection("posts", function (collection) {
-    return collection.getAllSorted().filter(function (item) {
+  eleventyConfig.addCollection("posts", function(collection) {
+    return collection.getAllSorted().filter(function(item) {
       return item.inputPath.match(/^\.\/src\/blog\/.*\.md$/) !== null;
     });
   });
 
   // This adds the talks as a data source
-  eleventyConfig.addCollection("talks", function (collection) {
-    return collection.getAllSorted().filter(function (item) {
+  eleventyConfig.addCollection("talks", function(collection) {
+    return collection.getAllSorted().filter(function(item) {
       return item.inputPath.match(/^\.\/src\/talks\/.*\.md$/) !== null;
     });
   });
@@ -74,9 +74,15 @@ module.exports = function (eleventyConfig) {
   // Copy these assets straight across
   eleventyConfig.addPassthroughCopy({ "./src/_assets/misc": "_assets/misc" });
 
+  // Copy Node Modules dependencies
+  eleventyConfig.addPassthroughCopy({
+    "node_modules/aos/dist/aos.css": "_assets/css/aos.css",
+    "node_modules/aos/dist/aos.js": "_assets/js/aos.js"
+  });
+
   eleventyConfig.setBrowserSyncConfig({
     callbacks: {
-      ready: function (err, browserSync) {
+      ready: function(err, browserSync) {
         const content_404 = fs.readFileSync("dist/404.html");
 
         browserSync.addMiddleware("*", (req, res) => {
