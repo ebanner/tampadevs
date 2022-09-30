@@ -1,23 +1,13 @@
 [
   {
-    "name": "Ashley Furniture",
-    "logo": "ashley-logo-vertical.svg",
-    "href": "https://www.ashleyfurniture.com/"
-  },
-  {
-    "name": "Booksource",
-    "logo": "booksource-white-horizontal.svg",
+    "name": "Brooksource",
+    "logo": "brooksource.png",
     "href": "https://www.brooksource.com/"
   },
   {
     "name": "Embarc Collective",
     "logo": "embarc_logo.svg",
     "href": "https://www.embarccollective.com/"
-  },
-  {
-    "name": "Exzeo",
-    "logo": "exzeo-logo.svg",
-    "href": "https://exzeo.com/"
   },
   {
     "name": "PwC",
