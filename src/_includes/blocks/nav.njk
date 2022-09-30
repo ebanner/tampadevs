@@ -1,0 +1,34 @@
+<nav class="td-nav">
+  <div class="container">
+    <ul>
+      <li>
+        <a href="/">TDevs</a>
+      </li>
+      <li>
+        <a href="/about">About</a>
+      </li>
+      {#
+      <li><a href="/cities">Cities</a></li>
+      <li><a href="/build">Build</a></li>
+      #}
+      <li>
+        <a href="/blog">Blog</a>
+      </li>
+      <li>
+        <a href="/talks">Talks</a>
+      </li>
+      <li>
+        <a href="/sponsor">Sponsor</a>
+      </li>
+    </ul>
+    <ul class="social-icons">
+      {% for key, social in basics.socials %}
+        <li>
+          <a href="{{ social }}" target="_blank" rel="noopener">
+            <img class="social-icon" src="/_assets/misc/icons/{{ key }}.svg" alt="{{ key }}"/>
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</nav>
