@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="en">
-<head>
+  <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
@@ -11,6 +11,7 @@
       | {{ title }}
     {% endif %}
   </title>
+  <link rel="stylesheet" href="{{ "/_assets/css/aos.css" | url }}">
   <link rel="apple-touch-icon" sizes="180x180" href="/_assets/img/favicon/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/_assets/img/favicon/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/_assets/img/favicon/favicon-16x16.png">
@@ -26,10 +27,11 @@
   <meta property="og:locale" content="en_GB">
   <meta
     property="og:image"
-    content="https://tampadevs.com{% if hero_img %}{{ hero_img }}{% else %}/_assets/img/tampa-devs-open-graph.png{% endif %}">
-
+    content="https://tampadevs.com{% if hero_img %}{{ hero_img }}{% else %}/_assets/img/tampa-devs-open-graph.webp{% endif
+    %}">
   <meta property="og:url" content="{{ basics.url }}{{ page.url }}">
   <link rel="alternate" type="application/rss+xml" title="Tampa Devs Blog" href="/blog/feed.xml"/>
+  <script src="{{ "/_assets/js/aos.js" | url }}"> </script>
   <script>
     (function (w, d, s, l, i) {
       w[l] = w[l] || [];
@@ -47,185 +49,21 @@
     })(window, document, 'script', 'dataLayer', 'GTM-M78LRDN');
   </script>
 </head>
-<body>
-<noscript>
-  <iframe
-    src="https://www.googletagmanager.com/ns.html?id=GTM-M78LRDN"
-    height="0"
-    width="0"
-    style="display:none;visibility:hidden"></iframe>
-</noscript>
-{% if nav %}
-  <nav class="td-nav">
-    <div class="container">
-      <ul>
-        <li>
-          <a href="/">Tampa Devs</a>
-        </li>
-        <li>
-          <a href="/about">About</a>
-        </li>
-        <li>
-          <a href="/blog">Blog</a>
-        </li>
-        <li>
-          <a href="/talks">Talks</a>
-        </li>
-      </ul>
-      <ul class="social-icons">
-        {% for key, social in basics.socials %}
-          <li>
-            <a href="{{ social }}" target="_blank" rel="noopener">
-              <img class="social-icon" src="/_assets/misc/icons/{{ key }}.svg" alt="{{ key }}"/>
-            </a>
-          </li>
-        {% endfor %}
-      </ul>
-    </div>
-  </nav>
-{% endif %}
-{% block content %}{% endblock %}
-<div class="td-newsletter">
-  <section class="container" id="newsletter">
-    <h2>Stay in touch</h2>
-    <p>Sign up and receive all the latest news and meet up information from Tampa Devs{% if cityName %}
-      and events in {{ cityName }}
-      {% endif %}:</p>
-    <form
-      action="https://tampadevs.us5.list-manage.com/subscribe/post?u=b21cef4d8423fc3d2e3c5f388&amp;id=f6ecb103bd"
-      method="post"
-      id="mc-embedded-subscribe-form"
-      name="mc-embedded-subscribe-form"
-      class="validate"
-      target="_blank"
-      novalidate>
-      <div id="mce-responses" class="clear">
-        <div class="response" id="mce-error-response" style="display:none"></div>
-        <div class="response" id="mce-success-response" style="display:none"></div>
-      </div>
-      <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_0faea843d029399bef7962992_686a0f7b4b" tabindex="-1" value="">
-      </div>
-      {# For chimp segmenting. Set in city frontmatter #}
-      {% if chimpId %}
-        <input type="hidden" name="group[19273][{{ chimpId }}]" value="{{ chimpId }}">
-      {% endif %}
-      {# end chimp segmenting #}
-      <div class="td-newsletter__group">
-        <div class="td-newsletter__field mc-field-group">
-          <label for="mce-FNAME">First Name</label>
-          <input type="text" value="" name="FNAME" class="" id="mce-FNAME" placeholder="First name">
-        </div>
-        <div class="td-newsletter__field mc-field-group">
-          <label for="mce-LNAME">Last Name</label>
-          <input type="text" value="" name="LNAME" class="" id="mce-LNAME" placeholder="Last name">
-        </div>
-        <div class="td-newsletter__field mc-field-group">
-          <label for="mce-EMAIL">Email Address</label>
-          <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Primary email address">
-        </div>
-        <div class="td-newsletter__field">
-          <input type="submit" value="Subscribe!" name="subscribe" id="mc-embedded-subscribe" class="button">
-        </div>
-      </div>
-    </form>
-    <!--End mc_embed_signup-->
-  </section>
-</div>
-<footer class="td-footer">
-  <div class="td-nav td-nav-footer">
-    <ul>
-      {# TODO: Uncomment when issues #3 (/speaker) #7 (/sponsor) and #10 (/get involved) are completed #}
-      {# <li>
-              <a href="https://www.tampadevs.com/speaker">
-              SPEAKERS
-              </a>
-            </li>
-            <li>
-              <a href="https://www.tampadevs.com/sponsor">
-                SPONSORS
-              </a>
-            </li>
-            <li>
-              <a href="https://www.tampadevs.com/get-involved">
-                GET INVOLVED
-              </a>
-            </li> #}
-      <li>
-        <a href="https://www.tampadevs.com/about">
-          ABOUT
-        </a>
-      </li>
-      <li>
-        <a href="https://www.tampadevs.com/talks">
-          TALKS
-        </a>
-      </li>
-      <li>
-        <a href="https://www.tampadevs.com/blog">
-          BLOG
-        </a>
-      </li>
-    </ul>
-  </div>
-  <br/>
-  <div class="td-footer__social">
-    <ul>
-      <li>
-        <a href="https://www.github.com/tampadevs" target="_blank" rel="noopener">
-          <img class="social-icon" src="/_assets/misc/icons/github.png" alt="Github"/>
-        </a>
-      </li>
-      <li>
-        <a href="https://www.facebook.com/tampadevs" target="_blank" rel="noopener">
-          <img class="social-icon" src="/_assets/misc/icons/facebook.png" alt="Facebook"/>
-        </a>
-      </li>
-      <li>
-        <a href="https://www.linkedin.com/company/tampadevs" target="_blank" rel="noopener">
-          <img class="social-icon" src="/_assets/misc/icons/linkedin.png" alt="LinkedIn"/>
-        </a>
-      </li>
-      <li>
-        <a href="https://www.instagram.com/tampadevs" target="_blank" rel="noopener">
-          <img class="social-icon" src="/_assets/misc/icons/instagram.svg" alt="Instagram"/>
-        </a>
-      </li>
-      <li>
-        <a href="https://www.youtube.com/channel/UCnQ5XWIubLLVevjaY9oozxw" target="_blank" rel="noopener">
-          <img class="social-icon" src="/_assets/misc/icons/youtube.png" alt="YouTube"/>
-        </a>
-      </li>
-      <li>
-        <a href="https://twitter.com/tampadevs" target="_blank" rel="noopener">
-          <img class="social-icon" src="/_assets/misc/icons/twitter.svg" alt="Twitter"/>
-        </a>
-      </li>
-      <li>
-        <a href="https://www.meetup.com/tampadevs" target="_blank" rel="noopener">
-          <img class="social-icon" src="/_assets/misc/icons/meetup.svg" alt="Meetup"/>
-        </a>
-      </li>
-      <li>
-        <a href="https://bit.ly/tampadevs-join-slack" target="_blank" rel="noopener">
-          <img class="social-icon" src="/_assets/misc/icons/slack.svg" alt="Slack"/>
-        </a>
-      </li>
-      <li>
-        <a href="mailto:tampadevs@gmail.com" target="_blank" rel="noopener">
-          <img class="social-icon" src="/_assets/misc/icons/gmail.png" alt="Gmail"/>
-        </a>
-      </li>
-    </ul>
-  </div>
-  </div>
-  <p>
-    <em>A community of software developers in Tampa, Florida, seeking to grow together</em>
-  </p>
-  <div class="td-nav footer-source">
-    <a href="https://www.github.com/tampadevs/tampadevs" target="_blank" rel="noopener">View Source</a>
-  </div>
-</footer>
-<script src="/_assets/js/script.js?v={{ data.buildRef }}"></script>
-{% block scripts %}{% endblock %}
-</body>
+  <body>
+    <noscript>
+      <iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-M78LRDN"
+        height="0"
+        width="0"
+        style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    {% if nav %}
+      {% include "blocks/nav.njk" %}
+    {% endif %}
+    {% block content %}{% endblock %}
+    {% include "blocks/newsletter.njk" %}
+    {% include "blocks/footer.njk" %}
+    <script src="/_assets/js/script.js?v={{ data.buildRef }}"></script>
+    {% block scripts %}{% endblock %}
+  </body>
 </html>
