@@ -4,13 +4,12 @@
     font-size: 30px;
   }
   .btn {
-    //padding: 1.5rem 1rem;
     font: 400 1rem/1.1 "Montserrat", Helvetica, Arial, Lucida, sans-serif;
     border: solid $colorGreen 2px;
     border-radius: 5px;
     background: transparent;
     color: $colorGreen;
-    transition: transform 200ms ease-in-out, color 200ms ease-in-out, background-color 200ms ease-in-out, ;
+    transition: transform 200ms ease-in-out, color 200ms ease-in-out, background-color 200ms ease-in-out;
     &:hover {
       border: solid darken($colorGreen, 5%) 2px;
       background: darken($colorGreen, 5%);
@@ -26,6 +25,7 @@
     &-img-wrapper {
       width: 100vw;
       height: 70vh;
+      max-height: 550px;
       overflow: hidden;
       img {
         width: 200%;
@@ -54,7 +54,7 @@
     p {
       width: 96%;
       font-size: 1rem;
-      font-weight: 300;
+      font-weight: 500;
       line-height: 1.25;
       padding: 1em;
     }
@@ -76,18 +76,6 @@
     display: flex;
     flex-wrap: wrap;
     transition: 150ms ease-in-out;
-    padding: {
-      left: 16px;
-      right: 16px;
-    };
-    &.organizers.container {
-      @include bpMinLarge {
-        max-width: 1180px;
-      }
-      @include bpMin(1400px) {
-        max-width: 1300px;
-      }
-    }
     .td-about-person {
       display: flex;
       flex-direction: column;
