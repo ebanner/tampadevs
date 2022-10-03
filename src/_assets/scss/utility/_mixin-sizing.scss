@@ -25,51 +25,51 @@
 
 
 
-@mixin testMargin {
+@mixin spacings($prefix:null) {
     @for $i from 0 through 40 {
-      &m--#{$i} {
+      .#{$prefix}m--#{$i} {
         margin: $i * $spacer !important;
       }
-      &ml--#{$i} {
+      .#{$prefix}ml--#{$i} {
         margin-left: $i * $spacer !important;
       }
-      &mr--#{$i} {
+      .#{$prefix}mr--#{$i} {
         margin-right: $i * $spacer !important;
       }
-      &mt--#{$i} {
+      .#{$prefix}mt--#{$i} {
         margin-top: $i * $spacer !important;
       }
-      &mb--#{$i} {
+      .#{$prefix}mb--#{$i} {
         margin-bottom: $i * $spacer !important;
       }
-      &mx--#{$i} {
+      .#{$prefix}mx--#{$i} {
         margin-left: $i * $spacer !important;
         margin-right: $i * $spacer !important;
       }
-      &my--#{$i} {
+      .#{$prefix}my--#{$i} {
         margin-top: $i * $spacer !important;
         margin-bottom: $i * $spacer !important;
       }
-      &p--#{$i} {
+      .#{$prefix}p--#{$i} {
         padding: $i * $spacer !important;
       }
-      &pl--#{$i} {
+      .#{$prefix}pl--#{$i} {
         padding-left: $i * $spacer !important;
       }
-      &pr--#{$i} {
+      .#{$prefix}pr--#{$i} {
         padding-right: $i * $spacer !important;
       }
-      &pt--#{$i} {
+      .#{$prefix}pt--#{$i} {
         padding-top: $i * $spacer !important;
       }
-      &pb--#{$i} {
+      .#{$prefix}pb--#{$i} {
         padding-bottom: $i * $spacer !important;
       }
-      &px--#{$i} {
+      .#{$prefix}px--#{$i} {
         padding-left: $i * $spacer !important;
         padding-right: $i * $spacer !important;
       }
-      &py--#{$i} {
+      .#{$prefix}py--#{$i} {
         padding-top: $i * $spacer !important;
         padding-bottom: $i * $spacer !important;
       }

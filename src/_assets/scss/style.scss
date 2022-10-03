@@ -474,24 +474,16 @@ a:focus {
 @import "utility/mixin-sizing";
 @import "utility/utility";
 @import "pages/about";
-@include testMargin;
+@include spacings;
 @include bpMinXSmall {
-  .xs\: {
-    @include testMargin;
-  }
+  @include spacings(xs\:);
 }
 @include bpMinSmall {
-  .sm\: {
-    @include testMargin;
-  }
+  @include spacings(sm\:);
 }
 @include bpMinMedium {
-  .md\: {
-    @include testMargin;
-  }
+  @include spacings(md\:);
 }
 @include bpMinLarge {
-  .lg\: {
-    @include testMargin;
-  }
+  @include spacings(lg\:);
 }
