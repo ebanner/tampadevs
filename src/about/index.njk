@@ -1,91 +1,105 @@
 ---
 nav: true
-layout: layouts/base.njk
 ---
-<section class="container td-about main-content">
-  <h1>About</h1>
-  <p>Meet the team!
-  <div>
-    <ul>
-      <li>Board Team: Core-organizers who manage logistics and outreach</li>
-      <li>Advisors: Leaders who provide guidance and support </li>
-      <li>Community members: Developer friends who make the community awesome! 😄</li>
-      <li>Speakers: No explaination needed</li>
-    </li>
-  </div>
-  <div class="td-about-wrapper">
-    <h2 class="mb--0"/>Board Team</h2>
-    <hr class="border--orange mt--0"/>
-    <div class="td-about-section">
-      {% for person in people | sort(false, false, 'name') %}
-        {% if person.team.indexOf('Team Core') > -1 %}
-        <div class="td-about-person">
-          <div class="circular-border">
-            <div class="image-container">
-              <img src="/_assets/img/people/{{ person.img if person.img else "no-avatar.jpg" }}" alt="{{ person.name }}" class="td-about__img">
+{% extends "layouts/about.njk" %}
+{% block css %}
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+{% endblock %}
+{% block content %}
+  <header class="td-about-header" aria-labelledby="about-tampa-devs">
+    <div class="td-about-header-img-wrapper">
+      <picture>
+        <source media="(min-width:650px)" srcset="/_assets/img/about/tampa-dev-edited-117.jpg">
+        <img src="/_assets/img/about/tampa-dev-edited-117-550.jpg" alt="">
+      </picture>
+    </div>
+    <div class="td-about-header-txt-overlay">
+      <h1 id="about-tampa-devs">About Tampa Devs</h1>
+      <p>Tampa Devs is the fastest growing software development community in Tampa Bay. Our mission is to accelerate access to high-quality training and career opportunities in Tampa&apos;s software industry. All at zero cost to our members. We host monthly technical workshops from industry-leading companies including PwC, Microsoft, and more.</p>
+    </div>
+  </header>
+  <main class="td-about main-content">
+    <section aria-labelledby="our-story" class="td-about-section container">
+      <h2 id="our-study">Our Story</h2>
+      <div class="xs:ml--20 md:ml--40">
+        <p>Tampa Devs started as a small group of friends in the technology industry who met through latin dance. After realizing the broad appeal and clear need for a developer meetup in Tampa, founder Vincent Tang publicly launched the group with its first event in September 2021.</p>
+        <p>Since its inception, Tampa Devs has helped its members acquire new skills and find success in the technology industry. With more than 1,000 active members on Meetup.com and an average attendance of 200+ attendees at our hosted events, we are proud to serve as a thriving hub for Tampa Bay's developer community. And this October, we're excited to host Tampa's first Student and Professional hackathon at Embarc Collective.</p>
+        <p>Our organization strives to create unique opportunities for the local community to learn, grow, and succeed together. Whether you're a student, experienced developer, community leader, or entrepreneur, our innovative partnerships with local Universities, non-profit tech institutes, and startup incubators mean there's something for everyone at Tampa Devs.</p>
+      </div>
+    </section>
+    <section aria-labelledby="event-organizers" class="td-about-section organizers container">
+      <h2 id="event-organizers">Event Organizers</h2>
+      <div class="td-about-team-wrapper">
+        {% for person in people | sort(false, false, 'order') %}
+          {% if person.team.indexOf("Organizers") > -1 %}
+            <div class="td-about-person">
+              <div class="image-container">
+                <img src="/_assets/img/people/{{ person.img if person.img else "no-avatar.jpg" }}" alt="{{ person.name }}" class="person__image">
+              </div>
+              <h3 class="person-name">
+                {% if person.href %}
+                  <a href="{{ person.href.url }}" target="_blank" rel="noreferrer noopener">{{ person.name }}</a>
+                {% else %}
+                  {{ person.name }}
+                {% endif %}
+              </h3>
+              <strong class="person-title">{{ person.title }}</strong>
+              <p class="person-bio">{{ person.bio }}</p>
+              {% if person.href %}
+                <a class="btn" href={{ person.href.url }} target="_blank" rel="noreferrer noopener">View {{ person.href.type }}</a>
+              {% endif %}
             </div>
-          </div>
-          <h3 class="person-name">{% if person.href %}<a href="{{ person.href }}" target="_blank" rel="noopener">{% endif %}{{ person.name }}{% if person.href %}</a>{% endif %}</h3>
-          <p class="person-bio">{{ person.bio }}</p>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </section>
+    <section class="sponsors" aria-labelledby="sponsors">
+      <h2 id="sponsors" class="container">Sponsors</h2>
+      <div class="td-about-sponsor__wrapper">
+        <div class="marquee">
+          {% for sponsor in sponsors %}
+            <a href="{{sponsor.href}}" class="sponsor" target="_blank" rel=”noopener noreferrer”>
+              <img src="/_assets/misc/sponsors/{{sponsor.logo}}" alt=""/>
+            </a>
+          {% endfor %}
         </div>
-        {% endif %} 
-      {% endfor %}
-    </div>
-    <h2 class="mb--0"/>Advisors</h2>
-    <hr class="border--orange mt--0"/>
-    <div class="td-about-section">
-      {% for person in people | sort(false, false, 'name') %}
-        {% if person.team.indexOf('Team Advisor') > -1 %}
-        <div class="td-about-person">
-          <div class="circular-border">
-            <div class="image-container">
-              <img src="/_assets/img/people/{{ person.img if person.img else "no-avatar.jpg" }}" alt="{{ person.name }}" class="td-about__img">
-            </div>
-          </div>
-          <h3 class="person-name">{% if person.href %}<a href="{{ person.href }}" target="_blank" rel="noopener">{% endif %}{{ person.name }}{% if person.href %}</a>{% endif %}</h3>
-          <p class="person-bio">{{ person.bio }}</p>
+        <div class="marquee">
+          {% for sponsor in sponsors | sort(false, false, 'name') %}
+            <a href="{{sponsor.href}}" class="sponsor" target="_blank" >
+              <img src="/_assets/misc/sponsors/{{sponsor.logo}}" alt=""/>
+            </a>
+          {% endfor %}
         </div>
-        {% endif %} 
-      {% endfor %}
-    </div>
-    <h2 class="mb--0"/>Community Members</h2>
-    <hr class="border--orange mt--0"/>    
-    <div class="td-about-members">
-      {% for person in people | sort(false, false, 'name') %}
-        {% if person.team.indexOf('Team Member') > -1 %}
-        <div class="member-pic">
-          <img title="{{ person.name }}"  src="/_assets/img/people/{{ person.img if person.img else "no-avatar.jpg" }}" alt="{{ person.name }}" class="td-about__img">
-          <div class="text-overlay">
-            <h3 class="person-name">{{ person.name }}</h3>
+      </div>
+    </section>
+    <section aria-labelledby="past-events">
+      <div class="container">
+        <h2 id="past-events" >Past Event Gallery</h2>
+      </div>
+      <div class="td-about-slider__container slider__container slider__past-events">
+        {% for event in pastevents %}
+          <div class="slider__cell">
+            <img class="" data-flickity-lazyload="/_assets/img/about/past-events/{{event.img}}" alt="{{event.alt_text}}"  title="{{event.title}}"/>
           </div>
-          {# <p class="person-bio">{{ person.bio }}</p> #}
-        </div>
-        {% endif %} 
-      {% endfor %}
-    </div>
-    <h2 class="mb--0"/>Speakers</h2>
-    <hr class="border--orange mt--0"/>    
-    <div class="td-about-speakers">
-      {% for person in people | sort(false, false, 'name') %}
-        {% if person.team.indexOf('Speaker') > -1 %}
-        <div class="member-pic">
-          <div class="img-wrapper">
-            <img title="{{ person.name }}"  src="/_assets/img/people/{{ person.img if person.img else "no-avatar.jpg" }}" alt="{{ person.name }}" class="td-about__img">
-          </div>
-          <div class="text-description">
-            <h3 class="mb--2 person-name text-color--green">{{ person.name }}</h3>
-            <p class="m--0 talk-title">Everything you should know about SVGs</p>
-            <p class="m--0 talk-date">October 27th, 2021</p>
-          </div>
-        </div>
-        {% endif %} 
-      {% endfor %}
-    </div>
-  </div>
-  </ul>
+        {% endfor %}
+      </div>
+    </section>
+  </main>
+{% endblock %}
+{% block scripts %}
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  <script>
+    new Flickity('.slider__past-events', {
+      cellSelector: '.slider__cell',
 
-  {# <p>Want a meetup happening in your city? <a href="https://www.twitter.com/tampadevs/" target="_blank">Let us know</a>.</p> #}
-
-
-  {# <p>This page is ugly. <a href="https://github.com/tampadevs/tampadevs" target="_blank">Submit a pull request and help us fix it</a>.</p> #}
-</section>
+      lazyLoad: true,
+      autoPlay: 3000,
+      cellAlign: 'center',
+      groupCells: "80%",
+      prevNextButtons: false,
+      wrapAround: true,
+      setGallarysize: true,
+      fullscreen: true,
+    });
+  </script>
+{% endblock %}

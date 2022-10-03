@@ -1,27 +1,46 @@
 [
   {
     "name": "Vincent Tang",
-    "team": ["Team Core", "Speaker"],
-    "bio": "Founder of Tampa Devs. Occasional Dance Performer. Runs CodeChefs, a coding podcast for junior devs",
-    "href": "https://vincentntang.com",
-    "img": "vincentntang.jpg"
+    "team": ["Team Core", "Speaker", "Organizers"],
+    "title": "Founder of Tampa Devs",
+    "bio": "Occasional Dance Performer. Runs CodeChefs, a coding podcast for junior devs.",
+    "href": {
+      "type": "Website",
+      "url": "https://vincentntang.com"
+    },
+    "img": "vincent_tang.jpg",
+    "order": 1
   },
   {
-    "name": "Jacques Fu",
-    "team": ["Team Advisor"],
-    "bio": "President of Orlando Devs and CTO of Staxx, an Inc. 5000 company",
-    "href": "https://www.crunchbase.com/person/jacques-fu",
-    "img": "jacquesfu.jpg"
-  },
+    "name": "Charlton Trezevant",
+    "team": ["Team Core", "Speaker", "Organizers"],
+    "title": "Vice President of Tampa Devs",
+    "bio": "Senior Cybersecurity Consultant residing in St. Petersburg, Florida.",
+    "img": "charlton_trezevant.jpeg",
+    "href": {
+      "type": "Website",
+      "url": "https://www.ctis.me/"
+    },
+    "order": 2
+  },  
   {
     "name": "Lydia Hendriks",
-    "team": ["Team Member"],
-    "img": "lydia_hendriks.jpg"
+    "team": ["Team Member", "Organizers"],
+    "title": "Community Engagement Lead",
+    "bio": "FS web developer using React + Node.js. Background in program coordination prior to switching to web. Passionate about improving people's lives through tech.",
+    "img": "lydia_hendriks.jpg",
+    "href": {
+      "type": "Github",
+      "url": "https://github.com/lhendriks1"
+    },
+    "order": 3
   },
   {
     "name": "Ryan Harrigan",
     "team": ["Team Member"],
-    "img": "ryan_harrigan.jpg"
+    "title": "Master of Ceremonies",
+    "bio": "Project Manager with experience shipping video games on Unity. Passionate about salsa dancing and frontend development.",
+    "img": "ryan_harrigan.png"
   },
   {
     "name": "Javi Carrion",
@@ -35,8 +54,15 @@
   },
   {
     "name": "Haritha Diraneyya",  
-    "team": ["Team Member"],
-    "img": "haritha_diraneyya.jpg"
+    "team": ["Team Member", "Organizers"],
+    "title": "Master of Ceremonies",
+    "bio": "Project Manager with experience shipping video games on Unity. Passionate about salsa dancing and frontend development.",
+    "img": "haritha_diraneyya.png",
+    "href": {
+      "type": "LinkedIn",
+      "url": "https://www.linkedin.com/in/haritha-diraneyya/"
+    },
+    "order": 4
   },
   {
     "name": "Jonathan Li",
