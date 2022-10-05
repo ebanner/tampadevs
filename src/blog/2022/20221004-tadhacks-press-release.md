@@ -14,13 +14,13 @@ The two-day event, scheduled to run from October 15 to October 16, will deliver 
 
 Have you ever built a startup in a weekend? 
 
-BUILD: Each team has two days to take a product from initial concept to MVP. Set against a tight deadline, creative ideas and clever design are the best tools in their arsenals. Are you up for the challenge? 
+**BUILD:** Each team has two days to take a product from initial concept to MVP. Set against a tight deadline, creative ideas and clever design are the best tools in their arsenals. Are you up for the challenge? 
 
-LEARN: ALL SKILL LEVELS WELCOME, whether your specialty is software development, product design, UI/UX, or you’re just getting started. TADHacks provides competitors with great opportunities to learn, share knowledge, and display their unique skill sets.
+**LEARN:** ALL SKILL LEVELS WELCOME, whether your specialty is software development, product design, UI/UX, or you’re just getting started. TADHacks provides competitors with great opportunities to learn, share knowledge, and display their unique skill sets.
 
-NETWORK: Connect with Tampa’s vibrant community of software developers, entrepreneurs, students, and innovators. Meet and compete with some of the best technical talent from around Tampa Bay. 
+**NETWORK:** Connect with Tampa’s vibrant community of software developers, entrepreneurs, students, and innovators. Meet and compete with some of the best technical talent from around Tampa Bay. 
 
-CASH PRIZES: Ranging from $1,000 for local winners, up to $20,000 for global winners.
+**CASH PRIZES:** Ranging from $1,000 for local winners, up to $20,000 for global winners.
 
 ## COST & REGISTRATION
 
