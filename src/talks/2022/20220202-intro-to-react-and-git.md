@@ -54,4 +54,4 @@ The South doors next to the security desk will be unlocked for the event and tha
 
 ## OTHER
 
-We're always open to speakers and volunteer help as well! Hit us on our website www.tampadevs.com or email us at tampadevs@gmail.com
+We're always open to speakers and volunteer help as well! Hit us on our website www.tampadevs.com or email us at hello@tampadevs.com

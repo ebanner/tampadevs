@@ -16,7 +16,7 @@ Here are some (but not all) of our current partners and sponsors!
 
 ![Image description](/_assets/img/pages/list-sponsors.webp)
 
-Use the form below to reach us! Or email at tampadevs@gmail.com
+Use the form below to reach us! Or email at [sponsor@tampadevs.com](mailto:sponsor@tampadevs.com)
 
 Let's make great things together!
 

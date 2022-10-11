@@ -44,7 +44,7 @@ Suite 300
 
 ## OTHER
 
-We're always open to speakers and volunteer help as well! Hit us on our website www.tampadevs.com or email us at tampadevs@gmail.com
+We're always open to speakers and volunteer help as well! Hit us on our website www.tampadevs.com or email us at hello@tampadevs.com
 
 ## Links
 
