@@ -49,7 +49,7 @@ Sunday, October 16
 
 ## PRESS REGISTRATION
 
-Members of the media and industry analysts are invited to attend TADHacks Tampa, and can register by contacting [press@tampadevs.com](mailto://press@tampadevs.com)
+Members of the media and industry analysts are invited to attend TADHacks Tampa, and can register by contacting [press@tampadevs.com](mailto:press@tampadevs.com)
 
 ## ABOUT TAMPA DEVS
 
