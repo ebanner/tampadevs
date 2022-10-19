@@ -1,7 +1,7 @@
 ---
 title: TADHacks Attendee FAQ
 author: Vincent Tang
-date: 2022-10-16
+date: 2022-10-14
 intro: What you need to know before competing at our hackathon!
 hero_img: /_assets/img/blog/2022/tadhacks_faq_guide.png
 ---
