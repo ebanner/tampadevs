@@ -336,3 +336,5 @@ Of course! Fill out our volunteer interest form at [https://tampadevs.com/volunt
 Scan the QR codes below for easy access to resources referenced in this FAQ guide. 
 
 ![](/_assets/img/blog/2022/tadhack_faq_qr_code.png)
+
+Checkout our original google doc TADHack Faq [here](https://docs.google.com/document/d/1G5tDupoFUYOQgCRnrz5hEtW7wuSk3-QpEX1stV3U4tQ/edit#)
