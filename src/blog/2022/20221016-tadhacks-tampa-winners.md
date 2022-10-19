@@ -17,7 +17,7 @@ We had so many awesome and crazy ideas presented here! From an application where
 
 Checkout the playlist of projects pitched here!
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL0QhTa5m1IFmIMUptSP6SVOmPK6syDc3K" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/agj8R45xCSM?list=PL0QhTa5m1IFnn-COlal_Z0vW-i3pRw3NT" title="TADHacks Tampa 2022 Pitches!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <!-- Here's the list of participating teams, the timecodes of their pitches in the steam, and their team-provided project descriptions: -->
 
@@ -25,7 +25,7 @@ Checkout the playlist of projects pitched here!
 
 ""Hackateams" is a one-stop platform for finding and joining hackathon teams. You can create your own team, list the desired skills in it's marketplace, and compose your optimal team. Simply share the link with anyone that might be interested!"
 
-- [Presentation Video](https://youtube.com)
+- [Presentation Video](https://youtu.be/agj8R45xCSM?list=PL0QhTa5m1IFnn-COlal_Z0vW-i3pRw3NT)
 - [Slide Deck](https://drive.google.com/file/d/1m-tCFdEhCe-J4dgDpRlP2S6OGJWcZ0JJ/view?usp=sharing)
 - [Project Code - Backend](https://github.com/vosuyak/hackateams-backend)
 - [Project Code - Frontend](https://github.com/vosuyak/hackateams-webapp)
@@ -34,7 +34,7 @@ Checkout the playlist of projects pitched here!
 
 "Hurricane Operations Platform for Emergencies (H.O.P.E.) gathers advance and real-time information to help users navigate in the event of natural or man-made disaster situations. Leveraging IVR, SMS, and Internet-based technology, our goal is to help individuals find important information before, during, and after crisis situations, and inform loved ones of their status and/or location in case of interruption to normal communications."
 
-- [Presentation Video](https://youtube.com)
+- [Presentation Video](https://youtu.be/kzbkRjd4gx4?list=PL0QhTa5m1IFnn-COlal_Z0vW-i3pRw3NT)
 - [Slide Deck](https://docs.google.com/presentation/d/1wWXBs6mjiTdIdId2ofEiebVMA9cM-Xmg/edit?usp=sharing&ouid=108057850367174353619&rtpof=true&sd=true)
 - [Project Code](https://github.com/bytemaster-0xff/tadhack)
 
@@ -42,7 +42,7 @@ Checkout the playlist of projects pitched here!
 
 "BURP, takes voice from Ham Radio and convert to phone text message"
 
-- [Presentation Video](https://youtube.com)
+- [Presentation Video](https://youtu.be/VpgsvJqk0y4?list=PL0QhTa5m1IFnn-COlal_Z0vW-i3pRw3NT)
 - [Slide Deck](https://drive.google.com/file/d/1NISWUM2rgO9S3MdTR3L6JTZttBdX6uMu/view?usp=sharing)
 - [Project Code](https://github.com/cindy-pi/BURP)
 
@@ -50,7 +50,7 @@ Checkout the playlist of projects pitched here!
 
 "A platform that connects students from across the nation through a video conferencing service to act as a "study buddy" while providing the opportunity to connect in hopes to help alleviate a increasingly disconnected society."
 
-- [Presentation Video](https://youtube.com)
+- [Presentation Video](https://youtu.be/h8k-1hxzO1c?list=PL0QhTa5m1IFnn-COlal_Z0vW-i3pRw3NT)
 - [Slide Deck](https://www.canva.com/design/DAFPHkL6_4M/7z_j6cWCFu6iFh3ayv8ATw/view?utm_content=DAFPHkL6_4M&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 - [Figma Prototype](https://www.figma.com/file/brYpaF8clivBnGqsSoQ8EI/HackFig?node-id=0%3A1)
 
@@ -58,13 +58,13 @@ Checkout the playlist of projects pitched here!
 
 "Create, Stream and Collaborate"
 
-- [Presentation Video](https://youtube.com)
+- [Presentation Video](https://youtu.be/7IFhs00CPRM?list=PL0QhTa5m1IFnn-COlal_Z0vW-i3pRw3NT)
 
 #### TheBox
 
 "Decentralized locker box for peer to peer goods exchange". 
 
-- [Presentation Video](https://youtube.com)
+- [Presentation Video](https://youtu.be/H4NNpNDigFc?list=PL0QhTa5m1IFnn-COlal_Z0vW-i3pRw3NT)
 - [Slide Deck](https://docs.google.com/presentation/d/1Ggg2tOfOmCoXCjazl60Sr7Ej-RDtnyWi/edit?usp=sharing&ouid=108057850367174353619&rtpof=true&sd=true)
 - [Project Code](https://github.com/chriswoodle/tadhack2022)
 
@@ -72,35 +72,35 @@ Checkout the playlist of projects pitched here!
 
 "Allowing users to search for truths that perfectly match their individual personas."
 
-- [Presentation Video](https://youtube.com)
+- [Presentation Video](https://youtu.be/SEXCgHIXOcU?list=PL0QhTa5m1IFnn-COlal_Z0vW-i3pRw3NT)
 - [Slide Deck](https://drive.google.com/file/d/1uxsJolmypdpj_V_IgmH5A0MPhNiQq4uP/view?usp=sharing)
 - [Project Code](https://github.com/highsy)
 #### VDSIG
 
 "Our project is about voice digital signature. We want to reduce the waiting and authentication time. We provide a solution to get sensitive data from our users without having any access to those data, and pass those data to companies that the user allows us to do. We used blockchain technology to ensure our users that their privacy is met. We used asymmetric and symmetric encryption to achieve this goal."
 
-- [Presentation Video](https://youtube.com)
+- [Presentation Video](https://youtu.be/Hw98S0MRlt8?list=PL0QhTa5m1IFnn-COlal_Z0vW-i3pRw3NT)
 - [Project Code](https://github.com/Airick73/VDSIG)
 
 #### Lucky7
 
 "Matchmaking App for sponsors and event hosts"
 
-- [Presentation Video](https://youtube.com)
+- [Presentation Video](https://youtu.be/EwJFOjlWdDA?list=PL0QhTa5m1IFnn-COlal_Z0vW-i3pRw3NT)
 - [Project Code](https://github.com/HoldUpFjord/TinderForEvents-TADHACKS2022/tree/main)
 
 #### Mental Solutions
 
 "We used the Cognigy AI to create a conversational mental health aide that interfaces with clients and stores their responses in a MongoDB so as to facilitate better interactions between patients and therapists."
 
-- [Presentation Video](https://youtube.com)
+- [Presentation Video](https://youtu.be/-tvaqXSdRXw?list=PL0QhTa5m1IFnn-COlal_Z0vW-i3pRw3NT)
 - [Project Code](https://github.com/akhemka24/hackathon-10-15)
 
 #### Nikola Systems
 
 "A voice activated navigation system"
 
-- [Presentation Video](https://youtube.com)
+- [Presentation Video](https://youtu.be/pWjcV4JdI08?list=PL0QhTa5m1IFnn-COlal_Z0vW-i3pRw3NT)
 - [Slide Deck](https://www.canva.com/design/DAFPNqGIPgs/-fuIm8im8Rl5IcwRI0oETA/edit?utm_content=DAFPNqGIPgs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 - [Project Code](https://github.com/DyroZang/VoiceDrivingGameHackathon/tree/main/src)
 
@@ -109,14 +109,14 @@ Checkout the playlist of projects pitched here!
 "An online bulletin board where anybody can post sticky notes."
 We have email addresses on file for all members of each team as well as the event judges. If you'd like to interview any of them, let me know and I can coordinate to get them your contact information.
 
-- [Presentation Video](https://youtube.com)
+- [Presentation Video](https://youtu.be/76eE0VdBio8?list=PL0QhTa5m1IFnn-COlal_Z0vW-i3pRw3NT)
 - [Project Code](github.com/constellationz/notary)
 
 ## Prizes Awarded
 
 Checkout the awards ceremony pitches here!
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL0QhTa5m1IFmIMUptSP6SVOmPK6syDc3K" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XpgU_6qDt5g" title="TADHacks Tampa 2022 Awards Ceremony" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 TADHack Tampa 2022 Prizes:
 
