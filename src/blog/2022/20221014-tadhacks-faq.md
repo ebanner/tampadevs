@@ -25,6 +25,7 @@ Whether you're a student, experienced developer, community leader, or entreprene
 TADHack Tampa is part of TADHack Global, a Global hackathon focused on programmable communications.
 In addition to competition rules and information specific to TADHack Tampa, be sure to review the Global hackathon rules at the following link: [https://tadhack.com/2022/hackathon-rules/](https://tadhack.com/2022/hackathon-rules/)
 
+---
 ## General Questions
 
 ### What is a hackathon?
@@ -114,6 +115,7 @@ Yes, TADHack 2022 is a global event. However, we highly recommend attending in p
 
 Send a message in the #tadhacks-2022 channel on the Tampa Devs slack. You can join it here: [https://bit.ly/tampadevs-join-slack](https://bit.ly/tampadevs-join-slack). 
 
+---
 
 ## Participation and Prizes
 
@@ -181,6 +183,7 @@ We ask that you don’t build anything before the hackathon. However, feel free 
 
 TADHack organizers have the right at their sole discretion to determine whether an entrant is eligible for the Contest. TADHack may disqualify, at organizers’ sole discretion, TADHack entries (including, without limitation, content submitted in connection therewith) that (a) are in violation of third party rights or law or regulation, (b) use inappropriate or explicit language or images, or display content that TADHack or Sponsors otherwise finds objectionable.
 
+---
 ## Teams
 
 ### Do I need a team?
@@ -191,6 +194,8 @@ We suggest creating a team. As a courtesy to attendees, we’ve created a team m
 
 A team should be between 2-5 people. If you don’t have a team yet, you’ll have the opportunity to create one on-site or via the matchmaking survey.
 Venue and Schedule
+
+---
 
 ## Location
 
@@ -251,6 +256,7 @@ We don’t provide transportation or a place to stay for the hackathon if you ar
 
 Yes!! We’ll be providing three catered meals. 
 
+---
 ## Communications
 
 ### How do I get onto the Tampa Devs slack?
@@ -281,6 +287,7 @@ Strolid: TBA
 
 You can read more about TADHack at [https://tadhack.com](https://tadhack.com).
 
+---
 ## Mentors and Judging
 
 ### Where do we go for judging?
@@ -300,6 +307,7 @@ Mentors are not eligible to participate as competitors, but may be selected as m
 
 Absolutely. The venue is open to all, and we welcome your participation.
 
+---
 ## Sponsors and Press
 
 ### Can we partner with Tampa Devs for future events?
@@ -322,6 +330,7 @@ We’ll post photos on the Tampa Devs slack #general channel a few days after th
 
 Of course! Fill out our volunteer interest form at [https://tampadevs.com/volunteer](https://tampadevs.com/volunteer).
 
+---
 ## QR Codes
 
 Scan the QR codes below for easy access to resources referenced in this FAQ guide. 
