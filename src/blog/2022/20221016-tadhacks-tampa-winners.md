@@ -21,7 +21,7 @@ Checkout the playlist of projects pitched here!
 
 <!-- Here's the list of participating teams, the timecodes of their pitches in the steam, and their team-provided project descriptions: -->
 
-#### Hackateams — 1st Place, Best Security Architecture, Best Visual Design
+### Hackateams — 1st Place, Best Security Architecture, Best Visual Design
 
 ""Hackateams" is a one-stop platform for finding and joining hackathon teams. You can create your own team, list the desired skills in it's marketplace, and compose your optimal team. Simply share the link with anyone that might be interested!"
 
@@ -30,7 +30,8 @@ Checkout the playlist of projects pitched here!
 - [Project Code - Backend](https://github.com/vosuyak/hackateams-backend)
 - [Project Code - Frontend](https://github.com/vosuyak/hackateams-webapp)
 
-#### H.O.P.E — 2nd Place
+**Team members:** Noemi Nagy, Victor Osuyak, Alicia Diaz-David, Marqus Naulls, Derek Lopez, Ayana Heard
+### H.O.P.E — 2nd Place
 
 "Hurricane Operations Platform for Emergencies (H.O.P.E.) gathers advance and real-time information to help users navigate in the event of natural or man-made disaster situations. Leveraging IVR, SMS, and Internet-based technology, our goal is to help individuals find important information before, during, and after crisis situations, and inform loved ones of their status and/or location in case of interruption to normal communications."
 
@@ -38,7 +39,9 @@ Checkout the playlist of projects pitched here!
 - [Slide Deck](https://docs.google.com/presentation/d/1wWXBs6mjiTdIdId2ofEiebVMA9cM-Xmg/edit?usp=sharing&ouid=108057850367174353619&rtpof=true&sd=true)
 - [Project Code](https://github.com/bytemaster-0xff/tadhack)
 
-#### BURP — 3rd Place
+**Team members:** Kevin Wolf, Kelvin McDaniel, Tahmina Amiri, Roberto Montero, Josh Maciel
+
+### BURP — 3rd Place
 
 "BURP, takes voice from Ham Radio and convert to phone text message"
 
@@ -46,7 +49,9 @@ Checkout the playlist of projects pitched here!
 - [Slide Deck](https://drive.google.com/file/d/1NISWUM2rgO9S3MdTR3L6JTZttBdX6uMu/view?usp=sharing)
 - [Project Code](https://github.com/cindy-pi/BURP)
 
-#### PortEd — Honorable Mention
+**Team members:** Desire Banyeretse, Diego Vargas, Anthony Singleton
+
+### PortEd — Honorable Mention
 
 "A platform that connects students from across the nation through a video conferencing service to act as a "study buddy" while providing the opportunity to connect in hopes to help alleviate a increasingly disconnected society."
 
@@ -54,13 +59,17 @@ Checkout the playlist of projects pitched here!
 - [Slide Deck](https://www.canva.com/design/DAFPHkL6_4M/7z_j6cWCFu6iFh3ayv8ATw/view?utm_content=DAFPHkL6_4M&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 - [Figma Prototype](https://www.figma.com/file/brYpaF8clivBnGqsSoQ8EI/HackFig?node-id=0%3A1)
 
-#### MusicQ — Most Entertaining Concept
+**Team members:** Meg Carlson, Christian Manuel, Scott, Vincent Lazo, John
+
+### MusicQ — Most Entertaining Concept
 
 "Create, Stream and Collaborate"
 
 - [Presentation Video](https://youtu.be/7IFhs00CPRM?list=PL0QhTa5m1IFnn-COlal_Z0vW-i3pRw3NT)
 
-#### TheBox
+**Team members:** Chubi, Benji, Anna, Jacob, Josh, Mitchell
+
+### TheBox
 
 "Decentralized locker box for peer to peer goods exchange". 
 
@@ -68,35 +77,46 @@ Checkout the playlist of projects pitched here!
 - [Slide Deck](https://docs.google.com/presentation/d/1Ggg2tOfOmCoXCjazl60Sr7Ej-RDtnyWi/edit?usp=sharing&ouid=108057850367174353619&rtpof=true&sd=true)
 - [Project Code](https://github.com/chriswoodle/tadhack2022)
 
-#### Highsy
+**Team members:** Chris Woodle, Muntaser Syed
+
+### Highsy
 
 "Allowing users to search for truths that perfectly match their individual personas."
 
 - [Presentation Video](https://youtu.be/SEXCgHIXOcU?list=PL0QhTa5m1IFnn-COlal_Z0vW-i3pRw3NT)
 - [Slide Deck](https://drive.google.com/file/d/1uxsJolmypdpj_V_IgmH5A0MPhNiQq4uP/view?usp=sharing)
 - [Project Code](https://github.com/highsy)
-#### VDSIG
+
+**Team members:** Tony Hill, Kyriq Browne
+
+### VDSIG
 
 "Our project is about voice digital signature. We want to reduce the waiting and authentication time. We provide a solution to get sensitive data from our users without having any access to those data, and pass those data to companies that the user allows us to do. We used blockchain technology to ensure our users that their privacy is met. We used asymmetric and symmetric encryption to achieve this goal."
 
 - [Presentation Video](https://youtu.be/Hw98S0MRlt8?list=PL0QhTa5m1IFnn-COlal_Z0vW-i3pRw3NT)
 - [Project Code](https://github.com/Airick73/VDSIG)
 
-#### Lucky7
+**Team members:** Lissette Deza, Erric Kemmer, Yanelin Yamos, Kasra Ahmadi
+
+### Lucky7
 
 "Matchmaking App for sponsors and event hosts"
 
 - [Presentation Video](https://youtu.be/EwJFOjlWdDA?list=PL0QhTa5m1IFnn-COlal_Z0vW-i3pRw3NT)
 - [Project Code](https://github.com/HoldUpFjord/TinderForEvents-TADHACKS2022/tree/main)
 
-#### Mental Solutions
+**Team members:** Susan Al'Khafaji, Dominick Monaco, Kristopher Gates, Treveon Edwards, Sharon Fahler, Michael Berlet
+
+### Mental Solutions
 
 "We used the Cognigy AI to create a conversational mental health aide that interfaces with clients and stores their responses in a MongoDB so as to facilitate better interactions between patients and therapists."
 
 - [Presentation Video](https://youtu.be/-tvaqXSdRXw?list=PL0QhTa5m1IFnn-COlal_Z0vW-i3pRw3NT)
 - [Project Code](https://github.com/akhemka24/hackathon-10-15)
 
-#### Nikola Systems
+**Team members:** Anuj Khemka, Carlos Trevisan, Henrique Gamonal, Maazin Shaikh
+
+### Nikola Systems
 
 "A voice activated navigation system"
 
@@ -104,13 +124,17 @@ Checkout the playlist of projects pitched here!
 - [Slide Deck](https://www.canva.com/design/DAFPNqGIPgs/-fuIm8im8Rl5IcwRI0oETA/edit?utm_content=DAFPNqGIPgs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 - [Project Code](https://github.com/DyroZang/VoiceDrivingGameHackathon/tree/main/src)
 
-#### Notary
+**Team members:** Haritha Diraneyya, Doug, Daryl Docteur, Hasan Safarli, Gabe
+
+### Notary
 
 "An online bulletin board where anybody can post sticky notes."
 We have email addresses on file for all members of each team as well as the event judges. If you'd like to interview any of them, let me know and I can coordinate to get them your contact information.
 
 - [Presentation Video](https://youtu.be/76eE0VdBio8?list=PL0QhTa5m1IFnn-COlal_Z0vW-i3pRw3NT)
 - [Project Code](https://github.com/constellationz/notary)
+
+**Team members:** Tyler Angley
 
 ## Prizes Awarded
 
