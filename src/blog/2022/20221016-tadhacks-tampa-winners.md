@@ -68,4 +68,10 @@ Global Summary of TADHacks [here](https://blog.tadhack.com/2022/10/17/tadhack-gl
 
 Event link page [here](https://www.meetup.com/tampadevs/events/284553267/)
 
-Github Repos of the projects [here](https://github.com/TampaDevs/tadhacks2022-projects)
+Github Repos of the projects, summaries of each project, and project timestamps [here](https://github.com/TampaDevs/tadhacks2022-projects)
+
+## Social
+
+Reach out to us at [press@tampadevs.com](mailto:press@tampadevs.com) if you'd like to publish this article!
+
+And checkout our [press page](https://tampadevs.com/press) for tampa devs logo downloads and more!
