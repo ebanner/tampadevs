@@ -21,54 +21,96 @@ Checkout the playlist of projects pitched here!
 
 <!-- Here's the list of participating teams, the timecodes of their pitches in the steam, and their team-provided project descriptions: -->
 
-#### Hackateams (36:31-45:15) — 1st Place, Best Security Architecture, Best Visual Design
+#### Hackateams — 1st Place, Best Security Architecture, Best Visual Design
 
 ""Hackateams" is a one-stop platform for finding and joining hackathon teams. You can create your own team, list the desired skills in it's marketplace, and compose your optimal team. Simply share the link with anyone that might be interested!"
 
-#### H.O.P.E (1:10:36-1:22:36) — 2nd Place
+- [Presentation Video](https://youtube.com)
+- [Slide Deck](https://drive.google.com/file/d/1m-tCFdEhCe-J4dgDpRlP2S6OGJWcZ0JJ/view?usp=sharing)
+- [Project Code - Backend](https://github.com/vosuyak/hackateams-backend)
+- [Project Code - Frontend](https://github.com/vosuyak/hackateams-webapp)
+
+#### H.O.P.E — 2nd Place
 
 "Hurricane Operations Platform for Emergencies (H.O.P.E.) gathers advance and real-time information to help users navigate in the event of natural or man-made disaster situations. Leveraging IVR, SMS, and Internet-based technology, our goal is to help individuals find important information before, during, and after crisis situations, and inform loved ones of their status and/or location in case of interruption to normal communications."
 
-#### BURP (1:29:00 - 1:38:10) — 3rd Place
+- [Presentation Video](https://youtube.com)
+- [Slide Deck](https://docs.google.com/presentation/d/1wWXBs6mjiTdIdId2ofEiebVMA9cM-Xmg/edit?usp=sharing&ouid=108057850367174353619&rtpof=true&sd=true)
+- [Project Code](https://github.com/bytemaster-0xff/tadhack)
+
+#### BURP — 3rd Place
 
 "BURP, takes voice from Ham Radio and convert to phone text message"
 
-#### PortEd (53:35 - 59:29) — Honorable Mention
+- [Presentation Video](https://youtube.com)
+- [Slide Deck](https://drive.google.com/file/d/1NISWUM2rgO9S3MdTR3L6JTZttBdX6uMu/view?usp=sharing)
+- [Project Code](https://github.com/cindy-pi/BURP)
+
+#### PortEd — Honorable Mention
 
 "A platform that connects students from across the nation through a video conferencing service to act as a "study buddy" while providing the opportunity to connect in hopes to help alleviate a increasingly disconnected society."
 
-#### TheBox (1:23:28 - 1:26:18)
+- [Presentation Video](https://youtube.com)
+- [Slide Deck](https://www.canva.com/design/DAFPHkL6_4M/7z_j6cWCFu6iFh3ayv8ATw/view?utm_content=DAFPHkL6_4M&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- [Figma Prototype](https://www.figma.com/file/brYpaF8clivBnGqsSoQ8EI/HackFig?node-id=0%3A1)
 
-"Decentralized locker box for peer to peer goods exchange"
-
-#### Highsy (1:39:20 - 1:53:00)
-
-"Allowing users to search for truths that perfectly match their individual personas."
-
-#### VDSIG (10:22 - 15:00)
-
-"Our project is about voice digital signature. We want to reduce the waiting and authentication time. We provide a solution to get sensitive data from our users without having any access to those data, and pass those data to companies that the user allows us to do. We used blockchain technology to ensure our users that their privacy is met. We used asymmetric and symmetric encryption to achieve this goal."
-
-#### MusicQ (26:57-32:00) — Most Entertaining Concept
+#### MusicQ — Most Entertaining Concept
 
 "Create, Stream and Collaborate"
 
-#### Lucky7 (1:01:11 - 1:08:42)
+- [Presentation Video](https://youtube.com)
+
+#### TheBox
+
+"Decentralized locker box for peer to peer goods exchange". 
+
+- [Presentation Video](https://youtube.com)
+- [Slide Deck](https://docs.google.com/presentation/d/1Ggg2tOfOmCoXCjazl60Sr7Ej-RDtnyWi/edit?usp=sharing&ouid=108057850367174353619&rtpof=true&sd=true)
+- [Project Code](https://github.com/chriswoodle/tadhack2022)
+
+#### Highsy
+
+"Allowing users to search for truths that perfectly match their individual personas."
+
+- [Presentation Video](https://youtube.com)
+- [Slide Deck](https://drive.google.com/file/d/1uxsJolmypdpj_V_IgmH5A0MPhNiQq4uP/view?usp=sharing)
+- [Project Code](https://github.com/highsy)
+#### VDSIG
+
+"Our project is about voice digital signature. We want to reduce the waiting and authentication time. We provide a solution to get sensitive data from our users without having any access to those data, and pass those data to companies that the user allows us to do. We used blockchain technology to ensure our users that their privacy is met. We used asymmetric and symmetric encryption to achieve this goal."
+
+- [Presentation Video](https://youtube.com)
+- [Project Code](https://github.com/Airick73/VDSIG)
+
+#### Lucky7
 
 "Matchmaking App for sponsors and event hosts"
 
-#### Mental Solutions (00:00-15:30)
+- [Presentation Video](https://youtube.com)
+- [Project Code](https://github.com/HoldUpFjord/TinderForEvents-TADHACKS2022/tree/main)
+
+#### Mental Solutions
 
 "We used the Cognigy AI to create a conversational mental health aide that interfaces with clients and stores their responses in a MongoDB so as to facilitate better interactions between patients and therapists."
 
-#### Nikola Systems (46:50-52:32)
+- [Presentation Video](https://youtube.com)
+- [Project Code](https://github.com/akhemka24/hackathon-10-15)
+
+#### Nikola Systems
 
 "A voice activated navigation system"
 
-#### Notary (16:40-22:00)
+- [Presentation Video](https://youtube.com)
+- [Slide Deck](https://www.canva.com/design/DAFPNqGIPgs/-fuIm8im8Rl5IcwRI0oETA/edit?utm_content=DAFPNqGIPgs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- [Project Code](https://github.com/DyroZang/VoiceDrivingGameHackathon/tree/main/src)
+
+#### Notary
 
 "An online bulletin board where anybody can post sticky notes."
-We have email addresses on file for all members of each team as well as the event judges. If you'd like to interview any of them, let me know and I can coordinate to get them your contact information. 
+We have email addresses on file for all members of each team as well as the event judges. If you'd like to interview any of them, let me know and I can coordinate to get them your contact information.
+
+- [Presentation Video](https://youtube.com)
+- [Project Code](github.com/constellationz/notary)
 
 ## Prizes Awarded
 
@@ -97,9 +139,9 @@ Shoutout Alan Quayle for providing the opportunity to host TADHacks Tampa and gl
 
 Shoutout to Charlton Trezevant and Vincent Tang for putting this all together for months on end!
 
-Shoutout to our judges and mentors! Mauro Costa, Chris Ayers, Anne Huttel, Sam Kasimalla
+Shoutout to our judges and mentors! Mauro Costa, Chris Ayers, Anne Huttel, Sam Kasimalla, Jeffrey Dupree
 
-Shoutout to our awesome volunteers! :memo: Kat Batuigas, Vanessa Ferguson, CIPT, Hung Tran, Nick Trierweiler, Thanh Do, Leann Labelle, P. Eng
+Shoutout to our awesome volunteers! Kat Batuigas, Vanessa Ferguson, CIPT, Hung Tran, Nick Trierweiler, Thanh Do, Leann Labelle, P. Eng
 
 ## Links
 
