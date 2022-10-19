@@ -13,35 +13,80 @@ We know for some of you this was your very first hackathon, and for others you d
 
 We had so many awesome and crazy ideas presented here! From an application where you have to scream at a mic to tell a car not to crash (Elon musk would be proud), to an app solving a problem in finding a hackathon team. And projects with Raspberry PI clusters to solve issues in our most recent hurricane episode too! To an application that actually solves problems that we ourselves as organizers need (finding sponsors) too!
 
-Shoutout to all the teams who participated:
+## List of Teams, Projects, and Awards
 
-- Hackateams
-- H.O.P.E
-- BURP
-- PortEd
-- TheBox
-- Highsy
-- VDSIG
-- MusicQ
-- Lucky7
-- Mental Solutions
-- Nikola Systems
-- Notary
+Checkout the playlist of projects pitched here!
 
-Our judges rated the projects on a combination of criteria from a few different criteria: project usefulness, originality, complexity, and design. We had a tough time deciding on the winners, and here they are!
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL0QhTa5m1IFmIMUptSP6SVOmPK6syDc3K" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-- **First place:** Hackateams - Victor Osuyak, Alicia Diaz-David, Marqus Naulls, Noemi Nagy, Derek Lopez, Ayana Heard
-- **Second Place:** H.O.P.E - Kevin Wolf, Kelvin McDaniel, Tahmina Amiri, Roberto Montero, Josh Maciel
-- **Third Place:** BURP - Desire Banyeretse, Diego Vargas, Anthony Singleton
-- **Honorable Mentions:** PortED - Meg Carlson, Christian Manuel, Scott Vincent Lazo, John
+<!-- Here's the list of participating teams, the timecodes of their pitches in the steam, and their team-provided project descriptions: -->
 
-Best of Subcategories:
+#### Hackateams (36:31-45:15) — 1st Place, Best Security Architecture, Best Visual Design
 
-- Best security: Hackateams
-- Most entertaining: MusicQ
-- VisualDesign: Hackateams
+""Hackateams" is a one-stop platform for finding and joining hackathon teams. You can create your own team, list the desired skills in it's marketplace, and compose your optimal team. Simply share the link with anyone that might be interested!"
 
-We've also submitted the projects for global judging as well! There was ALOT of competition globally, from France, SriLanka, Amsterdam, Berlin, and Columbia. We didn't end up winning globally, but maybe we can next time around!
+#### H.O.P.E (1:10:36-1:22:36) — 2nd Place
+
+"Hurricane Operations Platform for Emergencies (H.O.P.E.) gathers advance and real-time information to help users navigate in the event of natural or man-made disaster situations. Leveraging IVR, SMS, and Internet-based technology, our goal is to help individuals find important information before, during, and after crisis situations, and inform loved ones of their status and/or location in case of interruption to normal communications."
+
+#### BURP (1:29:00 - 1:38:10) — 3rd Place
+
+"BURP, takes voice from Ham Radio and convert to phone text message"
+
+#### PortEd (53:35 - 59:29) — Honorable Mention
+
+"A platform that connects students from across the nation through a video conferencing service to act as a "study buddy" while providing the opportunity to connect in hopes to help alleviate a increasingly disconnected society."
+
+#### TheBox (1:23:28 - 1:26:18)
+
+"Decentralized locker box for peer to peer goods exchange"
+
+#### Highsy (1:39:20 - 1:53:00)
+
+"Allowing users to search for truths that perfectly match their individual personas."
+
+#### VDSIG (10:22 - 15:00)
+
+"Our project is about voice digital signature. We want to reduce the waiting and authentication time. We provide a solution to get sensitive data from our users without having any access to those data, and pass those data to companies that the user allows us to do. We used blockchain technology to ensure our users that their privacy is met. We used asymmetric and symmetric encryption to achieve this goal."
+
+#### MusicQ (26:57-32:00) — Most Entertaining Concept
+
+"Create, Stream and Collaborate"
+
+#### Lucky7 (1:01:11 - 1:08:42)
+
+"Matchmaking App for sponsors and event hosts"
+
+#### Mental Solutions (00:00-15:30)
+
+"We used the Cognigy AI to create a conversational mental health aide that interfaces with clients and stores their responses in a MongoDB so as to facilitate better interactions between patients and therapists."
+
+#### Nikola Systems (46:50-52:32)
+
+"A voice activated navigation system"
+
+#### Notary (16:40-22:00)
+
+"An online bulletin board where anybody can post sticky notes."
+We have email addresses on file for all members of each team as well as the event judges. If you'd like to interview any of them, let me know and I can coordinate to get them your contact information. 
+
+## Prizes Awarded
+
+Checkout the awards ceremony pitches here!
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL0QhTa5m1IFmIMUptSP6SVOmPK6syDc3K" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+TADHack Tampa 2022 Prizes:
+
+- First place: Hackateams ($500)
+- Second Place: H.O.P.E ($300)
+- Third Place: BURP ($200)
+- Honorable Mention: PortED ($100)
+
+"Best of" Subcategory Prizes:
+- Best Security Architecture: Hackateams (4x Yubikey 5C NFC - $220 value)
+- Most Entertaining Concept: MusicQ ($75)
+- Best Visual Design: Hackateams ($75)
 
 ## Partners and Support
 
