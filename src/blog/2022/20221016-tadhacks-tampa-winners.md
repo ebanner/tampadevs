@@ -110,7 +110,7 @@ Checkout the playlist of projects pitched here!
 We have email addresses on file for all members of each team as well as the event judges. If you'd like to interview any of them, let me know and I can coordinate to get them your contact information.
 
 - [Presentation Video](https://youtu.be/76eE0VdBio8?list=PL0QhTa5m1IFnn-COlal_Z0vW-i3pRw3NT)
-- [Project Code](github.com/constellationz/notary)
+- [Project Code](https://github.com/constellationz/notary)
 
 ## Prizes Awarded
 
