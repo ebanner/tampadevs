@@ -6,7 +6,7 @@ intro: What you need to know before competing at our hackathon!
 hero_img: /_assets/img/blog/2022/tadhacks_faq_guide.png
 ---
 
-Checkout our original google doc TADHack Faq [here](https://docs.google.com/document/d/1G5tDupoFUYOQgCRnrz5hEtW7wuSk3-QpEX1stV3U4tQ/edit#)
+Check out our original TADHack FAQ on Google Docs [here](https://docs.google.com/document/d/1G5tDupoFUYOQgCRnrz5hEtW7wuSk3-QpEX1stV3U4tQ/edit#).
 
 ## Welcome to TADHack Tampa 2022!
 
