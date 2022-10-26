@@ -11,15 +11,13 @@ THANK YOU TO EVERYONE WHO MADE IT OUT TO TADHACKS!!!
 
 We know for some of you this was your very first hackathon, and for others you drove all the way from University of Central Florida in Orlando to compete too. For others with more experience, it was really endearing to see all the mentorship go around. Some of you guys pulled all nighters too after we closed up shop at 8 pm, and others just pulled in last minute clutch for presentation time for Sunday. We had 12 different teams in total compete!!!
 
-We had so many awesome and crazy ideas presented here! From an application where you have to scream at a mic to tell a car not to crash (Elon musk would be proud), to an app solving a problem in finding a hackathon team. And projects with Raspberry PI clusters to solve issues in our most recent hurricane episode too! To an application that actually solves problems that we ourselves as organizers need (finding sponsors) too!
+We had so many awesome and crazy ideas presented here! From an application where you have to scream at a mic to tell a car not to crash (Elon musk would be proud), to an app solving a problem in finding a hackathon team. And projects with Raspberry PI clusters to solve hurricane evacuation logistics to an application connects sponsors to community groups (which definitely [interests us](https://www.tampadevs.com/sponsor/))!
 
-## List of Teams, Projects, and Awards
-
-Checkout the playlist of projects pitched here!
+## Project Pitches and Demos
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/agj8R45xCSM?list=PL0QhTa5m1IFnn-COlal_Z0vW-i3pRw3NT" title="TADHacks Tampa 2022 Pitches!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<!-- Here's the list of participating teams, the timecodes of their pitches in the steam, and their team-provided project descriptions: -->
+## List of Teams, Projects, and Awards
 
 ### Hackateams — 1st Place, Best Security Architecture, Best Visual Design
 
@@ -139,7 +137,7 @@ TEAM - Tyler Angley
 
 ## Prizes Awarded
 
-Checkout the awards ceremony pitches here!
+Check out the awards ceremony here:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/XpgU_6qDt5g" title="TADHacks Tampa 2022 Awards Ceremony" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -166,7 +164,7 @@ Shoutout to Charlton Trezevant and Vincent Tang for putting this all together fo
 
 Shoutout to our judges and mentors! Mauro Costa, Chris Ayers, Anne Huttel, Sam Kasimalla, Jeffrey Dupree
 
-Shoutout to our awesome volunteers! Kat Batuigas, Vanessa Ferguson, CIPT, Hung Tran, Nick Trierweiler, Thanh Do, Leann Labelle, P. Eng
+Shoutout to our awesome volunteers! Kat Batuigas, Vanessa Ferguson, CIPT, Hung Tran, Nick Trierweiler, Thanh Do, Leann Labelle, P. Eng.
 
 ## Links
 
