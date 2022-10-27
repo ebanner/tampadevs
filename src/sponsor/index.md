@@ -1,7 +1,7 @@
 ---
 title: Sponsor Tampa Devs!
 author: Vincent Tang
-date: 2022-02-02
+date: 2021-09-21
 # intro: Ever wanted to learn about two important skills in software development? We presented this topic over at one of our sponsor companies, ReliaQuest!
 hero_img: /_assets/img/sponsors_yo3.webp
 ---
