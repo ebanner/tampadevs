@@ -25,9 +25,9 @@ Here are some (but not all) of our current partners and sponsors:
 
 ![Image description](/_assets/img/pages/list-sponsors.webp)
 
-Use the form below to reach us, or email our team at [sponsor@tampadevs.com](mailto:sponsor@tampadevs.com)
+Use the form below to reach us, or email our team at [sponsor@tampadevs.com](mailto:sponsor@tampadevs.com).
 
-Let's make great things together!
+Let's build great things together!
 
 <form class="formspree" id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xknenrnk" method="post">
   <fieldset id="fs-frm-inputs">
