@@ -100,8 +100,18 @@
   padding: 15px 17px;
   border-radius: 4px;
   transition: background-color 0.2s;
+  @include bpMaxXSmall() {
+    font-size: 18px;
+    padding: 10px;
+  }
 
   &:hover {
     background-color: rgba($colorOrange, 0.5);
+  }
+}
+.promo-container {
+  @include bpMaxXSmall() {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
   }
 }
