@@ -147,8 +147,7 @@ a:focus {
   transition: background-color 0.4s;
   text-align: center;
   text-transform: uppercase;
-  background-color: rgba(26, 172, 156, 0.70);
-  background-color: rgba(238,92,83,0.70);
+  background-color: rgba(238,92,83,0.40);
 }
 
 .td-header__ctas a:hover {
@@ -157,7 +156,7 @@ a:focus {
 
 .td-header__ctas a:last-child {
   border-color: $colorGreen;
-  background-color: rgba(26, 172, 156, 0.70);
+  background-color: rgba(26, 172, 156, 0.40);
 }
 
 .td-header__ctas a:last-child:hover {
