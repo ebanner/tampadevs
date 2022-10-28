@@ -51,10 +51,10 @@ Green (web color)
 
 ## Fonts
 
-For our logo and related media content, we use these two primary font types, depending on what support is available on application. Sans Serif Fonts
+For our logo and related media content, we use these fonts:
 
-- Segue UI bold - Main Logo, easy to read
-- Nunito - For pitch decks and slide intros (google slides) for a playful but still professional font
+- Nunito - For pitch decks and slide intros (google slides) for a playful but still professional font. We use extrabold for the logo. Download Nunito off of [google fonts here](https://fonts.google.com/specimen/Nunito)
+- Segue UI bold - We use this as a sans-serif backup to Nunit
 
 ## Logo Assets
 
