@@ -47,7 +47,7 @@ Reporting Issues
 
 If you experience or witness unacceptable behavior, or have any other concerns, please report it by contacting our executive team:
 
-- Via email: execs@tampadevs.com, which reaches the currently acting executive leadership,
+- Via email: [execs@tampadevs.com](mailto:execs@tampadevs.com), which reaches the currently acting executive leadership,
 - Via Slack: Use this command: /admin your message on anywhere on Slack to privately report incidents, and a moderator will get in touch with you promptly.
 - At meetups & other events: Speak privately in person with organizers at events, or email organizers via Meetup.com
 

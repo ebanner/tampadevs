@@ -137,7 +137,7 @@ a:focus {
 }
 
 .td-header__ctas a {
-  border: 1px solid $colorGreen;
+  border: 1px solid $colorOrange;
   width: 200px;
   display: inline-block;
   border-radius: 8px;
@@ -147,18 +147,20 @@ a:focus {
   transition: background-color 0.4s;
   text-align: center;
   text-transform: uppercase;
+  background-color: rgba(238,92,83,0.40);
 }
 
 .td-header__ctas a:hover {
-  background-color: $colorGreen;
-}
-
-.td-header__ctas a:first-child {
-  border-color: $colorOrange;
-}
-
-.td-header__ctas a:first-child:hover {
   background-color: $colorOrange;
+}
+
+.td-header__ctas a:last-child {
+  border-color: $colorGreen;
+  background-color: rgba(26, 172, 156, 0.40);
+}
+
+.td-header__ctas a:last-child:hover {
+  background-color: $colorGreen;
 }
 
 .td-header__meetup-lnk {
