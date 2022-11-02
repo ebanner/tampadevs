@@ -1,7 +1,7 @@
 ---
 title: Marketing Media Kit
 author: Vincent Tang
-date: 2022-02-02
+date: 2021-09-21
 # intro: Ever wanted to learn about two important skills in software development? We presented this topic over at one of our sponsor companies, ReliaQuest!
 hero_img: /_assets/img/pages/photo_kit.webp
 ---
@@ -10,7 +10,7 @@ Here is the media kit for Tampa Devs
 
 We use the following color schemas as our logo/brand:
 
-## Color Schema
+## Logo Colors
 
 Red (logo)
 - HEX #d70100 
@@ -32,6 +32,8 @@ Blue (supporting background color)
 - RGB(34,82,167)
 - HSL(214, 66, 39)
 
+## Supporting Colors for website / slidedecks
+
 Orange (web-color and slide call to actions)
 - HEX #ee5c53
 - RGB(238, 92, 83)
@@ -41,6 +43,18 @@ Gray (web color)
 - HEX #4e5569
 - RGB(78, 85, 105)
 - HSL(224,15,36)
+
+Green (web color)
+- HEX #1aac9c
+- RGB(26, 172, 156)
+- HSL(173, 74, 39)
+
+## Fonts
+
+For our logo and related media content, we use these fonts:
+
+- Nunito - For pitch decks and slide intros (google slides) for a playful but still professional font. We use extrabold for the logo. Download Nunito off of [google fonts here](https://fonts.google.com/specimen/Nunito)
+- Segue UI bold - We use this as a sans-serif backup to Nunit
 
 ## Logo Assets
 

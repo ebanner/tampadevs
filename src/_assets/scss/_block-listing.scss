@@ -16,6 +16,34 @@
   border: 1px solid $colorOrange;
   padding: 10px;
   margin: 0;
+  background-color: white;
+  
+  // transition: border 300ms;
+  // transition: color 11100ms;
+  // -webkit-transition: color 11100ms;
+  // transition: transform 300ms;
+
+  &:hover {
+    transform: scale(1.06);
+    background-color: #F5F5F5;
+    border-color: $colorGreen;
+  }
+ 
+  &:link:hover,
+  &:hover,
+  &:hover:visited {
+    date,
+    .listing__item__title {
+      color: $colorGreen;
+    }
+  }
+ 
+  // a {
+  //   border-bottom: 3px solid $colorOrange;
+  // }
+  // a:hover {
+  //   border-bottom-color: 3px solid $colorGreen;
+  // }
 }
 
 .listing__item__link {
