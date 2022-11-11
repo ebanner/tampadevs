@@ -2,7 +2,7 @@
 title: New Job Board!
 author: Vincent Tang
 date: 2022-11-10
-intro: Support Tampa Devs by buying our swag! T-Shirts, Hats, bandanas and more!
+intro: Looking for a new role? Look no further!
 hero_img: /_assets/img/blog/2022/jobboardicon.png
 ---
 
@@ -10,7 +10,11 @@ We have a new job board!
 
 If you are someone at Tampa Devs looking for a job, look no further!
 
-Check it out here:
+Check it out here at
+
+[https://jobs.tampa.dev/](https://jobs.tampa.dev/)
+
+You can also subscribe to this board for new job posts as they come in
 
 Screenshot below:
 
