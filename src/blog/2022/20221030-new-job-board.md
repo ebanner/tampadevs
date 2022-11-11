@@ -1,5 +1,5 @@
 ---
-title: New Merch Store!
+title: New Job Board!
 author: Vincent Tang
 date: 2022-11-10
 intro: Support Tampa Devs by buying our swag! T-Shirts, Hats, bandanas and more!
