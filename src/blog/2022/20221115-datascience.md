@@ -12,7 +12,7 @@ We're partnering and supporting the Tampa Bay Data Science Group!
 
 Come check it out [here](https://www.meetup.com/data-scientists-tampa-bay/)
 
-We have many more plans in the future for
+We have many more plans in the future for specialized topic groups such as
 
 - Frontend Development
 - Backend Development
