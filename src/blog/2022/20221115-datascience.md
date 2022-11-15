@@ -1,7 +1,7 @@
 ---
 title: Tampa Bay Data Science Group
 author: Vincent Tang
-date: 2022-11-10
+date: 2022-11-15
 intro: Expanding into more specialized topics!
 hero_img: /_assets/img/blog/2022/datasciencesquare.png
 ---
