@@ -1,5 +1,5 @@
 ---
-title: Tampa Bay Data Science Group
+title: Partnering with Tampa Bay Data Science Group
 author: Vincent Tang
 date: 2022-11-15
 intro: Expanding into more specialized topics!
