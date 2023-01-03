@@ -20,7 +20,6 @@ Sponsor contributions enable Tampa Devs to…
 
 - **Issue scholarships** to career transitioners and those in pursuit of higher education in technology.
 
-
 Here are some (but not all) of our current partners and sponsors:
 
 ![Image description](/_assets/img/pages/list-sponsors.webp)
