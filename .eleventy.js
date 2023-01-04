@@ -9,6 +9,16 @@ const dateFormat = (d, format) => {
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
 
+  /**
+   * DataDeepMerge, Dynamic Partials, and Strict filters
+   * are all true by default.
+   */
+  eleventyConfig.setDataDeepMerge(false);
+  eleventyConfig.setLiquidOptions({
+    dynamicPartials: false,
+    strictFilters: false
+  });
+
   eleventyConfig.addFilter("isFutureDate", (dateObj) => {
     return dayjs(dateObj).isAfter(dayjs());
   });

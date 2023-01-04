@@ -1,5 +1,5 @@
 import MoveTo from "moveto";
-import { tns } from "../../../node_modules/tiny-slider/src/tiny-slider";
+import { tns } from "tiny-slider";
 
 document.addEventListener("DOMContentLoaded", function () {
   const moveTo = new MoveTo();
