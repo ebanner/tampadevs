@@ -7,12 +7,14 @@
   {
     "name": "Embarc Collective",
     "logo": "embarc_logo.svg",
-    "href": "https://www.embarccollective.com/"
+    "href": "https://www.embarccollective.com/",
+    "type": "platinum"
   },
   {
     "name": "PwC",
     "logo": "PwC-logo.svg",
-    "href": "https://www.pwc.com/"
+    "href": "https://www.pwc.com/",
+    "type": "gold"
   },
   {
     "name": "Reliaquest",

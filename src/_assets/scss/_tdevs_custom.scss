@@ -12,7 +12,7 @@
   transition: 0.5s background-color;
   &:hover {
     transition: 0.5s background-color;
-    background-color: rgb(245, 102, 100);;
+    background-color: rgb(245, 102, 100);
   }
   text-decoration: none;
   border: none;
@@ -37,4 +37,10 @@
 
 .max-image-width-200px {
   max-width: 200px !important;
+}
+
+.sponsor-container {
+  padding: 50px;
+  background-color: #d3d3d3;
+  color: black;
 }
