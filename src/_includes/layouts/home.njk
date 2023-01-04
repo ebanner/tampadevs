@@ -21,7 +21,7 @@ layout: layouts/base.njk
         <div class="td-header__ctas">
           {# <a class="js-moveto" href="#meetups">Meetups</a> #}
           {# <a target="_blank" rel="noopener noreferrer" href="https://meetup.com/tampadevs">Meetup</a>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      <a target="_blank" rel="noopener noreferrer" href="https://join.slack.com/t/tampa-devs/shared_invite/zt-veftezkg-kq~jFtC1FCz4o6suybMl5Q">Slack</a> #}<a class="js-moveto" href="#meetup">Events</a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <a target="_blank" rel="noopener noreferrer" href="https://join.slack.com/t/tampa-devs/shared_invite/zt-veftezkg-kq~jFtC1FCz4o6suybMl5Q">Slack</a> #}<a class="js-moveto" href="#meetup">Events</a>
           <a class="js-moveto" href="#slack">Join Chat</a>
           <a class="js-moveto" href="#newsletter">Newsletter</a>
         </div>
@@ -38,30 +38,52 @@ layout: layouts/base.njk
     <section class="container promo-container">
       {{ layoutContent | safe }}
     </section>
-    <section class="sponsor-container">
-      <h2>Sponsors</h2>
-      <div
-        class="sponsor-list">
-        {# Platinum Sponsor #}
-        <h2>Platinum Sponsors</h2>
+    <section
+      class="sponsor-container">
+      {# Platinum Sponsor #}
+      <h3>Platinum Sponsors</h3>
+      <div class="sponsor-list sponsor-list__plat">
         {% for sponsor in sponsors | sort(false, false, 'name') %}
           {% if sponsor.type == "platinum" %}
-            <a href="{{ sponsor.href }}" class="sponsor" target="_blank" rel="”noopener" noreferrer”>
+            <a href="{{ sponsor.href }}" class="sponsor-button" target="_blank" rel="”noopener" noreferrer”>
               <img src="/_assets/misc/sponsors/{{ sponsor.logo }}" alt=""/>
             </a>
           {% endif %}
         {% endfor %}
-        {# Gold Sponsor #}
+        <a href="https://opencollective.com/tampadevs" class="sponsor-button" target="_blank" rel="”noopener" noreferrer”>
+          <img src="/_assets/misc/sponsors/your-logo-here.png" alt=""/>
+        </a>
+        <div class="sponsor-button"></div>
+      </div>
+      {# Gold Sponsor #}
+      <h3>Gold Sponsors</h3>
+      <div class="sponsor-list sponsor-list__gold">
         {% for sponsor in sponsors | sort(false, false, 'name') %}
           {% if sponsor.type == "gold" %}
-            {{ sponsor.name }}
+            <a href="{{ sponsor.href }}" class="sponsor-button" target="_blank" rel="”noopener" noreferrer”>
+              <img src="/_assets/misc/sponsors/{{ sponsor.logo }}" alt=""/>
+            </a>
           {% endif %}
         {% endfor %}
-        {# Silver Sponsor #}
+        <a href="https://opencollective.com/tampadevs" class="sponsor-button" target="_blank" rel="”noopener" noreferrer”>
+          <img src="/_assets/misc/sponsors/your-logo-here.png" alt=""/>
+        </a>
+        <div class="sponsor-button"></div>
+      </div>
+      {# Silver Sponsor #}
+      <h3>Silver Sponsors</h3>
+      <div class="sponsor-list sponsor-list__silver">
         {% for sponsor in sponsors | sort(false, false, 'name') %}
           {% if sponsor.type == "silver" %}
-            {{ sponsor.name }}
+            <a href="{{ sponsor.href }}" class="sponsor-button" target="_blank" rel="”noopener" noreferrer”>
+              <img src="/_assets/misc/sponsors/{{ sponsor.logo }}" alt=""/>
+            </a>
           {% endif %}
         {% endfor %}
+        <a href="https://opencollective.com/tampadevs" class="sponsor-button" target="_blank" rel="”noopener" noreferrer”>
+          <img src="/_assets/misc/sponsors/your-logo-here.png" alt=""/>
+        </a>
+        <div class="sponsor-button"></div>
+        <div class="sponsor-button"></div>
       </div>
     </section>
