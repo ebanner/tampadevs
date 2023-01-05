@@ -110,6 +110,7 @@
   }
 }
 .promo-container {
+  margin-bottom: 70px !important;
   @include bpMaxXSmall() {
     padding-left: 20px !important;
     padding-right: 20px !important;

@@ -77,4 +77,4 @@ However if you want to test something… `npm run build` is your friend.
 
 - Add Netlify CMS
 
-// docker run --rm -v /path/to/your/site:/app --name eleventy -p 8080:8080 femtopixel/eleventy --serve
+<!-- docker run --rm -v /path/to/your/site:/app --name eleventy -p 8080:8080 femtopixel/eleventy --serve -->

@@ -49,9 +49,11 @@
     margin-top: 0px;
     padding: 10px;
     text-align: center;
+    border-radius: 2px;
   }
 
   .sponsor-item {
+    border-radius: 2px;
     box-sizing: border-box;
     display: flex;
     align-items: center;
@@ -75,9 +77,9 @@
           width: 100%;
           margin-right: 0px;
         }
-        padding: 30px;
         width: calc(50% - 2px);
         @include bpMinXSmall() {
+          padding: 30px;
           &:nth-child(odd) {
             margin-right: 4px;
           }
@@ -90,13 +92,12 @@
           &:nth-child(odd) {
             margin-right: 4px;
           }
-          width: calc(50% - 4px);
         }
-        padding: 15px;
-        margin-right: 4px;
-        width: calc(33.33% - 2.66px);
-
+        width: calc(50% - 2px);
         @include bpMinXSmall() {
+          padding: 15px;
+          margin-right: 4px;
+          width: calc(33.33% - 2.66px);
           &:nth-child(3n) {
             margin-right: 0px;
           }
