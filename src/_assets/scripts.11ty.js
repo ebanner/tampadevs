@@ -82,8 +82,7 @@ module.exports = class {
   // render the JS file
   async render({ webpackConfig }) {
     try {
-      const result = await this.compile(webpackConfig);
-      return result;
+      return await this.compile(webpackConfig);
     } catch (err) {
       console.log(err);
       return null;
