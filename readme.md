@@ -2,7 +2,6 @@
 
 ![GtuNm3R1yV](https://user-images.githubusercontent.com/10290348/162232393-26045f1f-7f79-466b-9686-47a77b72bd58.gif)
 
-
 <!-- ## Editing the events
 
 Events are stored in `src/_data/events.json`
@@ -26,7 +25,7 @@ add this so you can use `eleventy` build and run commands
 npm install -g @11ty/eleventy
 ```
 
-build script command is 
+build script command is
 
 ```
 npx @11ty/eleventy
@@ -77,3 +76,5 @@ However if you want to test something… `npm run build` is your friend.
 - Google analytics is using the old UA functionality, needs to be ported to new setup. See how `basics.json` is consuming the tag analytic ID
 
 - Add Netlify CMS
+
+// docker run --rm -v /path/to/your/site:/app --name eleventy -p 8080:8080 femtopixel/eleventy --serve

@@ -27,17 +27,18 @@ $colorBlue: #4e5569;
 
 * {
   box-sizing: border-box;
-  &:before, &:after {
+  &:before,
+  &:after {
     box-sizing: inherit;
   }
 }
 
 p {
-  font-size: 1.10rem; // was 1 rem, may change back later
+  font-size: 1.1rem; // was 1 rem, may change back later
   line-height: 1.725rem;
 }
 li {
-  font-size: 1.10rem;
+  font-size: 1.1rem;
 }
 
 textarea,
@@ -147,7 +148,7 @@ a:focus {
   transition: background-color 0.4s;
   text-align: center;
   text-transform: uppercase;
-  background-color: rgba(238,92,83,0.40);
+  background-color: rgba(238, 92, 83, 0.4);
 }
 
 .td-header__ctas a:hover {
@@ -156,7 +157,7 @@ a:focus {
 
 .td-header__ctas a:last-child {
   border-color: $colorGreen;
-  background-color: rgba(26, 172, 156, 0.40);
+  background-color: rgba(26, 172, 156, 0.4);
 }
 
 .td-header__ctas a:last-child:hover {
@@ -320,8 +321,7 @@ a:focus {
 .td-newsletter {
   background-color: $colorOrange;
   color: white;
-  margin: 50px 0;
-  margin-bottom: 0; // new
+  margin: 0px;
   padding: 50px 0;
   padding-bottom: 100px; // new
 }
@@ -471,7 +471,6 @@ a:focus {
     }
   }
 }
-
 
 @import "global/global.scss";
 @import "utility/mixin-sizing";
