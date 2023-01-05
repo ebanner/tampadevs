@@ -8,19 +8,19 @@
     "name": "Embarc Collective",
     "logo": "embarc_logo.svg",
     "href": "https://www.embarccollective.com/",
-    "type": "platinum"
+    "type": "none"
   },
   {
     "name": "PwC",
     "logo": "PwC-logo.svg",
     "href": "https://www.pwc.com/",
-    "type": "gold"
+    "type": "none"
   },
   {
     "name": "Reliaquest",
     "logo": "reliaquest.svg",
     "href": "https://www.reliaquest.com/",
-    "type": "platinum"
+    "type": "none"
   },
   {
     "name": "USF College of Engineering",
