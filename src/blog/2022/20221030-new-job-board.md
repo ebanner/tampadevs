@@ -1,6 +1,6 @@
 ---
 title: New Job Board!
-author: Vincent Tang
+author: Charlton Trezevant
 date: 2022-11-10
 intro: Looking for a new role? Look no further!
 hero_img: /_assets/img/blog/2022/jobboardicon.png
