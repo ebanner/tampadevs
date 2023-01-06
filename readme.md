@@ -2,79 +2,66 @@
 
 ![GtuNm3R1yV](https://user-images.githubusercontent.com/10290348/162232393-26045f1f-7f79-466b-9686-47a77b72bd58.gif)
 
-<!-- ## Editing the events
+## Installing the right version of node for this project
 
-Events are stored in `src/_data/events.json`
+This project currently uses node-version 16 as the preferred environment
 
-Add new events at the top in the format:
+We suggest using NVM, which manages the node-instance that you are using to run this project
+
+On MacOS, run these commands found here: [https://github.com/nvm-sh/nvm](https://github.com/nvm-sh/nvm)
 
 ```
-  {
-    "name": "Meetup",
-    "date": "2018-10-18",
-    "url": "https://eventbrite.com/…",
-    "description": "This is an event description"
-  },
-``` -->
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+```
+
+Now set the node version in the terminal for the Tampa Devs project
+
+```
+nvm install 16
+nvm use 16
+```
+
+If you use a windows environment follow the commands here instead with NVM [https://github.com/coreybutler/nvm-windows](https://github.com/coreybutler/nvm-windows)
 
 ## Global Installation
 
-add this so you can use `eleventy` build and run commands
+You'll want to install the CLI (command line interface) for eleventy. It's used to run the project
 
 ```
 npm install -g @11ty/eleventy
 ```
 
-build script command is
+Now run these commands while on the project
 
 ```
-npx @11ty/eleventy
+npm install
+npm run dev
 ```
 
-if you need to do any debugging for writing files
+Theoretically everything should work fine, and you can navigate to localhost:8080 and make changes / see them instantly on the site
 
-## Adding people
+## FAQ with installation
 
-People are stored in `src/_data/people.json`
+Here are some common issues we've run into regarding installation problems with this repo
 
-Add a new person with the format:
+> I'm getting a node-gyp error
+
+It's probably a `sharp` module issue, this is used for image minimization. It runs best in a linux environment since it has a lot of dependencies associated with it. Try modifying the node version with `nvm` to see if you can fix it. There is also the potential to run this project in a docker environment, but have not been able to set it up (you need docker installed)
 
 ```
-  {
-    "name": "John Smith",
-    "team": ["Team Member"],
-    "img": "john.jpg",
-    "bio": "John looks after developers in Florida."
-  },
+docker run --rm -v /path/to/your/site:/app --name eleventy -p 8080:8080 femtopixel/eleventy --serve 
 ```
 
-Avatars should be saved to `src/_assets/img/people`
+> it says I need sass
 
-## Development
+Run
 
-To get this up and running on your own computer you need to have Node and NPM installed. [Find out how here](https://www.npmjs.com/get-npm).
+```
+npm install -g sass
+```
 
-Once you have installed NPM in the command line run the following line in this folder:
+if that's the case
 
-- `npm install`
-- `npm run dev`
 
-You'll now have a local server running at [http://localhost:8080](http://localhost:8080).
 
-This is built on top of [Eleventy](https://www.11ty.io) because it is great. One of the nice things about 11ty is it's [super simple documentation](https://www.11ty.io/docs/).
 
-Behind the scenes Webpack is handling JS (`src/_assets/_js`) and SCSS (`src/_assets/_scss`).
-
-## Deploy
-
-Pushing to `master` will automagically deploy to Netlify, which spits out the site at [tampadevs.com](https://tampadevs.com).
-
-However if you want to test something… `npm run build` is your friend.
-
-## TODO
-
-- Google analytics is using the old UA functionality, needs to be ported to new setup. See how `basics.json` is consuming the tag analytic ID
-
-- Add Netlify CMS
-
-<!-- docker run --rm -v /path/to/your/site:/app --name eleventy -p 8080:8080 femtopixel/eleventy --serve -->
