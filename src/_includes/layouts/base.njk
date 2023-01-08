@@ -1,66 +1,21 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5GMJ1CNSQN"></script>
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-THF3BKS');</script>
-    <!-- End Google Tag Manager -->
-      <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-5GMJ1CNSQN');
-    </script>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
-    <link rel="stylesheet" href="/_assets/css/style.css?v={{ data.buildRef }}" media="screen" type="text/css">
-    <title>{{ basics.name }}
-      {% if title %}
-        | {{ title }}
-      {% endif %}
-    </title>
-    {# <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> #}
-    {# <link rel="stylesheet" href="dist/aos.css" /> #}
-    <link rel="stylesheet" href="{{ "/_assets/css/aos.css" | url }}">
-    <link rel="apple-touch-icon" sizes="180x180" href="/_assets/img/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/_assets/img/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/_assets/img/favicon/favicon-16x16.png">
-    <link rel="mask-icon" href="/_assets/img/favicon/safari-pinned-tab.svg" color="#483ba4">
-    <link rel="shortcut icon" href="/_assets/img/favicon/favicon.ico">
-    <meta name="apple-mobile-web-app-title" content="{{ basics.name }}">
-    <meta name="application-name" content="{{ basics.name }}">
-    <meta name="msapplication-TileColor" content="#483ba4">
-    <meta name="theme-color" content="#ffffff">
-    <meta property="og:title" content="{{ basics.name }}{% if title %} | {{ title }}{% endif %}">
-    <meta property="og:description" content="{% if intro %}{{ intro }}{% else %}{{ basics.description }}{% endif %}">
-    <meta property="og:type" content="website">
-    <meta property="og:locale" content="en_GB">
-    <meta
-      property="og:image"
-      content="https://tampadevs.com{% if hero_img %}{{ hero_img }}{% else %}/_assets/img/tampa-devs-open-graph.webp{% endif
-        %}">
-    <meta property="og:url" content="{{ basics.url }}{{ page.url }}">
-    <link rel="alternate" type="application/rss+xml" title="Tampa Devs Blog" href="/blog/feed.xml"/> {# <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> #}
-    {# <script src="dist/aos.js"></script #}<script src="{{ "/_assets/js/aos.js" | url }}"> </script>
-  </head>
+  {% block css %}{% endblock %}
+  {% include "blocks/head.njk" %}
   <body>
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-THF3BKS"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
+    {% include "googletagmanager-noscript.njk" %}
     {% if nav %}
       {% include "blocks/nav.njk" %}
     {% endif %}
     {{ layoutContent | safe }}
+    {% block content %}{% endblock %}
+
     {% include "blocks/newsletter.njk" %}
     {% include "blocks/footer.njk" %}
     <script src="/_assets/js/script.js?v={{ data.buildRef }}"></script>
-    <script>AOS.init();</script>
+    {% block scripts %}{% endblock %}
+    {% if aos != false %}
+      <script>AOS.init();</script>
+    {% endif %}
   </body>
 </html>

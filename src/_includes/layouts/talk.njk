@@ -5,9 +5,6 @@ layout: layouts/base.njk
 <div class="container td-blog ">
 
   <header role="banner" class="td-blog__header">
-    {# {% if hero_img %}
-    <img src="{{ hero_img }}" alt="{{ title }}" class="td-blog__header__img" />
-    {% endif %} #}
     {% if youtube_id %}
       <div class="video-embed">
         <iframe width="853" height="480" src="https://www.youtube.com/embed/{{youtube_id}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -40,7 +37,7 @@ layout: layouts/base.njk
   <a class="td-blog__back" href="/talks">Back to all talks</a>
 
   {% if canonical %}
-  <small class="thought-canonical">This post originally appeared at:<br /><a href="{{ canonical }}">{{ canonical }}<a/></small>
+  <small class="thought-canonical">This post originally appeared at:<br /><a href="{{ canonical }}">{{ canonical }}</a></small>
   {% endif %}
 
 </div>

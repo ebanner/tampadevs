@@ -1,24 +1,15 @@
-<!doctype html>
-<html lang="en">
-  <head>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-5GMJ1CNSQN"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-5GMJ1CNSQN');
-  </script>
+<head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
-  {% block css %}{% endblock %}
-  <link rel="stylesheet" href="/_assets/css/style.css?v={{ data.buildRef }}" media="screen" type="text/css">
   <title>{{ basics.name }}
     {% if title %}
       | {{ title }}
     {% endif %}
   </title>
+  {% block css %}{% endblock %}
+  {% include "blocks/googletagmanager.njk" %}
+  <link rel="stylesheet" href="/_assets/css/style.css?v={{ data.buildRef }}" media="screen" type="text/css">
   <link rel="stylesheet" href="{{ "/_assets/css/aos.css" | url }}">
   <link rel="apple-touch-icon" sizes="180x180" href="/_assets/img/favicon/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/_assets/img/favicon/favicon-32x32.png">
@@ -39,39 +30,6 @@
     %}">
   <meta property="og:url" content="{{ basics.url }}{{ page.url }}">
   <link rel="alternate" type="application/rss+xml" title="Tampa Devs Blog" href="/blog/feed.xml"/>
-  <script src="{{ "/_assets/js/aos.js" | url }}"> </script>
-  <script>
-    (function (w, d, s, l, i) {
-      w[l] = w[l] || [];
-      w[l].push({'gtm.start': new Date().getTime(), event: 'gtm.js'});
-      var f = d.getElementsByTagName(s)[0],
-        j = d.createElement(s),
-        dl = l != 'dataLayer'
-          ? '&l=' + l
-          : '';
-      j.async = true;
-      j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-      f
-        .parentNode
-        .insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-M78LRDN');
-  </script>
+  <script src="{{ "/_assets/js/aos.js" | url }}"></script>
+
 </head>
-  <body>
-    <noscript>
-      <iframe
-        src="https://www.googletagmanager.com/ns.html?id=GTM-M78LRDN"
-        height="0"
-        width="0"
-        style="display:none;visibility:hidden"></iframe>
-    </noscript>
-    {% if nav %}
-      {% include "blocks/nav.njk" %}
-    {% endif %}
-    {% block content %}{% endblock %}
-    {% include "blocks/newsletter.njk" %}
-    {% include "blocks/footer.njk" %}
-    <script src="/_assets/js/script.js?v={{ data.buildRef }}"></script>
-    {% block scripts %}{% endblock %}
-  </body>
-</html>
