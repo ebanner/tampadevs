@@ -1,20 +1,15 @@
 const fs = require("fs");
 const path = require("path");
 const webpack = require("webpack");
-const memfs = require('memfs');
+const {fs: mfs} = require('memfs');
 
 const isProd = process.env.ELEVENTY_ENV === "production";
-const ENTRY_FILE_NAME = "js/script.js";
-const vol = new memfs.Volume();
-const mfs = memfs.createFsFromVolume(vol);
+const ENTRY_FILE_NAME = "main.js";
 
 module.exports = class {
   async data() {
-    const entryPath = path.join(__dirname, `./${ENTRY_FILE_NAME}`);
-    const outputPath = path.resolve(__dirname, "../../memory-fs/js/");
-
-    console.log(`entryPath: ${entryPath}`)
-    console.log(`outputPath: ${outputPath}`)
+    const entryPath = path.join(__dirname, `./js/${ENTRY_FILE_NAME}`);
+    const outputPath = path.resolve(__dirname, "../../memory-fs/");
 
     const rules = [
       {
@@ -72,7 +67,7 @@ module.exports = class {
             if (err) reject(err)
             else resolve(data)
           }
-        )
+        );
       });
     });
   }
