@@ -1,7 +1,10 @@
 ---
 nav: true
+title: "About"
+aos: false
 ---
-{% extends "layouts/about.njk" %}
+
+{% extends "layouts/base.njk" %}
 {% block css %}
   <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 {% endblock %}
@@ -81,7 +84,7 @@ nav: true
       <div class="td-about-slider__container slider__container slider__past-events">
         {% for event in pastevents %}
           <div class="slider__cell">
-            <img class="" data-flickity-lazyload="/_assets/img/about/past-events/{{event.img}}" alt="{{event.alt_text}}"  title="{{event.title}}"/>
+            <img data-flickity-lazyload="/_assets/img/about/past-events/{{event.img}}" alt="{{event.alt_text}}"  title="{{event.title}}"/>
           </div>
         {% endfor %}
       </div>
@@ -93,8 +96,7 @@ nav: true
   <script>
     new Flickity('.slider__past-events', {
       cellSelector: '.slider__cell',
-
-      lazyLoad: true,
+      lazyLoad: 3,
       autoPlay: 3000,
       cellAlign: 'center',
       groupCells: "80%",
