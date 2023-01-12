@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "ELEVENTY_ENV=devolpment eleventy --serve",
+    "dev": "ELEVENTY_ENV=development eleventy --serve",
     "build": "ELEVENTY_ENV=production eleventy"
   },
   "author": "Vincent Tang",
