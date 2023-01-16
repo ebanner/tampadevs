@@ -136,12 +136,17 @@ a:focus {
 
 .td-header__ctas {
   text-align: center;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .td-header__ctas a {
   border: 1px solid $colorOrange;
   width: 200px;
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-evenly;
   border-radius: 8px;
   padding: 10px;
   margin: 5px 20px;
@@ -463,11 +468,11 @@ a:focus {
   border-color: $colorGreen;
 }
 
-
+/*
 .button-logo {
-  
+  height: 100%;
 }
-
+*/
 .social-icons {
   display: none;
   @media (min-width: 675px) {
