@@ -12,7 +12,7 @@
 
     {% include "blocks/newsletter.njk" %}
     {% include "blocks/footer.njk" %}
-    <script src="/_assets/js/script.js?v={{ data.buildRef }}"></script>
+    <script src="/_assets/js/main.js?v={{ data.buildRef }}"></script>
     {% block scripts %}{% endblock %}
     {% if aos != false %}
       <script>AOS.init();</script>
