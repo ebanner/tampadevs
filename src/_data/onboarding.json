@@ -1,0 +1,33 @@
+{
+  "step1": {
+    "name": "Apply",
+    "title": "Step 1 - Apply",
+    "description": "Submit your application using this google form",
+    "href": {
+      "type": "Apply from Google Application Form",
+      "url": "https://my.google.form.com"
+    }
+  },
+  "step2": {
+    "name": "Application Review",
+    "title": "Step 2 - Application Review",
+    "description": "The Tampa Devs organizers will review your application and contact you with the next steps",
+    "href": {
+      "type": "Check your status",
+      "url": "https://my.google.form.com"
+    }
+  },
+  "step3": {
+    "name": "Result",
+    "title": "Step 3 - Result",
+    "description": "Congrats, welcome to the team!",
+    "href": {
+      "type": "Share",
+      "url": "https://my.google.form.com"
+    }
+  },
+
+  "title": "Tampa Devs Organizer Onboarding",
+
+  "description": "Here is the process to become an organizer: "
+}
