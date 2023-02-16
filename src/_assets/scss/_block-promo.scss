@@ -99,6 +99,9 @@
   text-transform: uppercase;
   padding: 15px 17px;
   border-radius: 4px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-evenly;
   transition: background-color 0.2s;
   @include bpMaxXSmall() {
     font-size: 18px;

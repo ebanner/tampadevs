@@ -9,7 +9,7 @@ const ENTRY_FILE_NAME = "main.js";
 module.exports = class {
   async data() {
     const entryPath = path.join(__dirname, `./js/${ENTRY_FILE_NAME}`);
-    const outputPath = path.resolve(__dirname, "../../memory-fs/");
+    const outputPath = path.resolve(__dirname, "../../memory-fs/js");
 
     const rules = [
       {
@@ -39,7 +39,7 @@ module.exports = class {
     };
 
     return {
-      permalink: `/_assets/${ENTRY_FILE_NAME}`,
+      permalink: `/_assets/js/${ENTRY_FILE_NAME}`,
       eleventyExcludeFromCollections: true,
       webpackConfig,
     };
