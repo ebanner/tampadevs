@@ -6,115 +6,87 @@ intro: Statistics about Tampa Devs and how we're doing as an organization with s
 hero_img: /_assets/img/blog/2023/stats_cover.png
 ---
 
-Since we started in September 2021, we've grown immensely as a community organization
-
-We've helped over a dozen people get their first tech jobs. In fact, 3 of them work for the company I work for. We've also hosted our TADHacks hackathon last year with [12 different teams](https://www.tampadevs.com/blog/2022/20221016-tadhacks-tampa-winners/) competing as well. 
-
-Check out the video here:
+As a nonprofit community organization, Tampa Devs has grown immensely since our establishment in September 2021. We have helped over a dozen people secure their first tech jobs, with three of them now working for my company. Additionally, last year we hosted our TADHacks hackathon, which attracted 12 different teams competing against each other. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fEXdLheZW6k" title="TADHack 2022 Hackathon Highlight Reel" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-We've hosted a grand total of 27 events with 1903 RSVPs
+We have held 27 events so far, and we have received a total of 1,903 RSVPs. Our website has also attracted close to 1,000 new users since we started analyzing traffic a few months ago. We have developed an in-house job board application that has received approximately 1,000 impressions since we launched it a few months ago. You can read more about this on this post.
 
 ![](/_assets/img/blog/2023/stats1.png)
 
-We've had close to 1000 new users on the website since we started analytics a few months back
-
 ![](/_assets/img/blog/2023/stats2.png)
-
-We also have a job board application we've built in house, and it has about 1000 impressions since we started a few months ago too. Read this [post to learn more about it](https://www.tampadevs.com/blog/2022/20221030-new-job-board/)
-
 
 ![](/_assets/img/blog/2023/stats3.png)
 
-Over 33,000 messages have been sent in our slack channel since we started
+Our slack channel has been buzzing with activity, with over 33,000 messages exchanged since we started. Furthermore, we have compiled a breakdown of the demographics of our attendees, which can be seen below.
 
 ![](/_assets/img/blog/2023/stats4.png)
-
-Here's a breakdown of our demographics as well on attendees
 
 ![](/_assets/img/blog/2023/stats5.png)
 
 ## Expenditure Report
 
-Here's a breakdown of how much we've spent since starting Tampa Devs back in September 2021
-
-Most of our initial costs were startup costs, which ended up being really high. The actual overhead of running Tampa Devs is fairly low though
+The graph below shows our expenditure since the inception of Tampa Devs in September 2021.
 
 ![](/_assets/img/blog/2023/stats6.png)
 
-From September 2021 - February 2023, here's the breakdown in categories
+Our startup costs were substantial, but the overhead costs of running Tampa Devs are quite low. From September 2021 to February 2023, we spent the following amounts in various categories:
 
 ![](/_assets/img/blog/2023/stats7.png)
 
-- TADHacks hackathon accounted for the vast majority of our funding
-- Legal/Accounting was work for filing for nonprofit status, CPA work, and trademarks
-- Merchandise is T-Shirts, Hats, and bandana cost. We sold some and gave some as promotional material
-- Events accounted for a small amount, we had to pay for food occasionally whenever it wasn't donated in-kind
-- Community Tools were for Meetup, Shopify, and GSuite primarily
-- Marketing & Services - this encompassed designing the logo/sublogos, business cards & the design work, flyers, banners, and stickers
+The vast majority of our funding went into TADHacks hackathon, followed by legal/accounting, merchandise, events, community tools, and marketing & services. The cost of TADHacks hackathon totaled approximately $4,500.
 
-In total for the hackathon we spent ~$4500
-
-![](/_assets/img/blog/2023/stats8.png)
-
-For the Merchandise, here's our cost breakdown
+The cost of merchandise is broken down as follows:
 
 ![](/_assets/img/blog/2023/stats9.png)
 
-Also our incorporations and filing for 501c3 Nonprofit status
+In addition, we incurred expenses related to incorporating Tampa Devs as a nonprofit organization and applying for 501c3 Nonprofit status, as shown below:
 
 ![](/_assets/img/blog/2023/stats10.png)
 
 ## Incoming Financials
 
-Charlton and I have been on the fence for the longest time asking for monetary support. Partially because we both make a decent living, so we mostly have been funding out of pocket since we started Tampa Devs
-
-That being said, thank you for all the amazing support! We opened up an opencollective page last month, and we have over $1000/month being donated from awesome members 
+Initially, we were hesitant to seek monetary support as we both had decent incomes. Therefore, we funded Tampa Devs out of our pockets. However, we are grateful for the tremendous support we have received so far. Last month, we opened an opencollective page, and we now receive over $1,200 in donations from our awesome members each month.
 
 ![](/_assets/img/blog/2023/stats11.png)
 
-We made a little bit as well on Merchandise, but I mostly make the swag just for fun and sell it with a small margin
+We have also generated a small profit from merchandise sales, which I mostly make for fun and sell at a small margin.
 
 ![](/_assets/img/blog/2023/stats12.png)
 
-We have a job board, it's only made a grand total of $4. We only charge $1 right now to post a job to protect against spam
+Although our job board has only generated $4 in total revenue, we charge $1 per job posting to protect against spam.
 
 ![](/_assets/img/blog/2023/stats13.png)
 
-We're not getting any corporate sponsorship at the moment, although we have a business plan of action for supporting them though
+At present, we are not receiving any corporate sponsorship, but we have a business plan in place to support this.
 
 ![](/_assets/img/blog/2023/stats14.png)
 
-## Required overhead expenditures
 
-In terms of actual expenditures we need to run Tampa Devs, it's fairly low
+## Our Overhead/Required Expenditures
 
-Meetup costs us $560/year since we run two seperate accounts
+The actual expenses we incur to run Tampa Devs are fairly low. For instance, we pay $560 annually for Meetup since we run two separate accounts.
 
 ![](/_assets/img/blog/2023/stats15.png)
 
-Food and venue costs varies a lot, it varies between $0 to $500 each
+Food and venue costs varies between $0 to $500 each. However, we've been having HCC (Hillsborough Community County) be super awesome in granting their venue in kind over in Ybor. Thank you Lynn for being awesome!
 
 ![](/_assets/img/blog/2023/stats16.png)
 
-But we've been having HCC (Hillsborough Community County) be super awesome in granting their venue in kind over in Ybor
-
-(Thank you Lynn for being awesome!!!)
 
 ## Thank you to to our code contributors!!
 
-I also want to give a shoutout to everyone who has donated their time in helping this community grow
+![](https://opencollective.com/tampadevs/contributors.svg?width=890&button=false)
 
-We're building more tools to recognize contributors and members, here are some of our core contributors to the codebase
+I also want to give a shoutout to everyone who has donated their time in helping this community grow. As we're building more tools to support our community, we'd like to take a moment to recognize some of the amazing contirbutors to our open source projects:
 
-- Haritha for building icons on the landing page
-- Zuza for her design work on job widgets
-- Priyanshi for updating our slack invite links (within like an hour of posting the issue too!)
-- Xinqi for adding organizer onboarding info
-- Manuel for just an amazing amount of work on fixing the website and the dependency chain
-- Vincent (me) for some sponsor support tools
-- Charlton for his infrastructure work
+- Haritha for building icons on the landing page.
+- Zuza for her design work on job widgets.
+- Priyanshi for updating our slack invite links (within an hour of posting the issue too!)
+- Xinqi for adding organizer onboarding info.
+- Manuel for just an amazing amount of work on fixing the website and the dependency chain.
+- Vincent (me) for some sponsor support tools.
+- Charlton for his infrastructure work.
 
 ![](/_assets/img/blog/2023/stats17.png)
 
@@ -134,7 +106,7 @@ We're building more tools to recognize contributors and members, here are some o
 
 ## Thank you to to our financial supporters!!
 
-Thank you to all of our financial supporters. We want Tampa Devs to be something that stays long term and your donation help makes a huge differenc, no matter how small of a contribution it is
+We'd also like to send a HUGE thank you to all of our financial supporters. We want Tampa Devs to have a long-term future and your donations makes a huge difference.
 
 - Josef 
 - Nicholas Adams
@@ -147,17 +119,17 @@ Thank you to all of our financial supporters. We want Tampa Devs to be something
 - Kat
 - Javi
 
-Here's a list to all of our financial supporters and awesome code contributors!!!
+Here's a list to all of our financial supporters:
 
-![](/_assets/img/blog/2023/stats25.png)
+![](https://opencollective.com/tampadevs/backers.svg?width=950)
 
 ## Closing Thoughts
 
-This was a super long post but I wanted to give some insights of all the things going on in Tampa Devs right now
+Overall, we're very happy with the progress we've made since starting Tampa Devs in September 2021. We've helped dozens of people find jobs in the tech industry, hosted a successful hackathon, and built a strong and supportive community of software developers.
 
-We're in the process of creating a budgeting roadmap, we'll most likely have one in by the career forum in March
+Our initial costs were high due to startup expenses, but our ongoing overhead costs are fairly low. We're grateful for the support we've received from our community members, who have donated over $1000 per month to our Open Collective page. We also appreciate the contributions of our code contributors and the generous support of Hillsborough Community College.
 
-But I want to put down what the overall goal and vision of Tampa Devs is to give better perspective of what we aim to do as a pending 501c3 nonprofit, as well as the community voice as a whole with Tampa Devs:
+We hope to continue to grow and support our community through hosting events, building tools and resources, and helping individuals find success in the tech industry. Thank you for your support and for being a part of the Tampa Devs community.
 
 ![](/_assets/img/blog/2023/stats26.png)
 
@@ -165,9 +137,4 @@ But I want to put down what the overall goal and vision of Tampa Devs is to give
 
 I think that's it for now. More notes to come in the future!
 
-I want to leave some closing thoughts as well about how me and Charlton feel about this year. Spiderman from Marvel said it best:
-
-"with great power comes great responsibility"
-
-
-
+I want to leave some closing thoughts as well about how me and Charlton feel about this year. Uncle Ben from Marvel said it best: "with great power comes great responsibility".
