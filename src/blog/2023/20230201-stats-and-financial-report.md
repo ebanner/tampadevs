@@ -10,7 +10,7 @@ As a nonprofit community organization, Tampa Devs has grown immensely since our 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fEXdLheZW6k" title="TADHack 2022 Hackathon Highlight Reel" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-We have held 27 events so far, and we have received a total of 1,903 RSVPs. Our website has also attracted close to 1,000 new users since we started analyzing traffic a few months ago. We have developed an in-house job board application that has received approximately 1,000 impressions since we launched it a few months ago. You can read more about this on this post.
+We have held 27 events so far, and we have received a total of 1,903 RSVPs. Our website has also attracted close to 1,000 new users since we started analyzing traffic a few months ago. We have developed an in-house job board application that has roughly 1,000 impressions since we launched it a few months ago. You can read more about this on [this post](https://blog.ctis.me/2022/11/launching-tampadevs-job-board/).
 
 ![](/_assets/img/blog/2023/stats1.png)
 
@@ -18,13 +18,14 @@ We have held 27 events so far, and we have received a total of 1,903 RSVPs. Our 
 
 ![](/_assets/img/blog/2023/stats3.png)
 
-Our slack channel has been buzzing with activity, with over 33,000 messages exchanged since we started. Furthermore, we have compiled a breakdown of the demographics of our attendees, which can be seen below.
+Our Slack instance has been buzzing with activity, with over 33,000 messages exchanged since we started. We've also compiled a breakdown of the demographics of our attendees, which can be seen below.
 
 ![](/_assets/img/blog/2023/stats4.png)
 
 ![](/_assets/img/blog/2023/stats5.png)
 
-## Expenditure Report
+
+## YTD Expenses
 
 The graph below shows our expenditure since the inception of Tampa Devs in September 2021.
 
@@ -44,17 +45,22 @@ In addition, we incurred expenses related to incorporating Tampa Devs as a nonpr
 
 ![](/_assets/img/blog/2023/stats10.png)
 
+
 ## Incoming Financials
 
-Initially, we were hesitant to seek monetary support as we both had decent incomes. Therefore, we funded Tampa Devs out of our pockets. However, we are grateful for the tremendous support we have received so far. Last month, we opened an opencollective page, and we now receive over $1,200 in donations from our awesome members each month.
+Initially, we were hesitant to seek monetary support as we both had decent incomes, so we funded Tampa Devs out of our pockets. However, we're grateful for the tremendous support we have received so far. 
+
+At the start of 2023, we opened an [OpenCollective page](https://tampa.dev/donate), where we now receive over $1,200 in recurring donations from our awesome members each month.
+
+_Want to support Tampa Devs? Check out our [Sponsor Guide](https://tampa.dev/sponsor-guide) and [OpenCollective page](https://tampa.dev/donate)._
 
 ![](/_assets/img/blog/2023/stats11.png)
 
-We have also generated a small profit from merchandise sales, which I mostly make for fun and sell at a small margin.
+We have also generated a small profit from merchandise sales, which we mostly make for fun and sell at a small profit margin.
 
 ![](/_assets/img/blog/2023/stats12.png)
 
-Although our job board has only generated $4 in total revenue, we charge $1 per job posting to protect against spam.
+Although our job board has only generated $4 in total revenue, it's appreciated by members and recruiters alike. We currently charge $1 per job posting to protect against spam, and see tons of potential for its future growth.
 
 ![](/_assets/img/blog/2023/stats13.png)
 
@@ -104,6 +110,7 @@ I also want to give a shoutout to everyone who has donated their time in helping
 
 ![](/_assets/img/blog/2023/stats24.png)
 
+
 ## Thank you to to our financial supporters!!
 
 We'd also like to send a HUGE thank you to all of our financial supporters. We want Tampa Devs to have a long-term future and your donations makes a huge difference.
@@ -119,9 +126,10 @@ We'd also like to send a HUGE thank you to all of our financial supporters. We w
 - Kat
 - Javi
 
-Here's a list to all of our financial supporters:
+Here's a live list of our amazing supporters:
 
 ![](https://opencollective.com/tampadevs/backers.svg?width=950)
+
 
 ## Closing Thoughts
 
