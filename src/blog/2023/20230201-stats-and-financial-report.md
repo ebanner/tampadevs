@@ -3,7 +3,7 @@ title: Tampa Devs Stats and Finance Report
 author: Vincent Tang
 date: 2023-02-15
 intro: Statistics about Tampa Devs and how we're doing as an organization with some notes about finances
-hero_img: /_assets/img/blog/2023/opencollectiveheart.jpg
+hero_img: /_assets/img/blog/2023/stats_cover.png
 ---
 
 Since we started in September 2021, we've grown immensely as a community organization
