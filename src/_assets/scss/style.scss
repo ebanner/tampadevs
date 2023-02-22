@@ -23,6 +23,7 @@ $colorBlue: #4e5569;
 @import "block-promo";
 @import "tdevs_custom";
 
+
 @import url("https://fonts.googleapis.com/css?family=Montserrat:300,500,700,900");
 
 * {
@@ -495,3 +496,9 @@ a:focus {
 @include bpMinLarge {
   @include spacings(lg\:);
 }
+
+
+
+// TODO: Reevaluate order of CSS in this file
+//       and the order of its imports
+@import "block-jobs";
