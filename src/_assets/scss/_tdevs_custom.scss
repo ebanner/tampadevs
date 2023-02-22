@@ -67,6 +67,11 @@
       max-height: 100px;
     }
   }
+  .sponsor-list img {
+    display: block;
+    margin: 0 auto 0 90px;
+    padding: 10px;
+  }
   .sponsor-list {
     display: flex;
     flex-wrap: wrap;
