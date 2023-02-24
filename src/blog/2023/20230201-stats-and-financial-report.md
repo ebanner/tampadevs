@@ -8,7 +8,9 @@ hero_img: /_assets/img/blog/2023/stats_cover.png
 
 As a nonprofit community organization, Tampa Devs has grown immensely since our establishment in September 2021. We have helped over a dozen people secure their first tech jobs, with three of them now working for my company. Additionally, last year we hosted our TADHacks hackathon, which attracted 12 different teams competing against each other. 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/fEXdLheZW6k" title="TADHack 2022 Hackathon Highlight Reel" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<div class="video-embed">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/fEXdLheZW6k" title="TADHack 2022 Hackathon Highlight Reel" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 We have held 27 events so far, and we have received a total of 1,903 RSVPs. Our website has also attracted close to 1,000 new users since we started analyzing traffic a few months ago. We have developed an in-house job board application that has roughly 1,000 impressions since we launched it a few months ago. You can read more about this on [this post](https://blog.ctis.me/2022/11/launching-tampadevs-job-board/).
 

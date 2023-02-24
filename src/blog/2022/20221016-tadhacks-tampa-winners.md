@@ -15,7 +15,9 @@ We had so many awesome and crazy ideas presented here! From an application where
 
 ## Project Pitches and Demos
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/agj8R45xCSM?list=PL0QhTa5m1IFnn-COlal_Z0vW-i3pRw3NT" title="TADHacks Tampa 2022 Pitches!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video-embed">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/agj8R45xCSM?list=PL0QhTa5m1IFnn-COlal_Z0vW-i3pRw3NT" title="TADHacks Tampa 2022 Pitches!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ## List of Teams, Projects, and Awards
 
@@ -138,8 +140,9 @@ TEAM - Tyler Angley
 ## Prizes Awarded
 
 Check out the awards ceremony here:
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XpgU_6qDt5g" title="TADHacks Tampa 2022 Awards Ceremony" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video-embed">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/XpgU_6qDt5g" title="TADHacks Tampa 2022 Awards Ceremony" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 TADHack Tampa 2022 Prizes:
 
