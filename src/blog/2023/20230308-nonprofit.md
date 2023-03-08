@@ -3,8 +3,10 @@ title: 501c3 nonprofit status!
 author: Vincent Tang
 date: 2023-03-08
 intro: HUGE milestone for providing building better tools for the community
-hero_img: /_assets/img/blog/2023/tax_exempt_irs.png
+hero_img: /_assets/img/blog/2023/tax_exempt_cover.png
 ---
+
+![](/_assets/img/blog/2023/tax_exempt_irs.png)
 
 We're officially a 501c3 nonprofit!!!
 
