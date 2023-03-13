@@ -32,68 +32,8 @@ layout: layouts/base.njk
     <section class="container promo-container">
       {{ layoutContent | safe }}
     </section>
-    <section
-      class="container sponsor-container">
-      {# Platinum Sponsor #}
-      <h3>Platinum Sponsors</h3>
-      <div class="sponsor-list sponsor-list__plat">
-        {% for sponsor in sponsors | sort(false, false, 'name') %}
-          {% if sponsor.type == "platinum" %}
-            <a href="{{ sponsor.href }}" class="sponsor-item" target="_blank" rel="”noopener" noreferrer”>
-              <img src="/_assets/misc/sponsors/{{ sponsor.logo }}" alt=""/>
-            </a>
-          {% endif %}
-        {% endfor %}
-      <div class="sponsor-item">
-        <img src="/_assets/misc/sponsors/tdevs_transparent_grey_svg.svg" alt=""/>
-      </div>
-      <div class="sponsor-item">
-        <img src="/_assets/misc/sponsors/tdevs_transparent_grey_svg.svg" alt=""/>
-      </div>
-    </div>
-    {# Gold Sponsor #}
-    <h3>Gold Sponsors</h3>
-    <div class="sponsor-list sponsor-list__gold">
-      {% for sponsor in sponsors | sort(false, false, 'name') %}
-        {% if sponsor.type == "gold" %}
-          <a href="{{ sponsor.href }}" class="sponsor-item" target="_blank" rel="”noopener" noreferrer”>
-            <img src="/_assets/misc/sponsors/{{ sponsor.logo }}" alt=""/>
-          </a>
-        {% endif %}
-      {% endfor %}
-    <div class="sponsor-item">
-      <img src="/_assets/misc/sponsors/tdevs_transparent_grey_svg.svg" alt=""/>
-    </div>
-    <div class="sponsor-item">
-      <img src="/_assets/misc/sponsors/tdevs_transparent_grey_svg.svg" alt=""/>
-    </div>
-  </div>
-  {# Silver Sponsor #}
-  <h3>Silver Sponsors</h3>
-  <div class="sponsor-list sponsor-list__silver">
-    {% for sponsor in sponsors | sort(false, false, 'name') %}
-      {% if sponsor.type == "silver" %}
-        <a href="{{ sponsor.href }}" class="sponsor-item" target="_blank" rel="”noopener" noreferrer”>
-          <img src="/_assets/misc/sponsors/{{ sponsor.logo }}" alt=""/>
-        </a>
-      {% endif %}
-    {% endfor %}
-    <div class="sponsor-item">
-      <img src="/_assets/misc/sponsors/tdevs_transparent_grey_svg.svg" alt=""/>
-    </div>
-    <div class="sponsor-item">
-      <img src="/_assets/misc/sponsors/tdevs_transparent_grey_svg.svg" alt=""/>
-    </div>
-    <div class="sponsor-item">
-      <img src="/_assets/misc/sponsors/tdevs_transparent_grey_svg.svg" alt=""/>
-    </div>
-    <div class="sponsor-button-wrapper">
-      <a class="sponsor-button td-alert-banner" href="https://opencollective.com/tampadevs">🤝 Become a sponsor 🤝</a>
-    </div>
-  </div>
-</section>
-<section
-      class="container sponsor-container">
+    
+<section class="container sponsor-container">
       
   <h3>Donors</h3>
       <div class="sponsor-list sponsor-list__silver">
