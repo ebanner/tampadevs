@@ -1,7 +1,7 @@
 ---
 title: Work behind the scenes and long term vision
 author: Vincent Tang
-date: 2023-03-17
+date: 2023-03-16
 intro: what do we as organizers actually do?
 hero_img: /_assets/img/blog/2023/behindscenes.png
 ---
