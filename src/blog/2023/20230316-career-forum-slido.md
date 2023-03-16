@@ -2,7 +2,7 @@
 title: Career Forum Slido Questions
 author: Vincent Tang
 date: 2023-03-16
-intro: HUGE milestone for providing building better tools for the community
+intro: All the questions asked at our career forum!
 hero_img: /_assets/img/blog/2023/careerforum.png
 ---
 
