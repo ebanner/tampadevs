@@ -6,8 +6,6 @@ intro: HUGE milestone for providing building better tools for the community
 hero_img: /_assets/img/blog/2023/careerforum.png
 ---
 
-![](/_assets/img/blog/2023/careerforum1.png)
-
 Thank you to everyone who attended our first annual career forum! We had over 80 of you guys show up and 25 questions asked on the anonymous [slido](https://app.sli.do/event/i9vtWqYAwbYNzSa4gCRYyS/live/questions) questions!
 
 We added categories as well to the questions asked too!
@@ -61,3 +59,5 @@ We added categories as well to the questions asked too!
 ## Long term career strategy
 
 - How do you view staying at one company for a long time versus changing jobs every couple of years?
+
+![](/_assets/img/blog/2023/careerforum1.png)
