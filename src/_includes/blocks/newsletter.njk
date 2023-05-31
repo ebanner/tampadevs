@@ -3,7 +3,7 @@
     <h2>Keep in touch</h2>
     <p>Stay informed with local tech news, upcoming events, job opportunities, and more from Tampa Devs.</p>
     <form
-      action="https://tampadevs.us5.list-manage.com/subscribe/post?u=b21cef4d8423fc3d2e3c5f388&amp;id=f6ecb103bd"
+      action="https://newsletter.api.tampa.dev/subscribe"
       method="post"
       id="mc-embedded-subscribe-form"
       name="mc-embedded-subscribe-form"
@@ -17,23 +17,18 @@
       <div style="position: absolute; left: -5000px;" aria-hidden="true">
         <input type="text" name="b_0faea843d029399bef7962992_686a0f7b4b" tabindex="-1" value="">
       </div>
-      {# For chimp segmenting. Set in city frontmatter #}
-      {% if chimpId %}
-        <input type="hidden" name="group[19273][{{ chimpId }}]" value="{{ chimpId }}">
-      {% endif %}
-      {# end chimp segmenting #}
       <div class="td-newsletter__group">
         <div class="td-newsletter__field mc-field-group">
           <label for="mce-FNAME">First Name</label>
-          <input type="text" value="" name="FNAME" class="" id="mce-FNAME" placeholder="First name">
+          <input type="text" value="" name="firstname" class="" id="mce-FNAME" placeholder="First name">
         </div>
         <div class="td-newsletter__field mc-field-group">
           <label for="mce-LNAME">Last Name</label>
-          <input type="text" value="" name="LNAME" class="" id="mce-LNAME" placeholder="Last name">
+          <input type="text" value="" name="lastname" class="" id="mce-LNAME" placeholder="Last name">
         </div>
         <div class="td-newsletter__field mc-field-group">
           <label for="mce-EMAIL">Email Address</label>
-          <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Email Address">
+          <input type="email" value="" name="email" class="required email" id="mce-EMAIL" placeholder="Email Address">
         </div>
         <div class="td-newsletter__field">
           <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
