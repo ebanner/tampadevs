@@ -36,27 +36,42 @@
       </div>
     </form>
     <script>
-        function formSubmit(e) {
-          var req = new XMLHttpRequest();
-          req.open('POST', "https://newsletter.api.tampa.dev/subscribe", true);
-  
-          req.onload = function() { 
-            document.getElementById("mc-embedded-subscribe-form").reset();
-            document.getElementById("mc-embedded-subscribe").value = "Subscribed!"
-            document.getElementById("mc-embedded-subscribe").style.backgroundColor = "#B5E0B8"
-            console.log(req.responseText);
-          };
+      function resetMailForm() {
+        document.getElementById("mc-embedded-subscribe-form").reset();
+        document.getElementById("mc-embedded-subscribe").value = "Subscribe"
+        document.getElementById("mc-embedded-subscribe").style.backgroundColor = "#fff"
+        document.getElementById("mc-embedded-subscribe").style.textTransform = "uppercase"
+        document.getElementById("mc-embedded-subscribe").style.color = "#566075"
+      }
 
-          req.onerror = function() {
-            console.log("Newsletter subscription failed.")
-          };
+      function formSubmit(e) {
+        var req = new XMLHttpRequest();
+        req.open('POST', "https://newsletter.api.tampa.dev/subscribe", true);
 
-          req.send(new FormData(e.target));
+        req.onload = function() { 
+          document.getElementById("mc-embedded-subscribe-form").reset();
+          document.getElementById("mc-embedded-subscribe").value = "Subscribed ✔️"
+          document.getElementById("mc-embedded-subscribe").style.backgroundColor = "#B5E0B8"
+          setTimeout(resetMailForm, 2000);
+          console.log(req.responseText);
+        };
 
-          e.preventDefault();
-        }
+        req.onerror = function() {
+          document.getElementById("mc-embedded-subscribe-form").reset();
+          document.getElementById("mc-embedded-subscribe").value = "Something Broke 😔"
+          document.getElementById("mc-embedded-subscribe").style.color = "#fff"
+          document.getElementById("mc-embedded-subscribe").style.textTransform = "none"
+          document.getElementById("mc-embedded-subscribe").style.backgroundColor = "#4e5569"
+          setTimeout(resetMailForm, 2000);
+          console.log("Newsletter subscription failed.")
+        };
 
-        (function () {document.getElementById("mc-embedded-subscribe-form").addEventListener("submit", formSubmit)})();
+        req.send(new FormData(e.target));
+
+        e.preventDefault();
+      }
+
+      (function () {document.getElementById("mc-embedded-subscribe-form").addEventListener("submit", formSubmit)})();
     </script>
     <!--End mc_embed_signup-->
   </section>
