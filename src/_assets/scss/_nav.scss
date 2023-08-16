@@ -85,6 +85,12 @@
   .social-icon {
     height: 14px;
   }
+
+  .social-icon:hover {
+    opacity: 70%;
+    transition: all 0.3s;
+  }
+
 }
 
 @media (max-width: 600px) {

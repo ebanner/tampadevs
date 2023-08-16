@@ -327,6 +327,10 @@ a:focus {
   width: auto;
 }
 
+.td-footer__social img:hover {
+  opacity: 70%;
+}
+
 .td-newsletter {
   background-color: $colorOrange;
   color: white;
