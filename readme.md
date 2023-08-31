@@ -10,13 +10,17 @@ This project currently uses Node version 17.9.1 as the preferred environment
 
 The easiest way to run a development environment for this site is to use [Docker](https://www.docker.com/).
 
-After installing Docker on your machine, run the following command to spin up a container with a functional Eleventy environment:
+After installing Docker on your machine, run the following command from the root of this repo to build the docker image
 
 ```
-docker run --rm -v /path-to/this-repo/on-your/disk:/app --name eleventy -p 8080:8080 femtopixel/eleventy --serve 
+docker build -t tampadevs .
 ```
 
-**Note:** Replace `/path-to/this-repo/on-your/disk` in the above command with the local path to your clone of the `tampadevs` repository on disk.
+And then spin up a container with a functional Eleventy environment:
+
+```
+docker run --rm -v .:/app --name tampadevs -p 8080:8080 tampadevs
+```
 
 
 ## Setting Up a Local Environment with NVM 
