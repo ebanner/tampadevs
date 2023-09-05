@@ -1,0 +1,42 @@
+---
+nav: true
+title: "Thank You"
+aos: false
+---
+
+{% extends "layouts/base.njk" %}
+{% block css %}
+  <style>
+    img.thank-you-image {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+      object-position: 0px 0%;
+    }
+
+    @media (max-width: 768px) {
+      img.thank-you-image {
+        height: 150px;
+      }
+    }
+
+    .thank-you-header {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    .thank-you-text.container {
+      color: black;
+    }
+  </style>
+{% endblock %}
+{% block content %}
+  <img class="thank-you-image" src="/_assets/img/thank-you/3631x1393.jpg" alt="Thank You Image">
+  <h1 class="thank-you-header">Thank you for your donation!</h1>
+  <div class="thank-you-text container">
+    <p>On behalf of Tampa Devs, we want to extend our deepest gratitude for your generous donation. Your support means the world to us and plays a vital role in our mission to foster a vibrant and thriving developer community.</p>
+    <p>Warm regards,</p>
+    <p>The Tampa Dev Team</p>
+  </div>
+{% endblock %}
+{% block scripts %}{% endblock %}
