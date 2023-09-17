@@ -16,6 +16,62 @@
   <link rel="icon" type="image/png" sizes="16x16" href="/_assets/img/favicon/favicon-16x16.png">
   <link rel="mask-icon" href="/_assets/img/favicon/safari-pinned-tab.svg" color="#483ba4">
   <link rel="shortcut icon" href="/_assets/img/favicon/favicon.ico">
+  <style>
+    .thank-you-page {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      margin: 20px 150px 40px;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    div.flow img {
+      max-width: 100%;
+    }
+
+    div.flow p {
+      color: black;
+    }
+
+    .grid-text {
+      margin-top: 0;
+    }
+
+    .flow.grid-image {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    @media (max-width: 60em) {
+      .thank-you-page {
+        grid-template-columns: 1fr;
+      }
+
+      .flow:nth-child(1) {
+        order: 1;
+        /* Image 1 first */
+      }
+
+      .flow:nth-child(2) {
+        order: 2;
+        /* Text 1 second */
+      }
+
+      .flow:nth-child(3) {
+        order: 4;
+        /* Image 2 third */
+      }
+      
+      .flow:nth-child(4) {
+        order: 3;
+        /* Text 2 fourth */
+      }
+    }
+  </style>
   <meta name="apple-mobile-web-app-title" content="{{ basics.name }}">
   <meta name="application-name" content="{{ basics.name }}">
   <meta name="msapplication-TileColor" content="#483ba4">

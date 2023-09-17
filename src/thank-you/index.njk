@@ -9,20 +9,13 @@ aos: false
   <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 {% endblock %}
 {% block content %}
-  {# <header class="td-about-header" aria-labelledby="about-tampa-devs">
-    <div class="td-about-header-img-wrapper">
-      <picture>
-        <source media="(min-width:650px)" srcset="/_assets/img/about/tampa-dev-edited-117.jpg">
-        <img src="/_assets/img/about/tampa-dev-edited-117-550.jpg" alt="">
-      </picture>
-    </div>
-    <div class="td-about-header-txt-overlay">
-      <h1 id="about-tampa-devs">Thank You</h1>
-    </div>
-  </header> #}
-  <main class="td-about main-content">
-    <section aria-labelledby="our-story" class="td-about-section container">
-      <h2 id="our-study">Thank You!</h2>
+  {# <div class="thank-you-image-container">
+    <img src="/_assets/img/thank-you/5332x3000.jpg" class="td-blog__header__img"/>
+    <div class="thank-you-text">Thank You!</div>
+  </div>
+  <main class="main-content">
+    <section class="container">
+      <h1 style="text-align: center;">Thank You!</h1>
       <div class="xs:ml--20 md:ml--40">
         <p>On behalf of Tampa Devs, we want to extend our deepest gratitude for your generous donation. Your support means the world to us and plays a vital role in our mission to foster a vibrant and thriving developer community.</p>
         <p>Your contribution directly fuels our efforts to provide valuable resources, organize engaging events, and create a nurturing environment where developers of all levels can learn, grow, and collaborate. With your help, we can continue to inspire innovation, share knowledge, and empower individuals to reach new heights in their tech careers.</p>
@@ -31,24 +24,42 @@ aos: false
         <p>Once again, thank you for your kindness and generosity. Together, we are shaping the future of tech in Tampa Bay, and your contribution is a vital part of that journey. We look forward to continuing this incredible journey with you.</p>
         <p>Warm regards,</p>
         <p>The Tampa Dev Team</p>
-      </p>
+      </div>
+    </section>
+  </main> #}
+  {# <div class="header-image">
+    <img src="/_assets/img/thank-you/3631x1393.jpg" alt="Header Image">
+  </div> #}
+  <div class="thank-you-header">
+    <h1>Thank you for your donation!</h1>
+  </div>
+  <div class="thank-you-page">
+    <div class="flow grid-image">
+      <img src="/_assets/img/thank-you/5332x3000.jpg" alt="Thank You Image">
     </div>
-  </section>
-</main>
+    <div class="flow grid-text">
+      <p class="first-paragraph">On behalf of Tampa Devs, we want to extend our deepest gratitude for your generous donation. Your support means the world to us and plays a vital role in our mission to foster a vibrant and thriving developer community.</p>
+      <p>Your contribution directly fuels our efforts to provide valuable resources, organize engaging events, and create a nurturing environment where developers of all levels can learn, grow, and collaborate. With your help, we can continue to inspire innovation, share knowledge, and empower individuals to reach new heights in their tech careers.</p>
+    </div>
+    <div class="flow grid-text">
+      <p class="first-paragraph">It's supporters like you who make Tampa Devs the incredible community it is today. Your commitment to our cause exemplifies the spirit of unity and empowerment that drives us forward.</p>
+      <p>Once again, thank you for your kindness and generosity. Together, we are shaping the future of tech in Tampa Bay, and your contribution is a vital part of that journey. We look forward to continuing this journey with you.</p>
+      <p>Warm regards,</p>
+      <p>The Tampa Dev Team</p>
+    </div>
+    <div class="flow grid-image">
+      <img src="/_assets/img/thank-you/3247x2072.jpg" alt="Thank You Image">
+    </div>
+  </div>
+  {# <div class="thank-you-image-container">
+    <img src="/_assets/img/thank-you/5332x3000.jpg" class="td-blog__header__img"/>
+    <div class="thank-you-text">Thank You!</div>
+  </div>
+  <main class="main-content">
+    <section class="container">
+      <h1 style="text-align: center;">Thank You!</h1>
+      <div class="xs:ml--20 md:ml--40"></div>
+    </section>
+  </main> #}
 {% endblock %}
-{% block scripts %}
-<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-<script>
-  new Flickity('.slider__past-events', {
-    cellSelector: '.slider__cell',
-    lazyLoad: 3,
-    autoPlay: 3000,
-    cellAlign: 'center',
-    groupCells: "80%",
-    prevNextButtons: false,
-    wrapAround: true,
-    setGallarysize: true,
-    fullscreen: true
-  });
-</script>
-{% endblock %}
+{% block scripts %}{% endblock %}
