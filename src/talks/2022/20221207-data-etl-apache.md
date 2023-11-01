@@ -2,7 +2,7 @@
 title: Data ETL with Apache Airflow
 author: Haritha Diraneyya
 date: 2022-12-07
-intro: You quick guide to orchestrate data with Apache Airflow!
+intro: Your quick guide to orchestrate data with Apache Airflow!
 hero_img: /_assets/img/blog/2021/first_event_tampa_devs.jpg
 # above: hero img link left as is from template and seems to be inactive | comment date: 2023.10.23
 youtube_id: bq6FL8299EU
