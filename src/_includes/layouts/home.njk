@@ -2,6 +2,21 @@
 layout: layouts/base.njk
 ---
 
+{% block css %}
+<style>
+  iframe.meetup-iframe {
+    width: 1100px;
+    height: 250px;
+  }
+
+  .next-event {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
+</style>
+{% endblock %}
+
 <header
   class="td-header">
   {# https://gist.github.com/cecilemuller/3165474 #}
@@ -30,6 +45,9 @@ layout: layouts/base.njk
       <p>We're united by a shared mission to break barriers in the tech industry. Each month, we host workshops and create educational and career opportunities for all backgrounds or experience levels. <strong>For free, and for everyone.</strong></p>
       <p><strong>Read our <a href="https://go.tampa.dev/rise?utm_source=td_website&utm_medium=organic">origin story</a>.</strong></p>
     </main>
+    <div class="next-event">
+      <iframe class="meetup-iframe" src="http://127.0.0.1:8787/v1/widget/?filter=tampadevs" frameborder="0"></iframe>
+    </div>
     <section class="container promo-container">
       {{ layoutContent | safe }}
     </section> 
