@@ -6,7 +6,6 @@
   padding: 16px;
   width: 100%;
   border-radius: 10px;
-  margin-bottom: 20px;
   cursor: pointer;
   transition: 0.5s background-color;
   text-decoration: none;
@@ -30,13 +29,19 @@
   }
 }
 
+.supporters-container {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  margin-bottom: 60px;
+}
+
 .max-image-width-200px {
   max-width: 200px !important;
 }
 
 .sponsor-container {
   padding: 50px;
-  margin-bottom: 100px !important;
   color: black;
   h3 {
     background-color: rgb(230, 230, 230);
@@ -117,6 +122,7 @@
   display: flex;
   flex-wrap: wrap;
   padding: 20px;
+  padding-bottom: 0px;
   .sponsor-button {
     width: 100%;
     margin-right: 0;
@@ -146,8 +152,6 @@
 
 .donor-container {
   .donor-block {
-    background-color: rgb(230, 230, 230);
-
     iframe {
       height: auto;
     }
@@ -156,5 +160,13 @@
 
 .cta-job-btn {
   font-size: 20px;
-  font-style:italic;
+  font-style: italic;
+}
+
+.financial-backers-cta {
+  border-bottom: none;
+}
+
+.contributors-cta-container {
+  margin-top: 20px;
 }
