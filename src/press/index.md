@@ -89,3 +89,15 @@ This one is a wider resolution file alternative, you can use it to crop the righ
 If you need an SVG version of the transparent verison of the logo, it can be found [here](https://raw.githubusercontent.com/TampaDevs/tampadevs/66ffd46a92bf5c79ccc2b6a12b6a58901467d38d/src/_assets/img/press/tdevs_transparent_svg.svg)
 
 If you need any help, please contact us at <a href="mailto:press@tampadevs.com">press@tampadevs.com</a>
+
+## Bayhacks Hackathon
+
+If you are looking for the BayHacks hackathon logo, we have them provided here as well
+
+- Png transparent format: (850px x 1000px)
+- SVG format is found <a href="{{ "/_assets/img/press/bayhacks_v10_final_6color_print.svg" }}"/>here</a>
+- Website: [https://bayhacks.dev](https://bayhacks.dev)
+
+
+<img class="max-image-width-300px" src="{{ "/_assets/img/press/bayhacks_v10_final_6color_print_850x1000px.png" }}"/>
+
