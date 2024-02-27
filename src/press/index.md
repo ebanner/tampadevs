@@ -95,7 +95,7 @@ If you need any help, please contact us at <a href="mailto:press@tampadevs.com">
 If you are looking for the BayHacks hackathon logo, we have them provided here as well
 
 - Png transparent format: (850px x 1000px)
-- SVG format is found <a href="{{ "/_assets/img/press/bayhacks_v10_final_6color_print.svg" }}"/>here</a>
+- SVG format is found [here](https://raw.githubusercontent.com/TampaDevs/tampadevs/ba6fcdd2142239b1d3d5a5415b40fe23010e1d02/src/_assets/img/press/bayhacks_v10_final_6color_print.svg)
 - Website: [https://bayhacks.dev](https://bayhacks.dev)
 
 
