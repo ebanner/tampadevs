@@ -2,39 +2,41 @@
 layout: layouts/base.njk
 ---
 
-<header
-  class="td-header">
+<header class="td-header">
   {# https://gist.github.com/cecilemuller/3165474 #}
   <video class="td-header__media" autoplay muted playsinline loop="loop" poster="/_assets/img/tampa-devs-v2.webp">
     <source type="video/webm" src="/_assets/misc/TD_output_720_30p.webm">
-      <source type="video/mp4" src="/_assets/misc/TD_output_720_30p.mp4"></video>
-      <div class="td-header__container">
-        <div class="td-header__container__logoGroup">
-          <img src="/_assets/misc/logos/tampa-devs.svg" alt="Tampa Devs" class="td-header__logo"/>
-          <hgroup>
-            <h1>{{ basics.name }}</h1>
-            <h2>{{ basics.tag }}</h2>
-          </hgroup>
-        </div>
-        <div class="td-header__ctas">
-          <a class="js-moveto" href="#meetup"><img src="/_assets/misc/icons/meetup.svg" alt="Meetup"/>Events</a>
-          <a class="js-moveto" href="#slack"><img src="/_assets/misc/icons/slack.svg" alt="Slack"/>Slack Chat</a>
-          <a class="js-moveto" href="#newsletter"><img src="/_assets/misc/icons/mail.svg" alt="Newsletter"/>&nbsp;Newsletter</a>
-        </div>
-      </div>
-    </header>
-    <main class="container td-describer">
-      <p>Tampa Devs is the
-        <strong>fastest-growing nonprofit community for software developers</strong>
-        in Tampa Bay.</p>
-      <p>We're united by a shared mission to break barriers in the tech industry. Each month, we host workshops and create educational and career opportunities for all backgrounds or experience levels. <strong>For free, and for everyone.</strong></p>
-      <p><strong>Read our <a href="https://go.tampa.dev/rise?utm_source=td_website&utm_medium=organic">origin story</a>.</strong></p>
-    </main>
-    <section class="container promo-container">
-      {{ layoutContent | safe }}
-    </section> 
+    <source type="video/mp4" src="/_assets/misc/TD_output_720_30p.mp4">
+  </video>
+  <div class="td-header__container">
+    <div class="td-header__container__logoGroup">
+      <img src="/_assets/misc/logos/tampa-devs.svg" alt="Tampa Devs" class="td-header__logo"/>
+      <hgroup>
+        <h1>{{ basics.name }}</h1>
+        <h2>{{ basics.tag }}</h2>
+      </hgroup>
+    </div>
+    <div class="td-header__ctas">
+      <a class="js-moveto" href="#meetup"><img src="/_assets/misc/icons/meetup.svg" alt="Meetup"/>Events</a>
+      <a class="js-moveto" href="#slack"><img src="/_assets/misc/icons/slack.svg" alt="Slack"/>Slack Chat</a>
+      <a class="js-moveto" href="#newsletter"><img src="/_assets/misc/icons/mail.svg" alt="Newsletter"/>&nbsp;Newsletter</a>
+    </div>
+  </div>
+</header>
+<main class="container td-describer">
+  <p>Tampa Devs is the
+    <strong>fastest-growing nonprofit community for software developers</strong>
+    in Tampa Bay.</p>
+  <p>We're united by a shared mission to break barriers in the tech industry. Each month, we host workshops and create educational and career opportunities for all backgrounds or experience levels. <strong>For free, and for everyone.</strong></p>
+  <p><strong>Read our <a href="https://go.tampa.dev/rise?utm_source=td_website&utm_medium=organic">origin story</a>.</strong></p>
+</main>
+<section class="container promo-container">
+  {{ layoutContent | safe }}
+</section>
+<div class="supporters-container">
   <section class="container sponsor-container mb--0">
     <h3>Sponsors</h3>
+    {# Gold Sponsors #}
     <div class="sponsor-list sponsor-list__gold">
       {% for sponsor in sponsors | sort(false, false, 'name') %}
         {% if sponsor.type == "gold" %}
@@ -44,7 +46,7 @@ layout: layouts/base.njk
         {% endif %}
       {% endfor %}
     </div>
-      {# Silver Sponsor #}
+    {# Silver Sponsors #}
     <div class="sponsor-list sponsor-list__silver">
       {% for sponsor in sponsors | sort(false, false, 'name') %}
         {% if sponsor.type == "silver" %}
@@ -54,20 +56,26 @@ layout: layouts/base.njk
         {% endif %}
       {% endfor %}
     </div>
-  </div>
-</section>
-<section class="container sponsor-container donor-container">
-  <div class="donor-block">
+  </section>
+  <section class="container sponsor-container donor-container">
     <h3>Contributing Members</h3>
-  </div>
-  <div class="donor-block">
-    <script src="https://opencollective.com/tampadevs/banner.js"></script>
-  </div>
-  <div class="donor-block">
+    <div class="donor-block">
+      <script src="https://opencollective.com/tampadevs/banner.js"></script>
+    </div>
     <div class="cta-sponsor-and-donate">
       {# <a class="sponsor-button td-alert-banner" id="post-job-cta" href="https://jobs.tampa.dev/drafts/new?utm_source=td_homepage&utm_medium=organic&utm_campaign=tdjobs_external_embed">Post a Job</a> #}
       <a class="sponsor-button td-alert-banner" href="mailto:sponsor@tampadevs.com">Sponsor</a>
       <a class="sponsor-button td-alert-banner" href="https://go.tampa.dev/donate">Donate</a>
     </div>
-  </div>
-</section>
+  </section>
+  <section class="container sponsor-container">
+    {# Github contributors #}
+    <h3>Open Source Contributors</h3>
+    <div class="sponsor-list sponsor-list__silver">
+      <img class="open-source-contributors-image" src="https://opencollective.com/tampadevs/contributors.svg?width=890&button=false" />
+      <div class="sponsor-button-wrapper contributors-cta-container">
+        <a class="sponsor-button td-alert-banner" href="https://github.com/TampaDevs/tampadevs">Fork This Website</a>
+      </div>
+    </div>
+  </section>
+</div>
