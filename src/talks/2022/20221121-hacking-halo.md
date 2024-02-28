@@ -5,7 +5,7 @@ date: 2022-11-21
 intro: Decoding Xbox Security... Halo Modding Unveiled!
 hero_img: /_assets/img/blog/2021/first_event_tampa_devs.jpg
 # above: hero img link left as is from template and seems to be inactive | comment date: 2023.10.23
-youtube_id: bq6FL8299EU
+youtube_id: Nn0I5bRXDZo
 ---
 
 ## Details & Agenda
@@ -49,4 +49,4 @@ Check out this parking map here for pricing of parking in the area, recommend us
 https://en.parkopedia.com/parking/locations/802_east_whiting_street_tampa_florida_33602_united_states_7238dhvqgxxvp0y741/?arriving=202209131500&leaving=2022091317002
 
 ## OTHER
-We're always open to speakers and volunteer help as well! Hit us on our website www.tampadevs.com or email us at tampadevs@gmail.com
+We're always open to speakers and volunteer help as well! Hit us on our website www.tampadevs.com.
